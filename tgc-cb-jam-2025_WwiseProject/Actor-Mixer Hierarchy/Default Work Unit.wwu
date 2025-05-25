@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AUD_SFX_Environment" ID="{FF9ED9F4-45CC-4EC8-99F9-FC1F9D89AAD6}" ShortID="65513751">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="AUD_SFX_Player" ID="{A4735A5B-6DB3-4BE7-8C23-A124B2F60A63}" ShortID="1033428007">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="AUD_UI" ID="{373D8949-6F98-4DDC-A51F-6518CAE58D4F}" ShortID="41948783">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="AUD_TEMPLATE, set settings here and copy paste" ID="{5835A113-8945-4E98-BF80-26647D9CAC51}" ShortID="202672130">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<ActorMixer Name="AUD_SFX_ENV_AMB_XXX" ID="{1B0A8A50-8C3F-43D9-9EF8-EB0F2252AE0D}" ShortID="91290058">
+							<PropertyList>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="AUD_SFX_ENV_OBJ_XXX" ID="{39493A5C-AB7F-4077-9284-2D810482F942}" ShortID="7157661">
+							<PropertyList>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="AUD_SFX_PLY_FOL_XXX" ID="{84E28283-99C5-4812-BC68-152A144CC2A4}" ShortID="75192080">
+							<PropertyList>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="AUD_SFX_PLY_MOV_XXX" ID="{17432BE1-4471-49A6-90C2-B2660D4EB4D2}" ShortID="75089198">
+							<PropertyList>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="AUD_UI_MENU_XTABX_XXX" ID="{F25746E3-175C-4F76-A6F6-219F4C15740C}" ShortID="23681850">
+							<PropertyList>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

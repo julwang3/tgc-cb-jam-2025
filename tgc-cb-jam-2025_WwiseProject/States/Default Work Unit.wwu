@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E0ED7018-A348-42EB-8040-CCDC068076D7}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{E0ED7018-A348-42EB-8040-CCDC068076D7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E0ED7018-A348-42EB-8040-CCDC068076D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AUD_SYN_STA_XX" ID="{694F5347-A5D7-47D9-B5C3-62F97D5EC704}" ShortID="13958423"/>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

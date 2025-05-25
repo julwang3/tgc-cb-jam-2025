@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}" SchemaVersion="119">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AUD_MUS" ID="{8DFBAA5A-752B-47FE-B2F6-68A5E77198CC}" ShortID="454720523">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="AUD_MUS_AREA" ID="{95B6523A-6CC2-4977-AE26-2894B1336120}" ShortID="988628226"/>
+						<Folder Name="AUD_MUS_MENU" ID="{B8F93DB7-5548-4CC2-9D46-51F268F97D9A}" ShortID="237909826"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

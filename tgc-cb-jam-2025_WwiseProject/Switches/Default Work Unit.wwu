@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4346A466-F361-457F-A81B-83A27400AD57}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{4346A466-F361-457F-A81B-83A27400AD57}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4346A466-F361-457F-A81B-83A27400AD57}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AUD_SYN_SWI_XX" ID="{33661148-D063-4E59-9FF1-F08E5B958212}" ShortID="167835288"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

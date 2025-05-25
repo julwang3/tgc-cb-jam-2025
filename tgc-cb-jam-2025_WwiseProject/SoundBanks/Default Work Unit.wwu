@@ -3,7 +3,37 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{726A1D44-7787-440F-8C11-52CCA4BEDCB4}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="test" ID="{5FD96C14-4021-4E68-9029-454ACEE29853}">
+				<SoundBank Name="BA1" ID="{5FD96C14-4021-4E68-9029-454ACEE29853}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="BA2" ID="{0DBC68D3-7199-4EAD-88AE-59E4F3737245}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="BA3" ID="{8EA61564-E17C-41E2-9D3D-55AFD23D5739}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PLAYER" ID="{5716BFD4-323C-4149-8379-2E8A4AF3AB80}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{F6D4B14B-3C62-4D5E-AE63-6693B5EA09A3}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="HOME" ID="{D445C830-EB62-47CF-9CC6-D1B9E7292629}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="TUTORIAL" ID="{B10664C7-85B8-4908-89A8-B9881E437636}">
 					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
