@@ -1,6 +1,9 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Splines.Interpolators;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,6 +17,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float DashTime;
     [SerializeField] float DashCooldown;
     [SerializeField] float GroundedDistance;
+    [SerializeField] Light2D Light;
+    [SerializeField] float LightChangeTime;
+    [SerializeField] float LightMinRadius;
+    [SerializeField] float LightMaxRadius = 20.0f;
 
     [Header("Abilities")]
     public bool HasDash = true;
@@ -24,9 +31,10 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private InputAction moveAction;
     private Vector2 forward = Vector2.right;
+
     private int jumps = 1;
-    private LayerMask groundMask;
     private bool canJump = true;
+
     private bool isDashing = false;
     private bool canDash = true;
 
@@ -35,7 +43,6 @@ public class PlayerController : MonoBehaviour
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
         moveAction = InputSystem.actions.FindAction("Move");
-        groundMask = LayerMask.GetMask("Default");
     }
 
     void Update()
@@ -108,7 +115,55 @@ public class PlayerController : MonoBehaviour
 
     private bool IsGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, GroundedDistance, groundMask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, GroundedDistance);
         return hit.collider != null;
+    }
+
+    public void ActivateLight()
+    {
+        HasVision = true;
+        StartCoroutine(OnActivateLight());
+    }
+
+    public void DeactivateLight()
+    {
+        HasVision = false;
+        StartCoroutine(OnDeactivateLight());
+    }
+
+    IEnumerator OnActivateLight()
+    {
+        float timer = 0.0f;
+        LerpFloat lerp = new LerpFloat();
+        float initInner = Light.pointLightInnerRadius;
+        float initOuter = Light.pointLightOuterRadius;
+
+        while (timer <= LightChangeTime)
+        {
+            timer += Time.deltaTime;
+            Light.pointLightInnerRadius = lerp.Interpolate(initInner, LightMaxRadius, timer / LightChangeTime);
+            Light.pointLightOuterRadius = lerp.Interpolate(initOuter, LightMaxRadius, timer / LightChangeTime);
+            yield return null;
+        }
+        Light.pointLightInnerRadius = LightMaxRadius;
+        Light.pointLightOuterRadius = LightMaxRadius;
+    }
+
+    IEnumerator OnDeactivateLight()
+    {
+        float timer = 0.0f;
+        LerpFloat lerp = new LerpFloat();
+        float initInner = Light.pointLightInnerRadius;
+        float initOuter = Light.pointLightOuterRadius;
+
+        while (timer <= LightChangeTime)
+        {
+            timer += Time.deltaTime;
+            Light.pointLightInnerRadius = lerp.Interpolate(initInner, 0.0f, timer / LightChangeTime);
+            Light.pointLightOuterRadius = lerp.Interpolate(initOuter, LightMinRadius, timer / LightChangeTime);
+            yield return null;
+        }
+        Light.pointLightInnerRadius = 0.0f;
+        Light.pointLightOuterRadius = LightMinRadius;
     }
 }
