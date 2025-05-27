@@ -83,6 +83,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canDash && HasDash)
         {
+            Debug.Log(context.ReadValueAsButton());
             StartCoroutine(Dash());
         }
     }
@@ -96,16 +97,32 @@ public class PlayerController : MonoBehaviour
         rb.gravityScale = 0.0f;
         rb.linearVelocityY = 0.0f;
         rb.MovePosition(rb.position + new Vector2(0.0f, 0.3f)); // Prevent bumping on floor
+
         float velocity = DashDistance / DashTime * forward.x;
+        Vector2 originalPos = rb.position;
 
         while (timer < DashTime)
         {
             timer += Time.deltaTime;
             rb.linearVelocityX = velocity;
-            yield return null;
+            
+            yield return new WaitForFixedUpdate();
+
+            // If bumped into a wall, stop dashing
+            if (Mathf.Abs(rb.linearVelocityX) < 0.1f)
+            {
+                Debug.Log("Bumped into wall. Stopping dash");
+                RaycastHit2D hit = Physics2D.Raycast(originalPos, forward, DashDistance);
+                if (hit)
+                {
+                    rb.position = hit.point - forward / 2.0f;
+                }
+                break;
+            }
         }
 
         rb.linearVelocityX = 0.0f;
+        rb.linearVelocityY = 0.0f;
         rb.gravityScale = oldGravity;
         isDashing = false;
 
@@ -134,15 +151,14 @@ public class PlayerController : MonoBehaviour
     IEnumerator OnActivateLight()
     {
         float timer = 0.0f;
-        LerpFloat lerp = new LerpFloat();
         float initInner = Light.pointLightInnerRadius;
         float initOuter = Light.pointLightOuterRadius;
 
         while (timer <= LightChangeTime)
         {
             timer += Time.deltaTime;
-            Light.pointLightInnerRadius = lerp.Interpolate(initInner, LightMaxRadius, timer / LightChangeTime);
-            Light.pointLightOuterRadius = lerp.Interpolate(initOuter, LightMaxRadius, timer / LightChangeTime);
+            Light.pointLightInnerRadius = Mathf.Lerp(initInner, LightMaxRadius, timer / LightChangeTime);
+            Light.pointLightOuterRadius = Mathf.Lerp(initOuter, LightMaxRadius, timer / LightChangeTime);
             yield return null;
         }
         Light.pointLightInnerRadius = LightMaxRadius;
@@ -152,15 +168,14 @@ public class PlayerController : MonoBehaviour
     IEnumerator OnDeactivateLight()
     {
         float timer = 0.0f;
-        LerpFloat lerp = new LerpFloat();
         float initInner = Light.pointLightInnerRadius;
         float initOuter = Light.pointLightOuterRadius;
 
         while (timer <= LightChangeTime)
         {
             timer += Time.deltaTime;
-            Light.pointLightInnerRadius = lerp.Interpolate(initInner, 0.0f, timer / LightChangeTime);
-            Light.pointLightOuterRadius = lerp.Interpolate(initOuter, LightMinRadius, timer / LightChangeTime);
+            Light.pointLightInnerRadius = Mathf.Lerp(initInner, 0.0f, timer / LightChangeTime);
+            Light.pointLightOuterRadius = Mathf.Lerp(initOuter, LightMinRadius, timer / LightChangeTime);
             yield return null;
         }
         Light.pointLightInnerRadius = 0.0f;
