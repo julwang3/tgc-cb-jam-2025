@@ -169,10 +169,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 6
   JumpForce: 15
-  JumpCooldown: 0.4
+  JumpCooldown: 0.35
   DashDistance: 17
   DashTime: 0.25
-  DashCooldown: 0.4
   GroundedDistance: 1.1
   Light: {fileID: 3614247023581380823}
   LightChangeTime: 1
