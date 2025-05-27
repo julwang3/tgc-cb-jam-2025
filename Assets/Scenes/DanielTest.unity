@@ -622,6 +622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729331759}
   - component: {fileID: 729331758}
+  - component: {fileID: 729331760}
   m_Layer: 0
   m_Name: BG
   m_TagString: Untagged
@@ -693,12 +694,26 @@ Transform:
   m_GameObject: {fileID: 729331756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5, z: 5}
+  m_LocalPosition: {x: 0, y: -7, z: 5}
   m_LocalScale: {x: 20, y: 20, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &729331760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729331756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0dcbc0d15f0404785a5eb1c1f90a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 400102800}
+  parallaxEffect: 0.5
 --- !u!1 &849431969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,6 +2097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1780132376}
   - component: {fileID: 1780132375}
+  - component: {fileID: 1780132377}
   m_Layer: 0
   m_Name: BG (1)
   m_TagString: Untagged
@@ -2153,12 +2169,26 @@ Transform:
   m_GameObject: {fileID: 1780132374}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.5, y: 2.5, z: 10}
+  m_LocalPosition: {x: 5.5, y: -3, z: 10}
   m_LocalScale: {x: 20, y: 20, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1780132377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780132374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0dcbc0d15f0404785a5eb1c1f90a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 400102800}
+  parallaxEffect: 0.7
 --- !u!1 &2011268751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2517,9 +2547,9 @@ SceneRoots:
   - {fileID: 1545881690}
   - {fileID: 912295602}
   - {fileID: 729331759}
+  - {fileID: 1780132376}
   - {fileID: 1511712908152887262}
   - {fileID: 1436981378}
-  - {fileID: 1780132376}
   - {fileID: 8390783663844870318}
   - {fileID: 860247566}
   - {fileID: 2011268754}
