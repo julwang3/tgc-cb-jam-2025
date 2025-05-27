@@ -319,12 +319,12 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 7.1537204
   m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
+  m_Curvature: {x: 0.7, y: 16.753521}
   m_BarrelClipping: 0.25
   m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
+  m_SensorSize: {x: 21.946, y: 16.002}
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -334,7 +334,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 88.4
+  field of view: 96.4
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -672,7 +672,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.7264151, g: 0.5996351, b: 0.5996351, a: 1}
   m_FlipX: 0
@@ -906,7 +906,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 88.4
+    FieldOfView: 96.4
     OrthographicSize: 10
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -921,7 +921,7 @@ MonoBehaviour:
       ShutterSpeed: 0.005
       Aperture: 16
       BladeCount: 5
-      Curvature: {x: 2, y: 11}
+      Curvature: {x: 0.7, y: 16.753521}
       BarrelClipping: 0.25
       Anamorphism: 0
   BlendHint: 0
@@ -2075,7 +2075,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.64028466, g: 0.7254902, b: 0.6, a: 1}
   m_FlipX: 0
@@ -2333,6 +2333,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d0cad45e0baa14490a867542851bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1511712908152887262
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.143372
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.30415964
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268721601310821160, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211965286777942591, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
+      propertyPath: m_Name
+      value: Popup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f57553644ef43cb4e9ec2afb6520743b, type: 3}
 --- !u!1001 &8390783663844870318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2403,6 +2460,7 @@ SceneRoots:
   - {fileID: 1545881690}
   - {fileID: 912295602}
   - {fileID: 729331759}
+  - {fileID: 1511712908152887262}
   - {fileID: 1780132376}
   - {fileID: 8390783663844870318}
   - {fileID: 860247566}
