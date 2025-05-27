@@ -5,6 +5,14 @@ using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Splines.Interpolators;
 
+public enum DashState
+{
+    NotDashing,
+    Charging,
+    Charged,
+    Dashing
+}
+
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController Instance { get; private set; }
@@ -15,7 +23,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float JumpCooldown;
     [SerializeField] float DashDistance;
     [SerializeField] float DashTime;
-    [SerializeField] float DashCooldown;
     [SerializeField] float GroundedDistance;
     [SerializeField] Light2D Light;
     [SerializeField] float LightChangeTime;
@@ -30,24 +37,32 @@ public class PlayerController : MonoBehaviour
     // Private variables
     private Rigidbody2D rb;
     private InputAction moveAction;
+    private InputAction jumpAction;
+    private InputAction dashAction;
     private Vector2 forward = Vector2.right;
 
     private int jumps = 1;
     private bool canJump = true;
 
-    private bool isDashing = false;
-    private bool canDash = true;
+    private DashState dashState;
 
     private void Awake()
     {
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
         moveAction = InputSystem.actions.FindAction("Move");
+        jumpAction = InputSystem.actions.FindAction("Jump");
+        dashAction = InputSystem.actions.FindAction("Dash");
+
+        jumpAction.started += _ => OnJump();
+        dashAction.started += _ => OnDashStart();
+        dashAction.performed += _ => OnDashCharged();
+        dashAction.canceled += _ => OnDashRelease();
     }
 
     void Update()
     {
-        if (isDashing)
+        if (dashState == DashState.Dashing)
         {
             return;
         }
@@ -59,9 +74,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnJump(InputAction.CallbackContext context)
+    public void OnJump()
     {
-        if (!canJump || isDashing) { return; }
+        if (!canJump || dashState == DashState.Dashing) { return; }
         if (IsGrounded()) { jumps = 0; }
 
         if (jumps == 0 || (jumps == 1 && HasDoubleJump))
@@ -79,19 +94,42 @@ public class PlayerController : MonoBehaviour
         canJump = true;
     }
 
-    public void OnDash(InputAction.CallbackContext context)
+    public void OnDashStart()
     {
-        if (canDash && HasDash)
+        if (HasDash && dashState == DashState.NotDashing)
         {
-            Debug.Log(context.ReadValueAsButton());
+            Debug.Log("Charging dash");
+            dashState = DashState.Charging;
+        }
+    }
+
+    public void OnDashCharged()
+    {
+        if (dashState == DashState.Charging)
+        {
+            Debug.Log("Dash charged");
+            dashState = DashState.Charged;
+        }
+    }
+
+    public void OnDashRelease()
+    {
+        // Charged enough
+        if (dashState == DashState.Charged)
+        {
+            Debug.Log("Dashing");
+            dashState = DashState.Dashing;
             StartCoroutine(Dash());
+        }
+        else
+        {
+            Debug.Log("Dash charge canceled");
+            dashState = DashState.NotDashing;
         }
     }
 
     IEnumerator Dash()
     {
-        canDash = false;
-        isDashing = true;
         float timer = 0.0f;
         float oldGravity = rb.gravityScale;
         rb.gravityScale = 0.0f;
@@ -124,10 +162,8 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocityX = 0.0f;
         rb.linearVelocityY = 0.0f;
         rb.gravityScale = oldGravity;
-        isDashing = false;
-
-        yield return new WaitForSeconds(DashCooldown);
-        canDash = true;
+        dashState = DashState.NotDashing;
+        Debug.Log("Dash complete");
     }
 
     private bool IsGrounded()
