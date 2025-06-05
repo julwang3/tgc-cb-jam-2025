@@ -10,7 +10,7 @@ public class PauseMenuUI : MonoBehaviour
     public static PauseMenuUI Instance;
     public bool IsPaused;
 
-    [SerializeField] private int mainMenuBuildIndex = 0;
+    [SerializeField] private string mainMenuScene = "MainMenu";
 
     [SerializeField] private Button resumeButtom;
     [SerializeField] private Button menuButton;
@@ -21,14 +21,7 @@ public class PauseMenuUI : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(this);
-        }
+        Instance = this;
 
         pauseAction = InputSystem.actions.FindAction("Pause");
         pauseAction.performed += _ => OnPause();
@@ -49,6 +42,8 @@ public class PauseMenuUI : MonoBehaviour
 
     private void OnPause(bool pause)
     {
+        if (LevelManager.Instance && LevelManager.Instance.IsLoading) { return; }
+
         if (pause)
         {
             resumeButtom.onClick.AddListener(OnPause);
@@ -76,11 +71,13 @@ public class PauseMenuUI : MonoBehaviour
 
     private void OnMenuPressed()
     {
-        SceneManager.LoadScene(mainMenuBuildIndex);
+        if (LevelManager.Instance.IsLoading) { return; }
+        LevelManager.Instance.LoadLevel(mainMenuScene);
     }
 
     private void OnQuitPressed()
     {
+        if (LevelManager.Instance.IsLoading) { return; }
         Application.Quit();
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
