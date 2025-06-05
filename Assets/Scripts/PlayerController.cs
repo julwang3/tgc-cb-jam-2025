@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 forward = Vector2.right;
 
     private int jumps = 1;
+    private bool isGrounded = false;
     private bool canJump = true;
 
     private DashState dashState;
@@ -69,6 +70,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        isGrounded = IsGrounded();
+        if (canJump) 
+        {
+            if (isGrounded)
+            {
+                jumps = 0;
+            }
+            else if (jumps < 1)
+            {
+                jumps = 1;
+            }
+        }
+    }
+
     void FixedUpdate()
     {
         if (dashState == DashState.Dashing)
@@ -88,7 +105,6 @@ public class PlayerController : MonoBehaviour
         if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
         {
             if (!canJump || dashState == DashState.Dashing) { return; }
-            if (IsGrounded()) { jumps = 0; }
 
             if (jumps == 0 || (jumps == 1 && HasDoubleJump))
             {
