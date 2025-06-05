@@ -111,6 +111,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void SetPosition(Vector2 position)
+    {
+        rb.position = position;
+        Physics.SyncTransforms();
+    }
+
     public void OnJump(CallbackContext ctx)
     {
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
