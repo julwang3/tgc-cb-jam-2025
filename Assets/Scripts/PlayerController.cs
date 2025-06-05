@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour
 
     // Private variables
     private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction dashAction;
@@ -52,6 +54,8 @@ public class PlayerController : MonoBehaviour
     {
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         dashAction = InputSystem.actions.FindAction("Dash");
@@ -100,6 +104,14 @@ public class PlayerController : MonoBehaviour
             forward.x = moveDirection.x;
             rb.AddForceX(moveDirection.x * Acceleration);
             rb.linearVelocityX = Mathf.Clamp(rb.linearVelocityX, -MaxSpeed, MaxSpeed);
+
+            animator.SetBool("Walk", true);
+            spriteRenderer.flipX = moveDirection.x < 0.0f;
+        }
+        else
+        {
+            rb.linearVelocityX = 0;
+            animator.SetBool("Walk", false);
         }
     }
 
@@ -133,6 +145,7 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("Charging dash");
                 dashState = DashState.Charging;
+                animator.SetTrigger("DashCharging");
             }
         }
     }
@@ -145,11 +158,13 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("Dash charged");
                 dashState = DashState.Charged;
+                animator.SetTrigger("DashCharged");
             }
         }
         else
         {
             dashState = DashState.NotDashing;
+            animator.SetTrigger("DashCanceled");
         }
     }
 
@@ -162,17 +177,20 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("Dashing");
                 dashState = DashState.Dashing;
+                animator.SetTrigger("Dashing");
                 StartCoroutine(Dash());
             }
             else
             {
                 Debug.Log("Dash charge canceled");
                 dashState = DashState.NotDashing;
+                animator.SetTrigger("DashCanceled");
             }
         }
         else
         {
             dashState = DashState.NotDashing;
+            animator.SetTrigger("DashCanceled");
         }
     }
 
