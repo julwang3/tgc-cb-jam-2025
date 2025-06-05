@@ -76,14 +76,17 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump()
     {
-        if (!canJump || dashState == DashState.Dashing) { return; }
-        if (IsGrounded()) { jumps = 0; }
-
-        if (jumps == 0 || (jumps == 1 && HasDoubleJump))
+        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
         {
-            rb.linearVelocityY = JumpForce;
-            jumps++;
-            StartCoroutine(StartJumpCooldown());
+            if (!canJump || dashState == DashState.Dashing) { return; }
+            if (IsGrounded()) { jumps = 0; }
+
+            if (jumps == 0 || (jumps == 1 && HasDoubleJump))
+            {
+                rb.linearVelocityY = JumpForce;
+                jumps++;
+                StartCoroutine(StartJumpCooldown());
+            }
         }
     }
 
@@ -96,34 +99,51 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashStart()
     {
-        if (HasDash && dashState == DashState.NotDashing)
+        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
         {
-            Debug.Log("Charging dash");
-            dashState = DashState.Charging;
+            if (HasDash && dashState == DashState.NotDashing)
+            {
+                Debug.Log("Charging dash");
+                dashState = DashState.Charging;
+            }
         }
     }
 
     public void OnDashCharged()
     {
-        if (dashState == DashState.Charging)
+        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
         {
-            Debug.Log("Dash charged");
-            dashState = DashState.Charged;
+            if (dashState == DashState.Charging)
+            {
+                Debug.Log("Dash charged");
+                dashState = DashState.Charged;
+            }
+        }
+        else
+        {
+            dashState = DashState.NotDashing;
         }
     }
 
     public void OnDashRelease()
     {
-        // Charged enough
-        if (dashState == DashState.Charged)
+        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
         {
-            Debug.Log("Dashing");
-            dashState = DashState.Dashing;
-            StartCoroutine(Dash());
+            // Charged enough
+            if (dashState == DashState.Charged)
+            {
+                Debug.Log("Dashing");
+                dashState = DashState.Dashing;
+                StartCoroutine(Dash());
+            }
+            else
+            {
+                Debug.Log("Dash charge canceled");
+                dashState = DashState.NotDashing;
+            }
         }
         else
         {
-            Debug.Log("Dash charge canceled");
             dashState = DashState.NotDashing;
         }
     }
