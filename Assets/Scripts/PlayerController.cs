@@ -18,7 +18,8 @@ public class PlayerController : MonoBehaviour
     public static PlayerController Instance { get; private set; }
 
     [Header("Base Movement")]
-    [SerializeField] float MovementSpeed;
+    [SerializeField] float Acceleration;
+    [SerializeField] float MaxSpeed;
     [SerializeField] float JumpForce;
     [SerializeField] float JumpCooldown;
     [SerializeField] float DashDistance;
@@ -66,6 +67,7 @@ public class PlayerController : MonoBehaviour
         if (LevelManager.Instance.hasSpawnPos)
         {
             rb.position = LevelManager.Instance.spawnPos;
+            Physics.SyncTransforms();
             LevelManager.Instance.hasSpawnPos = false; // Reset spawn position
         }
     }
@@ -96,7 +98,8 @@ public class PlayerController : MonoBehaviour
         if (moveDirection.x != 0.0f)
         {
             forward.x = moveDirection.x;
-            rb.linearVelocityX = moveDirection.x * MovementSpeed;
+            rb.AddForceX(moveDirection.x * Acceleration);
+            rb.linearVelocityX = Mathf.Clamp(rb.linearVelocityX, -MaxSpeed, MaxSpeed);
         }
     }
 
@@ -180,6 +183,7 @@ public class PlayerController : MonoBehaviour
         rb.gravityScale = 0.0f;
         rb.linearVelocityY = 0.0f;
         rb.MovePosition(rb.position + new Vector2(0.0f, 0.3f)); // Prevent bumping on floor
+        Physics.SyncTransforms();
 
         float velocity = DashDistance / DashTime * forward.x;
         Vector2 originalPos = rb.position;
@@ -199,6 +203,7 @@ public class PlayerController : MonoBehaviour
                 if (hit)
                 {
                     rb.position = hit.point - forward / 2.0f;
+                    Physics.SyncTransforms();
                 }
                 break;
             }
