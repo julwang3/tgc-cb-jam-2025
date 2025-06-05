@@ -57,6 +57,7 @@ public class PauseMenuUI : MonoBehaviour
 
             canvasGroup.alpha = 1;
             canvasGroup.interactable = true;
+            canvasGroup.blocksRaycasts = true;
             Time.timeScale = 0f;
         }
         else
@@ -67,6 +68,7 @@ public class PauseMenuUI : MonoBehaviour
 
             canvasGroup.alpha = 0;
             canvasGroup.interactable = false;
+            canvasGroup.blocksRaycasts = false;
             Time.timeScale = 1f;
         }
         IsPaused = pause;
