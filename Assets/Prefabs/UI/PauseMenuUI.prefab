@@ -406,7 +406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f04575272993a4af183f293b3f079433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuBuildIndex: 0
+  IsPaused: 0
+  mainMenuScene: MainMenu
   resumeButtom: {fileID: 2056652449070299959}
   menuButton: {fileID: 68989054492511537}
   quitButton: {fileID: 5610495147189362032}

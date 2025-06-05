@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Splines.Interpolators;
+using static UnityEngine.InputSystem.InputAction;
 
 public enum DashState
 {
@@ -60,20 +61,25 @@ public class PlayerController : MonoBehaviour
         jumpAction = InputSystem.actions.FindAction("Jump");
         dashAction = InputSystem.actions.FindAction("Dash");
 
-        jumpAction.started += _ => OnJump();
-        dashAction.started += _ => OnDashStart();
-        dashAction.performed += _ => OnDashCharged();
-        dashAction.canceled += _ => OnDashRelease();
+        jumpAction.started += OnJump;
+        dashAction.started += OnDashStart;
+        dashAction.performed += OnDashCharged;
+        dashAction.canceled += OnDashRelease;
+
+        if (LevelManager.Instance && LevelManager.Instance.HasSpawnPos)
+        {
+            rb.position = LevelManager.Instance.SpawnPos;
+            Physics.SyncTransforms();
+            LevelManager.Instance.HasSpawnPos = false; // Reset spawn position
+        }
     }
 
-    private void Start()
+    private void OnDestroy()
     {
-        if (LevelManager.Instance.hasSpawnPos)
-        {
-            rb.position = LevelManager.Instance.spawnPos;
-            Physics.SyncTransforms();
-            LevelManager.Instance.hasSpawnPos = false; // Reset spawn position
-        }
+        jumpAction.started -= OnJump;
+        dashAction.started -= OnDashStart;
+        dashAction.performed -= OnDashCharged;
+        dashAction.canceled -= OnDashRelease;
     }
 
     private void Update()
@@ -94,7 +100,9 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (dashState == DashState.Dashing)
+        if (dashState == DashState.Dashing 
+            || (PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused) 
+            || LevelManager.Instance.IsLoading)
         {
             return;
         }
@@ -115,9 +123,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnJump()
+    public void SetPosition(Vector2 position)
     {
-        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
+        rb.position = position;
+        Physics.SyncTransforms();
+    }
+
+    public void OnJump(CallbackContext ctx)
+    {
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
         {
             if (!canJump || dashState == DashState.Dashing) { return; }
 
@@ -137,9 +151,9 @@ public class PlayerController : MonoBehaviour
         canJump = true;
     }
 
-    public void OnDashStart()
+    public void OnDashStart(CallbackContext ctx)
     {
-        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
         {
             if (HasDash && dashState == DashState.NotDashing)
             {
@@ -150,9 +164,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnDashCharged()
+    public void OnDashCharged(CallbackContext ctx)
     {
-        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
         {
             if (dashState == DashState.Charging)
             {
@@ -168,9 +182,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnDashRelease()
+    public void OnDashRelease(CallbackContext ctx)
     {
-        if (!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused)
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
         {
             // Charged enough
             if (dashState == DashState.Charged)
