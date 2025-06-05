@@ -60,7 +60,16 @@ public class PlayerController : MonoBehaviour
         dashAction.canceled += _ => OnDashRelease();
     }
 
-    void Update()
+    private void Start()
+    {
+        if (LevelManager.Instance.hasSpawnPos)
+        {
+            rb.position = LevelManager.Instance.spawnPos;
+            LevelManager.Instance.hasSpawnPos = false; // Reset spawn position
+        }
+    }
+
+    void FixedUpdate()
     {
         if (dashState == DashState.Dashing)
         {
