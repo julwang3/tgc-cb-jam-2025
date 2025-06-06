@@ -708,7 +708,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!61 &336778537
 BoxCollider2D:
@@ -1030,28 +1030,13 @@ GameObject:
   m_Component:
   - component: {fileID: 436623020}
   - component: {fileID: 436623019}
-  - component: {fileID: 436623018}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BGA_Forest_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!114 &436623018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436623017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0dcbc0d15f0404785a5eb1c1f90a95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 1828783065}
-  parallaxEffect: 1
 --- !u!212 &436623019
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1199,7 +1184,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!61 &711871805
 BoxCollider2D:
@@ -2506,7 +2491,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!61 &1468000277
 BoxCollider2D:
@@ -2994,11 +2979,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6937851f64284524782dc77d57e0faca, type: 3}
---- !u!1 &1828783065 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 533951897239996934, guid: 6937851f64284524782dc77d57e0faca, type: 3}
-  m_PrefabInstance: {fileID: 1828783064}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1878888640
 GameObject:
   m_ObjectHideFlags: 0

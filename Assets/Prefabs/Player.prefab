@@ -173,7 +173,7 @@ MonoBehaviour:
   MaxSpeed: 4.2
   JumpForce: 15
   JumpCooldown: 0.35
-  DashDistance: 13
+  DashDistance: 14
   DashTime: 0.25
   GroundedDistance: 1.6
   Light: {fileID: 3614247023581380823}

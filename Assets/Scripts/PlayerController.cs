@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Walk", true);
             spriteRenderer.flipX = moveDirection.x < 0.0f;
         }
-        else
+        else if (isGrounded)
         {
             rb.linearVelocityX = 0;
             animator.SetBool("Walk", false);
