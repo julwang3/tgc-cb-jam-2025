@@ -170,12 +170,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Acceleration: 30
-  MaxSpeed: 6
+  MaxSpeed: 4.2
   JumpForce: 15
   JumpCooldown: 0.35
-  DashDistance: 17
+  DashDistance: 14
   DashTime: 0.25
-  GroundedDistance: 1.1
+  GroundedDistance: 1.6
   Light: {fileID: 3614247023581380823}
   LightChangeTime: 1
   LightMinRadius: 5

@@ -32,7 +32,11 @@ public class PauseMenuUI : MonoBehaviour
             Debug.LogError("Pause menu is missing a canvas group.");
         }
 
-        OnPause(false);
+        canvasGroup.alpha = 0;
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
+        Time.timeScale = 1f;
+        IsPaused = false;
     }
 
     private void OnPause()
