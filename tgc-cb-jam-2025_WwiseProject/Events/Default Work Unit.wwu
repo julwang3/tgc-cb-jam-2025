@@ -6,7 +6,7 @@
 				<Folder Name="Event names should match game event names" ID="{036217D3-BDB9-472F-9759-882F6960E798}" ShortID="150052555"/>
 				<Folder Name="AUD_MUS" ID="{F1D1CFF8-5E53-45FA-8E74-FF23381E3D6C}" ShortID="371015128">
 					<ChildrenList>
-						<Event Name="Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}">
+						<Event Name="AUD_MUS_Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}">
 							<ChildrenList>
 								<Action Name="" ID="{E2337C08-4FEA-4EBD-AED6-6CC29B65B81A}" ShortID="1064836615">
 									<PropertyList>
@@ -72,6 +72,57 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AUD_MUS_AREA" ID="{582ADD88-F524-458A-B0A7-0BACFABBE297}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AUD_GLOB" ID="{0B5E5D3B-7E0E-4CAC-A397-6E5AED917395}" ShortID="883921464">
+					<ChildrenList>
+						<Event Name="AUD_GLOB_Game_Pause" ID="{71BD5D35-0E82-4746-9340-2581D527644F}">
+							<ChildrenList>
+								<Action Name="" ID="{9E663D62-B624-41E0-ABD3-1FCF4667F253}" ShortID="491430823">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeInCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu" ID="{99586FB1-C6EA-4044-9844-945F2F402950}" WorkUnitID="{1DF0B782-90C9-4300-AB58-4A6BFEC769C8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_GLOB_Game_Start" ID="{8D90B78D-6307-495E-98AB-3E96F5FF1923}">
+							<ChildrenList>
+								<Action Name="" ID="{F4F81F03-FFC4-4705-AB57-84FCC9D6718C}" ShortID="568812494">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu" ID="{99586FB1-C6EA-4044-9844-945F2F402950}" WorkUnitID="{1DF0B782-90C9-4300-AB58-4A6BFEC769C8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_GLOB_Game_Unpause" ID="{2AA96A4D-A8ED-46FC-9B22-2A86D0552381}">
+							<ChildrenList>
+								<Action Name="" ID="{897EDC46-CD79-4F27-84BA-A8A72175FD12}" ShortID="384874494">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeInCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu" ID="{99586FB1-C6EA-4044-9844-945F2F402950}" WorkUnitID="{1DF0B782-90C9-4300-AB58-4A6BFEC769C8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

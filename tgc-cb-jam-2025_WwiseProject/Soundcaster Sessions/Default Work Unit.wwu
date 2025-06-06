@@ -6,11 +6,28 @@
 				<SoundcasterSession Name="MUSIC TEST" ID="{326FF5C4-E389-4287-AF04-1762EE81F5F6}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
+							<ObjectRef Name="AUD_MUS_Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="AUD_GLOB_Game_Start" ID="{8D90B78D-6307-495E-98AB-3E96F5FF1923}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AUD_GLOB_Game_Pause" ID="{71BD5D35-0E82-4746-9340-2581D527644F}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AUD_GLOB_Game_Unpause" ID="{2AA96A4D-A8ED-46FC-9B22-2A86D0552381}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Menu" ID="{99586FB1-C6EA-4044-9844-945F2F402950}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
 						<CurrentStateRef Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}"/>
