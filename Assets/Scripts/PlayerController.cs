@@ -85,6 +85,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         isGrounded = IsGrounded();
+
         if (canJump) 
         {
             if (isGrounded)
@@ -100,27 +101,28 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (dashState == DashState.Dashing 
-            || (PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused) 
-            || LevelManager.Instance.IsLoading)
+        if (dashState == DashState.NotDashing 
+            && !(PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused) 
+            && !(LevelManager.Instance && LevelManager.Instance.IsLoading))
         {
-            return;
-        }
-        Vector2 moveDirection = moveAction.ReadValue<Vector2>();
-        if (moveDirection.x != 0.0f)
-        {
-            forward.x = moveDirection.x;
-            rb.AddForceX(moveDirection.x * Acceleration);
-            rb.linearVelocityX = Mathf.Clamp(rb.linearVelocityX, -MaxSpeed, MaxSpeed);
+            Vector2 moveDirection = moveAction.ReadValue<Vector2>();
+            if (moveDirection.x != 0.0f)
+            {
+                forward.x = moveDirection.x;
+                rb.AddForceX(moveDirection.x * Acceleration);
+                rb.linearVelocityX = Mathf.Clamp(rb.linearVelocityX, -MaxSpeed, MaxSpeed);
+                //animator.SetBool("Walk", true);
 
-            animator.SetBool("Walk", true);
-            spriteRenderer.flipX = moveDirection.x < 0.0f;
+                spriteRenderer.flipX = moveDirection.x < 0.0f;
+            }
+            else if (isGrounded)
+            {
+                rb.linearVelocityX = 0;
+                //animator.SetBool("Walk", false);
+            }
         }
-        else if (isGrounded)
-        {
-            rb.linearVelocityX = 0;
-            animator.SetBool("Walk", false);
-        }
+
+        animator.SetBool("Walk", rb.linearVelocityX != 0.0f);
     }
 
     public void SetPosition(Vector2 position)
@@ -133,7 +135,7 @@ public class PlayerController : MonoBehaviour
     {
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
         {
-            if (!canJump || dashState == DashState.Dashing) { return; }
+            if (!canJump || dashState != DashState.NotDashing) { return; }
 
             if (jumps == 0 || (jumps == 1 && HasDoubleJump))
             {
