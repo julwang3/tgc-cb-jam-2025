@@ -4,6 +4,50 @@
 		<WorkUnit Name="Default Work Unit" ID="{E0ED7018-A348-42EB-8040-CCDC068076D7}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="AUD_SYN_STA_XX" ID="{694F5347-A5D7-47D9-B5C3-62F97D5EC704}" ShortID="13958423"/>
+				<Folder Name="AUD_MUS" ID="{029E0D11-3EE8-4972-88DC-626BA270F90F}" ShortID="618044767">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<StateGroup Name="AUD_MUS_Area" ID="{1702854A-3793-454C-AD88-03EF944C78B1}">
+							<ChildrenList>
+								<State Name="None" ID="{53955B02-A833-41B4-B769-AA65CEB80894}"/>
+								<State Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}"/>
+								<State Name="Meadow" ID="{F140149E-E4A3-49D5-8041-3BC0D6128AEE}"/>
+								<State Name="Forest" ID="{9549A0BC-4B86-410A-AC99-B3D71978176A}"/>
+								<State Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
+								<State Name="BA3" ID="{723444C9-2FE9-4555-8618-FB86FCF6C5B1}"/>
+								<State Name="Home" ID="{2BECD98B-B59D-44EB-A0E3-0D493164B355}"/>
+							</ChildrenList>
+						</StateGroup>
+						<Folder Name="AUD_MUS_Helped" ID="{25F34FFC-2AA5-44E2-88F9-BE8B204A4608}" ShortID="486225252">
+							<ChildrenList>
+								<StateGroup Name="AUD_MUS_Helped_Tortoise" ID="{426F0736-E460-4B3C-B35C-1143C9B6A452}">
+									<ChildrenList>
+										<State Name="None" ID="{59B205D3-DC24-4B76-B7E1-8B4DD127558B}"/>
+										<State Name="Yes" ID="{5F0E9A45-00AB-4B53-A58B-10FDDEB2ED6B}"/>
+										<State Name="No" ID="{DF2A908A-AA34-4A6C-8F00-9C899DCB7D25}"/>
+									</ChildrenList>
+								</StateGroup>
+								<StateGroup Name="AUD_MUS_Helped_Kiwi" ID="{8E58D789-58AE-4C9C-AD7E-2B8BF76A836E}">
+									<ChildrenList>
+										<State Name="None" ID="{25A0D74F-18CE-4AB5-BDA1-7E9EB6369770}"/>
+										<State Name="Yes" ID="{4AA763B7-7160-438F-9A97-05B8776CCBDC}"/>
+										<State Name="No" ID="{4FD6CC64-7180-44FA-8031-1B88E2CB75A5}"/>
+									</ChildrenList>
+								</StateGroup>
+								<StateGroup Name="AUD_MUS_Helped_Bat" ID="{1611C6AF-95D9-4726-AF44-4E1C0057AC8D}">
+									<ChildrenList>
+										<State Name="None" ID="{9C44AB2C-C5CB-4117-A663-72695976922D}"/>
+										<State Name="Yes" ID="{C1403E34-41DB-44CA-BD08-4D75F08F596E}"/>
+										<State Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}"/>
+									</ChildrenList>
+								</StateGroup>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

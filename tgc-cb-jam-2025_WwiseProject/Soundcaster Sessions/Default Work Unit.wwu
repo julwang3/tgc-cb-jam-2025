@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3B658D76-F928-4E3F-8399-ADCA9C605120}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{3B658D76-F928-4E3F-8399-ADCA9C605120}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3B658D76-F928-4E3F-8399-ADCA9C605120}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MUSIC TEST" ID="{326FF5C4-E389-4287-AF04-1762EE81F5F6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
+						<CurrentStateRef Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}"/>
+						<CurrentStateRef Name="Yes" ID="{5F0E9A45-00AB-4B53-A58B-10FDDEB2ED6B}"/>
+						<CurrentStateRef Name="Yes" ID="{4AA763B7-7160-438F-9A97-05B8776CCBDC}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
