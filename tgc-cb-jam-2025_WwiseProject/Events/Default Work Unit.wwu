@@ -4,6 +4,81 @@
 		<WorkUnit Name="Default Work Unit" ID="{BCD3473B-BA27-4369-A47A-519086E531A6}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Event names should match game event names" ID="{036217D3-BDB9-472F-9759-882F6960E798}" ShortID="150052555"/>
+				<Folder Name="AUD_MUS" ID="{F1D1CFF8-5E53-45FA-8E74-FF23381E3D6C}" ShortID="371015128">
+					<ChildrenList>
+						<Event Name="Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}">
+							<ChildrenList>
+								<Action Name="" ID="{E2337C08-4FEA-4EBD-AED6-6CC29B65B81A}" ShortID="1064836615">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_MUS_MENU" ID="{59E7D889-4F3A-4D1B-B059-41352A3B52A0}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{20B1D77F-44FF-4A46-AF1B-B621B5A697C8}" ShortID="203834878">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_MUS_AREA" ID="{582ADD88-F524-458A-B0A7-0BACFABBE297}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{592F2728-BE65-4A68-95EA-A64BB3D3593D}" ShortID="910654385">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{DF2A908A-AA34-4A6C-8F00-9C899DCB7D25}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A9276E56-8D8F-4942-9622-F679F50F91DD}" ShortID="65352997">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{4FD6CC64-7180-44FA-8031-1B88E2CB75A5}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{50F2960D-1501-4F7A-89D1-A589B8401FEF}" ShortID="2728900">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{86A78F03-58AC-4FE8-967D-C277ECDD395E}" ShortID="152436465">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F8A926AF-24AD-4D5E-91A3-A559AA4A254C}" ShortID="735643527">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_MUS_AREA" ID="{582ADD88-F524-458A-B0A7-0BACFABBE297}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
