@@ -1,14 +1,16 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    [SerializeField] GameObject respawnPoint;
+    public GameObject lastRespawnPoint;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerController.Instance.SetPosition(respawnPoint.transform.position);
+            PlayerController.Instance.SetPosition(lastRespawnPoint.transform.position);
         }
     }
 }

@@ -659,6 +659,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2437684598903122514, guid: dcf17d62d1efc614f960f3c9c379f34b, type: 3}
+      propertyPath: BoundingShape2D
+      value: 
+      objectReference: {fileID: 1920671528}
     - target: {fileID: 2826065338803934543, guid: dcf17d62d1efc614f960f3c9c379f34b, type: 3}
       propertyPath: m_Name
       value: CinemachineCamera
@@ -669,7 +673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6583402257579319760, guid: dcf17d62d1efc614f960f3c9c379f34b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.23
+      value: 4.77
       objectReference: {fileID: 0}
     - target: {fileID: 6583402257579319760, guid: dcf17d62d1efc614f960f3c9c379f34b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -866,7 +870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3008439880978155279, guid: a6996d3bc2f1d9f448419103b76c2366, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.23
+      value: 4.77
       objectReference: {fileID: 0}
     - target: {fileID: 3008439880978155279, guid: a6996d3bc2f1d9f448419103b76c2366, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1103,11 +1107,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7134599280878091396, guid: 6937851f64284524782dc77d57e0faca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.41
+      value: -2.98343
       objectReference: {fileID: 0}
     - target: {fileID: 7134599280878091396, guid: 6937851f64284524782dc77d57e0faca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.23
+      value: 4.7699966
       objectReference: {fileID: 0}
     - target: {fileID: 7134599280878091396, guid: 6937851f64284524782dc77d57e0faca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1399,6 +1403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1920671527}
   - component: {fileID: 1920671526}
+  - component: {fileID: 1920671528}
   m_Layer: 2
   m_Name: BGA_BA2_Background
   m_TagString: Untagged
@@ -1476,6 +1481,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1920671528
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920671524}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.2215991, y: 0.93075657}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 60.021313, y: 33}
+    newSize: {x: 60.021313, y: 33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 32.190346, y: 24.607454}
+  m_EdgeRadius: 0
 --- !u!1 &1992265728
 GameObject:
   m_ObjectHideFlags: 0
