@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float Acceleration;
     [SerializeField] float MaxSpeed;
     [SerializeField] float JumpForce;
+    [SerializeField] float JumpStart;
     [SerializeField] float JumpCooldown;
     [SerializeField] float DashDistance;
     [SerializeField] float DashTime;
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour
     private int jumps = 1;
     private bool isGrounded = false;
     private bool canJump = true;
+    private bool canMove = true;
 
     private DashState dashState;
 
@@ -86,11 +88,12 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = IsGrounded();
 
-        if (canJump) 
+        if (canJump)
         {
             if (isGrounded)
             {
                 jumps = 0;
+                animator.SetInteger("Jump", jumps);
             }
             else if (jumps < 1)
             {
@@ -101,7 +104,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (dashState == DashState.NotDashing 
+        if (canMove && dashState == DashState.NotDashing 
             && !(PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused) 
             && !(LevelManager.Instance && LevelManager.Instance.IsLoading))
         {
@@ -111,14 +114,12 @@ public class PlayerController : MonoBehaviour
                 forward.x = moveDirection.x;
                 rb.AddForceX(moveDirection.x * Acceleration);
                 rb.linearVelocityX = Mathf.Clamp(rb.linearVelocityX, -MaxSpeed, MaxSpeed);
-                //animator.SetBool("Walk", true);
 
                 spriteRenderer.flipX = moveDirection.x < 0.0f;
             }
             else if (isGrounded)
             {
                 rb.linearVelocityX = 0;
-                //animator.SetBool("Walk", false);
             }
         }
 
@@ -139,8 +140,8 @@ public class PlayerController : MonoBehaviour
 
             if (jumps == 0 || (jumps == 1 && HasDoubleJump))
             {
-                rb.linearVelocityY = JumpForce;
                 jumps++;
+                animator.SetInteger("Jump", jumps);
                 StartCoroutine(StartJumpCooldown());
             }
         }
@@ -149,8 +150,34 @@ public class PlayerController : MonoBehaviour
     IEnumerator StartJumpCooldown()
     {
         canJump = false;
+
+        // Crouch to jump
+        if (jumps == 1)
+        {
+            canMove = false;
+
+            float linearVelocityX = rb.linearVelocityX;
+            rb.linearVelocityX = 0;
+            yield return new WaitForSeconds(JumpStart);
+            rb.linearVelocityX = linearVelocityX;
+
+            canMove = true;
+        }
+
+        rb.linearVelocityY = JumpForce;
         yield return new WaitForSeconds(JumpCooldown);
+
         canJump = true;
+
+        // Jump finished
+        if (jumps == 1)
+        {
+            while (!isGrounded)
+            {
+                yield return null;
+            }
+            animator.SetTrigger("JumpDone");
+        }
     }
 
     public void OnDashStart(CallbackContext ctx)
