@@ -1,0 +1,18 @@
+﻿title: ForestKiwi
+---
+Kiwi: I feel so lonely...
+
+-> Mouse: Are you okay?
+    Kiwi: All my friends are up there in the tree branches... oh I wish I could fly too.
+    // No scarf
+    -> Mouse: Are they really your friends then?
+        Kiwi: Well.... I guess you're right.. maybe I'll be stuck here alone....
+        Mouse: I hope that they'll find their way to you, lad.
+        Kiwi: I hope so too... I really wanted to try the new seed blend my friends have been raving about.
+    // Yes scarf
+    -> Mouse: Maybe there's another way to get up there, I'll help!
+        Kiwi: Really I can have this? Are you sure this'll work?
+        Mouse: I think these will suit you better than me. Give it a try!
+        Kiwi: I can fly! I can fly! No it's better than flying!! Thank you, Sir Mouse!
+-> Mouse: (Ignore.)
+===
