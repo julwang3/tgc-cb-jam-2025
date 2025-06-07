@@ -152,7 +152,7 @@ public class PlayerController : MonoBehaviour
         canJump = false;
 
         // Crouch to jump
-        if (jumps == 1)
+        if (jumps == 1 && isGrounded)
         {
             canMove = false;
 
