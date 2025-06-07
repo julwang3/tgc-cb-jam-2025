@@ -95,10 +95,10 @@ public class PlayerController : MonoBehaviour
                 jumps = 0;
                 animator.SetInteger("Jump", jumps);
             }
-            else if (jumps < 1)
-            {
-                jumps = 1;
-            }
+            // else if (jumps < 1)
+            // {
+            //     jumps = 1;
+            // }
         }
     }
 
