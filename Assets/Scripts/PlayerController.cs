@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (canMove && dashState == DashState.NotDashing 
+        if (canMove && dashState == DashState.NotDashing && !InteractionSystem.Instance.IsInteractionRunning
             && !(PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused) 
             && !(LevelManager.Instance && LevelManager.Instance.IsLoading))
         {
@@ -134,7 +134,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump(CallbackContext ctx)
     {
-        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
+            && !InteractionSystem.Instance.IsInteractionRunning)
         {
             if (!canJump || dashState != DashState.NotDashing) { return; }
 
@@ -182,7 +183,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashStart(CallbackContext ctx)
     {
-        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
+            && !InteractionSystem.Instance.IsInteractionRunning)
         {
             if (HasDash && dashState == DashState.NotDashing)
             {
@@ -195,7 +197,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashCharged(CallbackContext ctx)
     {
-        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
+            && !InteractionSystem.Instance.IsInteractionRunning)
         {
             if (dashState == DashState.Charging)
             {
@@ -213,7 +216,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashRelease(CallbackContext ctx)
     {
-        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading)
+        if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
+            && !InteractionSystem.Instance.IsInteractionRunning)
         {
             // Charged enough
             if (dashState == DashState.Charged)

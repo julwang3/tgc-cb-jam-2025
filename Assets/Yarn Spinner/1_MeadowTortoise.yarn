@@ -11,11 +11,12 @@ Tortoise: I can't get across, and even if I tried, I'll be late late late!
 // No boots
 -> Mouse: There's another way around the meadow.
     Tortoise: I guess I can try to beat the hare to the finish line if I go around...
-    Mouse: All that matters is your best.
+    -> Mouse: All that matters is your best.
 // Yes boots
 -> Mouse: I've got something that can help!
+    <<GiveDash DialogueSystem>>
     Tortoise: ...Are you sure? I'm sure I can manage without them.
-    Mouse: I've no use for them anyway.
+    -> Mouse: I've no use for them anyway.
 
 Tortoise: Thank you so much, Kind Mouse!
 ===
