@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
                 rb.AddForceX(moveDirection.x * Acceleration);
                 rb.linearVelocityX = Mathf.Clamp(rb.linearVelocityX, -MaxSpeed, MaxSpeed);
 
-                spriteRenderer.flipX = moveDirection.x < 0.0f;
+                transform.rotation = moveDirection.x > 0.0f ? Quaternion.identity : Quaternion.Euler(new Vector3(0, 180, 0));
             }
             else if (isGrounded)
             {
