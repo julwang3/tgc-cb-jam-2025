@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -68,6 +69,7 @@ public class PauseMenuUI : MonoBehaviour
             Time.timeScale = 0f;
             AudioManager.Instance.PostEventPersist(PauseWwiseEvent);
             pauseMenu.SetActive(true);
+            EventSystem.current.SetSelectedGameObject(resumeButtom.gameObject);
         }
         else
         {
