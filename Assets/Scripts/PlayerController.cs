@@ -183,6 +183,7 @@ public class PlayerController : MonoBehaviour
             canMove = true;
         }
 
+        PlayJump();
         rb.linearVelocityY = JumpForce;
         yield return new WaitForSeconds(JumpCooldown);
 
