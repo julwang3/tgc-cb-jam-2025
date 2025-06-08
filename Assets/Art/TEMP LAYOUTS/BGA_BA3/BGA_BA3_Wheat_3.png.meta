@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 4d1b421aeeba64d1dbfa2da0063ad85c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3118767485458655551
+    second: BGA_BA3_Wheat_3_0
+  - first:
+      213: -3400213464176799654
+    second: BGA_BA3_Wheat_3_1
+  - first:
+      213: 6540088775476070814
+    second: BGA_BA3_Wheat_3_2
+  - first:
+      213: -5632962265017720843
+    second: BGA_BA3_Wheat_3_3
+  - first:
+      213: -6683316880907698307
+    second: BGA_BA3_Wheat_3_4
+  - first:
+      213: 2430026917992503619
+    second: BGA_BA3_Wheat_3_5
+  - first:
+      213: -3661151492211125981
+    second: BGA_BA3_Wheat_3_6
+  - first:
+      213: -7980299322076784961
+    second: BGA_BA3_Wheat_3_7
+  - first:
+      213: 5835374773353537656
+    second: BGA_BA3_Wheat_3_8
+  - first:
+      213: -137185050977384489
+    second: BGA_BA3_Wheat_3_9
+  - first:
+      213: 3969690362419830907
+    second: BGA_BA3_Wheat_3_10
+  - first:
+      213: -9092312312670379285
+    second: BGA_BA3_Wheat_3_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 383
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f392dcb0186184b20800000000000000
+      internalID: 3118767485458655551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 403
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50dd339ed300d0d0800000000000000
+      internalID: -3400213464176799654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 378
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9945c5271013ca50800000000000000
+      internalID: 6540088775476070814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 316
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff50782aa2b3d1b0800000000000000
+      internalID: -5632962265017720843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 310
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fff10e4b61043a0800000000000000
+      internalID: -6683316880907698307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 348
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34994996b9039b120800000000000000
+      internalID: 2430026917992503619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 317
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3215ddd8d1af03dc0800000000000000
+      internalID: -3661151492211125981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 248
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6925a4c08404190800000000000000
+      internalID: -7980299322076784961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 121
+        width: 82
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8706301707a6bf050800000000000000
+      internalID: 5835374773353537656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 242
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7cff74cee981ef0800000000000000
+      internalID: -137185050977384489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 77
+        width: 74
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7063503a5c271730800000000000000
+      internalID: 3969690362419830907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA3_Wheat_3_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 99
+        width: 70
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be22f50ff1e91d180800000000000000
+      internalID: -9092312312670379285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BGA_BA3_Wheat_3_0: 3118767485458655551
+      BGA_BA3_Wheat_3_1: -3400213464176799654
+      BGA_BA3_Wheat_3_10: 3969690362419830907
+      BGA_BA3_Wheat_3_11: -9092312312670379285
+      BGA_BA3_Wheat_3_2: 6540088775476070814
+      BGA_BA3_Wheat_3_3: -5632962265017720843
+      BGA_BA3_Wheat_3_4: -6683316880907698307
+      BGA_BA3_Wheat_3_5: 2430026917992503619
+      BGA_BA3_Wheat_3_6: -3661151492211125981
+      BGA_BA3_Wheat_3_7: -7980299322076784961
+      BGA_BA3_Wheat_3_8: 5835374773353537656
+      BGA_BA3_Wheat_3_9: -137185050977384489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
