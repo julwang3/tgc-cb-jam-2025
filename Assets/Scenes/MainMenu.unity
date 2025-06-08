@@ -1910,7 +1910,7 @@ MonoBehaviour:
   startButton: {fileID: 2049516881}
   creditsButton: {fileID: 1903864119}
   quitButton: {fileID: 1777569315}
-  startScene: 0_Tutorial
+  startScene: 00_Start
 --- !u!1 &1284596433
 GameObject:
   m_ObjectHideFlags: 0
