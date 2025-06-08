@@ -2176,7 +2176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 493631575}
-  parallaxEffect: 0.5
+  parallaxEffectX: 0.5
+  parallaxEffectY: 0.5
 --- !u!1 &1565320517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,6 +2409,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 8160047003221076796, guid: b6ec518feab0d4b9789aa836023172ea, type: 3}
   m_PrefabInstance: {fileID: 1689673739}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1689673742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 376388068351036596, guid: b6ec518feab0d4b9789aa836023172ea, type: 3}
+  m_PrefabInstance: {fileID: 1689673739}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1724143670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2973,6 +2985,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -1177712499313270902, guid: 95b7726fedc3748c0bad6311f78aac0a, type: 2}
     value: {fileID: 1689673741}
+  - key: {fileID: 2254110517916197111, guid: 95b7726fedc3748c0bad6311f78aac0a, type: 2}
+    value: {fileID: 1689673742}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &2126030141
