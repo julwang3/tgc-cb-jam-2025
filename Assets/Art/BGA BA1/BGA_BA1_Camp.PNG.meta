@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 2b4013dc572874020b9b3054d1e3397c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1714949635193287488
+    second: BGA_BA1_Camp_0
+  - first:
+      213: 4223338311110212410
+    second: BGA_BA1_Camp_1
+  - first:
+      213: -4394756353727469337
+    second: BGA_BA1_Camp_2
+  - first:
+      213: -6815942218263146533
+    second: BGA_BA1_Camp_3
+  - first:
+      213: 2352252840708331786
+    second: BGA_BA1_Camp_4
+  - first:
+      213: -3484456337113490333
+    second: BGA_BA1_Camp_5
+  - first:
+      213: -6726988377609007072
+    second: BGA_BA1_Camp_6
+  - first:
+      213: -3392797496659976232
+    second: BGA_BA1_Camp_7
+  - first:
+      213: -4852449265103838789
+    second: BGA_BA1_Camp_8
+  - first:
+      213: -1288076754121785734
+    second: BGA_BA1_Camp_9
+  - first:
+      213: 4816294986690999763
+    second: BGA_BA1_Camp_10
+  - first:
+      213: 145045536546796864
+    second: BGA_BA1_Camp_11
+  - first:
+      213: 2201560501233700574
+    second: BGA_BA1_Camp_12
+  - first:
+      213: -1046825631034057133
+    second: BGA_BA1_Camp_13
+  - first:
+      213: -8615398412375027942
+    second: BGA_BA1_Camp_14
+  - first:
+      213: 8228847830433355220
+    second: BGA_BA1_Camp_15
+  - first:
+      213: 9161146119453841429
+    second: BGA_BA1_Camp_16
+  - first:
+      213: 1269377641756428114
+    second: BGA_BA1_Camp_17
+  - first:
+      213: -7730848853723116781
+    second: BGA_BA1_Camp_18
+  - first:
+      213: -476881753948641702
+    second: BGA_BA1_Camp_19
+  - first:
+      213: -8438125951070263129
+    second: BGA_BA1_Camp_20
+  - first:
+      213: -6628232749457944417
+    second: BGA_BA1_Camp_21
+  - first:
+      213: -4614667536004039437
+    second: BGA_BA1_Camp_22
+  - first:
+      213: -9052486551695922312
+    second: BGA_BA1_Camp_23
+  - first:
+      213: -5117988008811250795
+    second: BGA_BA1_Camp_24
+  - first:
+      213: 2994847637128704053
+    second: BGA_BA1_Camp_25
+  - first:
+      213: -4418627156310222721
+    second: BGA_BA1_Camp_26
+  - first:
+      213: -633605525040134450
+    second: BGA_BA1_Camp_27
+  - first:
+      213: -8235795342781626415
+    second: BGA_BA1_Camp_28
+  - first:
+      213: -8121271141634544050
+    second: BGA_BA1_Camp_29
+  - first:
+      213: -2401131924268419936
+    second: BGA_BA1_Camp_30
+  - first:
+      213: 472021092751200644
+    second: BGA_BA1_Camp_31
+  - first:
+      213: 7799311696863137216
+    second: BGA_BA1_Camp_32
+  - first:
+      213: -5798860001125777085
+    second: BGA_BA1_Camp_33
+  - first:
+      213: -8862249441076631298
+    second: BGA_BA1_Camp_34
+  - first:
+      213: 4799872836024487366
+    second: BGA_BA1_Camp_35
+  - first:
+      213: -6833574780805982342
+    second: BGA_BA1_Camp_36
+  - first:
+      213: 6042803638776300028
+    second: BGA_BA1_Camp_37
+  - first:
+      213: -7124431185124639877
+    second: BGA_BA1_Camp_38
+  - first:
+      213: 2908007245183416731
+    second: BGA_BA1_Camp_39
+  - first:
+      213: 4656100618091844710
+    second: BGA_BA1_Camp_40
+  - first:
+      213: -7855264899046740913
+    second: BGA_BA1_Camp_41
+  - first:
+      213: -5657183211008239774
+    second: BGA_BA1_Camp_42
+  - first:
+      213: -9062188138699664651
+    second: BGA_BA1_Camp_43
+  - first:
+      213: -6210781123571107670
+    second: BGA_BA1_Camp_44
+  - first:
+      213: -4199103029728226617
+    second: BGA_BA1_Camp_45
+  - first:
+      213: 4218892925561976194
+    second: BGA_BA1_Camp_46
+  - first:
+      213: -6320069062566410740
+    second: BGA_BA1_Camp_47
+  - first:
+      213: -1316207283877763679
+    second: BGA_BA1_Camp_48
+  - first:
+      213: 5448272129755075449
+    second: BGA_BA1_Camp_49
+  - first:
+      213: -6677924262948762765
+    second: BGA_BA1_Camp_50
+  - first:
+      213: -4637356144610874298
+    second: BGA_BA1_Camp_51
+  - first:
+      213: -6580332154636082974
+    second: BGA_BA1_Camp_52
+  - first:
+      213: -7025185202972192767
+    second: BGA_BA1_Camp_53
+  - first:
+      213: 7595479351007647771
+    second: BGA_BA1_Camp_54
+  - first:
+      213: -1588830786388712832
+    second: BGA_BA1_Camp_55
+  - first:
+      213: 8098801809487590614
+    second: BGA_BA1_Camp_56
+  - first:
+      213: -276195551462196636
+    second: BGA_BA1_Camp_57
+  - first:
+      213: -4420067337325699838
+    second: BGA_BA1_Camp_58
+  - first:
+      213: 4807887790714495905
+    second: BGA_BA1_Camp_59
+  - first:
+      213: -1823001695636912788
+    second: BGA_BA1_Camp_60
+  - first:
+      213: 7629517875742634390
+    second: BGA_BA1_Camp_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 1302
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc4e9a94664338e0800000000000000
+      internalID: -1714949635193287488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 17
+        width: 73
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bb50851df4c9a30800000000000000
+      internalID: 4223338311110212410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 3
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8eea57160b203c0800000000000000
+      internalID: -4394756353727469337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf46d63aa8e861a0800000000000000
+      internalID: -6815942218263146533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09d250fe71e4a020800000000000000
+      internalID: 2352252840708331786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 31
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cddfe3c69b4afc0800000000000000
+      internalID: -3484456337113490333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 20
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0201f6036bfe4a2a0800000000000000
+      internalID: -6726988377609007072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 13
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df5fb017ac5ae0d0800000000000000
+      internalID: -3392797496659976232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 5
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb161ee4a13a8acb0800000000000000
+      internalID: -4852449265103838789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ef1234405df1ee0800000000000000
+      internalID: -1288076754121785734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 22
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d53637c5cae6d240800000000000000
+      internalID: 4816294986690999763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 16
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045b022a52e430200800000000000000
+      internalID: 145045536546796864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edec09b8c938d8e10800000000000000
+      internalID: 2201560501233700574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 35
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ed07882ade871f0800000000000000
+      internalID: -1046825631034057133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 12
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f0cef4ac4ff6880800000000000000
+      internalID: -8615398412375027942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 24
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d559b3e08db23270800000000000000
+      internalID: 8228847830433355220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 41
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5189e799bdde22f70800000000000000
+      internalID: 9161146119453841429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_17
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 33
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25707be5d3cbd9110800000000000000
+      internalID: 1269377641756428114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_18
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 40
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b09956de186b490800000000000000
+      internalID: -7730848853723116781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_19
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56a6084296c169f0800000000000000
+      internalID: -476881753948641702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_20
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 4
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8a3749721c5ea80800000000000000
+      internalID: -8438125951070263129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_21
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 24
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90d2f7ae69c304a0800000000000000
+      internalID: -6628232749457944417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_22
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcb3f7535865ffb0800000000000000
+      internalID: -4614667536004039437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87be920817b1f5280800000000000000
+      internalID: -9052486551695922312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_24
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 24
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bb812b50149f8b0800000000000000
+      internalID: -5117988008811250795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530797ffe06df8920800000000000000
+      internalID: 2994847637128704053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_26
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 23
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f781c312302eda2c0800000000000000
+      internalID: -4418627156310222721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_27
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 12
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec60248c12bf437f0800000000000000
+      internalID: -633605525040134450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_28
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 4
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d74fa655c394bd80800000000000000
+      internalID: -8235795342781626415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eed3ecce27b4f80800000000000000
+      internalID: -8121271141634544050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_30
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 14
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a471239c377daed0800000000000000
+      internalID: -2401131924268419936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_31
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4815de7dea4fc8600800000000000000
+      internalID: 472021092751200644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_32
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd83107aa8bc3c60800000000000000
+      internalID: 7799311696863137216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_33
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3414daa7d8f468fa0800000000000000
+      internalID: -5798860001125777085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_34
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 6
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef829b96617f20580800000000000000
+      internalID: -8862249441076631298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_35
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd494ed9e29c9240800000000000000
+      internalID: 4799872836024487366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_36
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 38
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77ddf351f34a21a0800000000000000
+      internalID: -6833574780805982342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_37
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 27
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf103b0b4e95cd350800000000000000
+      internalID: 6042803638776300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_38
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 38
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b3eef759fe02d90800000000000000
+      internalID: -7124431185124639877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 30
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b997b65ae215b5820800000000000000
+      internalID: 2908007245183416731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_40
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66457d3d7dacd9040800000000000000
+      internalID: 4656100618091844710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_41
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c69bb713e7cf290800000000000000
+      internalID: -7855264899046740913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_42
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 23
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267dc86b7d5ad71b0800000000000000
+      internalID: -5657183211008239774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_43
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 52
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f25c01c6e3ac3280800000000000000
+      internalID: -9062188138699664651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_44
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8b7d7697fdec9a0800000000000000
+      internalID: -6210781123571107670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_45
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c258c1da0ac9b5c0800000000000000
+      internalID: -4199103029728226617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_46
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 7
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285b78d53c48c8a30800000000000000
+      internalID: 4218892925561976194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_47
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c060bc93caa9a48a0800000000000000
+      internalID: -6320069062566410740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_48
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a52fa9e274ebbde0800000000000000
+      internalID: -1316207283877763679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_49
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 49
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97356b5c2a62c9b40800000000000000
+      internalID: 5448272129755075449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_50
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b0af5934f3353a0800000000000000
+      internalID: -6677924262948762765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_51
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 28
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c6e7ff72dc4afb0800000000000000
+      internalID: -4637356144610874298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_52
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 16
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0e5daf4c6fda4a0800000000000000
+      internalID: -6580332154636082974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_53
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10013876747818e90800000000000000
+      internalID: -7025185202972192767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_54
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 10
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1810a72a30986960800000000000000
+      internalID: 7595479351007647771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_55
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 41
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082a81951d653f9e0800000000000000
+      internalID: -1588830786388712832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_56
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 53
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d47cc02659b46070800000000000000
+      internalID: 8098801809487590614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_57
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 35
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a7d8afb91ca2cf0800000000000000
+      internalID: -276195551462196636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_58
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 44
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d156bdc24c8a2c0800000000000000
+      internalID: -4420067337325699838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_59
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 20
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3a97de87c09b240800000000000000
+      internalID: 4807887790714495905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_60
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 35
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6580a2dd9563b6e0800000000000000
+      internalID: -1823001695636912788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_BA1_Camp_61
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 33
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691f127c51e71e960800000000000000
+      internalID: 7629517875742634390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BGA_BA1_Camp_0: -1714949635193287488
+      BGA_BA1_Camp_1: 4223338311110212410
+      BGA_BA1_Camp_10: 4816294986690999763
+      BGA_BA1_Camp_11: 145045536546796864
+      BGA_BA1_Camp_12: 2201560501233700574
+      BGA_BA1_Camp_13: -1046825631034057133
+      BGA_BA1_Camp_14: -8615398412375027942
+      BGA_BA1_Camp_15: 8228847830433355220
+      BGA_BA1_Camp_16: 9161146119453841429
+      BGA_BA1_Camp_17: 1269377641756428114
+      BGA_BA1_Camp_18: -7730848853723116781
+      BGA_BA1_Camp_19: -476881753948641702
+      BGA_BA1_Camp_2: -4394756353727469337
+      BGA_BA1_Camp_20: -8438125951070263129
+      BGA_BA1_Camp_21: -6628232749457944417
+      BGA_BA1_Camp_22: -4614667536004039437
+      BGA_BA1_Camp_23: -9052486551695922312
+      BGA_BA1_Camp_24: -5117988008811250795
+      BGA_BA1_Camp_25: 2994847637128704053
+      BGA_BA1_Camp_26: -4418627156310222721
+      BGA_BA1_Camp_27: -633605525040134450
+      BGA_BA1_Camp_28: -8235795342781626415
+      BGA_BA1_Camp_29: -8121271141634544050
+      BGA_BA1_Camp_3: -6815942218263146533
+      BGA_BA1_Camp_30: -2401131924268419936
+      BGA_BA1_Camp_31: 472021092751200644
+      BGA_BA1_Camp_32: 7799311696863137216
+      BGA_BA1_Camp_33: -5798860001125777085
+      BGA_BA1_Camp_34: -8862249441076631298
+      BGA_BA1_Camp_35: 4799872836024487366
+      BGA_BA1_Camp_36: -6833574780805982342
+      BGA_BA1_Camp_37: 6042803638776300028
+      BGA_BA1_Camp_38: -7124431185124639877
+      BGA_BA1_Camp_39: 2908007245183416731
+      BGA_BA1_Camp_4: 2352252840708331786
+      BGA_BA1_Camp_40: 4656100618091844710
+      BGA_BA1_Camp_41: -7855264899046740913
+      BGA_BA1_Camp_42: -5657183211008239774
+      BGA_BA1_Camp_43: -9062188138699664651
+      BGA_BA1_Camp_44: -6210781123571107670
+      BGA_BA1_Camp_45: -4199103029728226617
+      BGA_BA1_Camp_46: 4218892925561976194
+      BGA_BA1_Camp_47: -6320069062566410740
+      BGA_BA1_Camp_48: -1316207283877763679
+      BGA_BA1_Camp_49: 5448272129755075449
+      BGA_BA1_Camp_5: -3484456337113490333
+      BGA_BA1_Camp_50: -6677924262948762765
+      BGA_BA1_Camp_51: -4637356144610874298
+      BGA_BA1_Camp_52: -6580332154636082974
+      BGA_BA1_Camp_53: -7025185202972192767
+      BGA_BA1_Camp_54: 7595479351007647771
+      BGA_BA1_Camp_55: -1588830786388712832
+      BGA_BA1_Camp_56: 8098801809487590614
+      BGA_BA1_Camp_57: -276195551462196636
+      BGA_BA1_Camp_58: -4420067337325699838
+      BGA_BA1_Camp_59: 4807887790714495905
+      BGA_BA1_Camp_6: -6726988377609007072
+      BGA_BA1_Camp_60: -1823001695636912788
+      BGA_BA1_Camp_61: 7629517875742634390
+      BGA_BA1_Camp_7: -3392797496659976232
+      BGA_BA1_Camp_8: -4852449265103838789
+      BGA_BA1_Camp_9: -1288076754121785734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
