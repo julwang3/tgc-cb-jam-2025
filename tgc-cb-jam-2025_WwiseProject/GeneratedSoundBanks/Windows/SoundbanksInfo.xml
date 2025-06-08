@@ -9,38 +9,154 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{1B25B5AF-EC58-EB4F-0798-05F70AB49AAD}">
+		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{C5A6B1E9-1C40-887D-507A-166FD91FBD28}">
 			<ShortName>LEVEL_GENERAL</ShortName>
 			<Path>LEVEL_GENERAL.bnk</Path>
 			<Media>
+				<File Id="4974575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Mouse_3.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Mouse_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="60427033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Mouse_4.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Mouse_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="99544223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Tortoise_4.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Tortoise_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="101391054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Kiwi_2.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Kiwi_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="136752868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Kiwi_1.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Kiwi_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="175219850" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Tortoise_1.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Tortoise_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="190165072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Tortoise_3.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Tortoise_3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="218422190" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_MUS_Cave_Loop_120bpm.wav</ShortName>
 					<CachePath>SFX/AUD_MUS_Cave_Loop_120bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="224155800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Mouse_1.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Mouse_1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="246514766" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HOMECOMING - The Meadow.wav</ShortName>
 					<CachePath>SFX/HOMECOMING - The Meadow_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="402414549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Mouse_2.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Mouse_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="415448254" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Bat_2.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Bat_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="419758210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Forest_Tortoise_76bpm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Forest_Tortoise_76bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="495556401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Forest_Loop_76bpm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Forest_Loop_76bpm_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="540817431" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_MUS_Cave_Kiwi_120bpm.wav</ShortName>
 					<CachePath>SFX/AUD_MUS_Cave_Kiwi_120bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="603749455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Kiwi_4.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Kiwi_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="655595191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Tortoise_2.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Tortoise_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="696195780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Bat_3.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Bat_3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="700659346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HOMECOMING - The Sword.wav</ShortName>
 					<CachePath>SFX/HOMECOMING - The Sword_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="730019814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Bat_1.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Bat_1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="759196080" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_MUS_Cave_Tortoise_120bpm.wav</ShortName>
 					<CachePath>SFX/AUD_MUS_Cave_Tortoise_120bpm_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="939524038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Kiwi_3.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Kiwi_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1043615165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_DIA_Bat_4.wav</ShortName>
+					<CachePath>SFX/AUD_DIA_Bat_4_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="1573584026" Name="AUD_DIA_Bat" DurationType="OneShot" DurationMin="1.3153334" DurationMax="2.6806667">
+					<MediaRefs>
+						<MediaRef Id="415448254"/>
+						<MediaRef Id="696195780"/>
+						<MediaRef Id="730019814"/>
+						<MediaRef Id="1043615165"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1814518349" Name="AUD_DIA_Kiwi" DurationType="OneShot" DurationMin="2.6806667" DurationMax="2.6806667">
+					<MediaRefs>
+						<MediaRef Id="101391054"/>
+						<MediaRef Id="136752868"/>
+						<MediaRef Id="603749455"/>
+						<MediaRef Id="939524038"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3474783690" Name="AUD_DIA_Mouse" DurationType="OneShot" DurationMin="5.4113336" DurationMax="5.4113336">
+					<MediaRefs>
+						<MediaRef Id="4974575"/>
+						<MediaRef Id="60427033"/>
+						<MediaRef Id="224155800"/>
+						<MediaRef Id="402414549"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2922012112" Name="AUD_DIA_Tortoise" DurationType="OneShot" DurationMin="2.6806667" DurationMax="2.6806667">
+					<MediaRefs>
+						<MediaRef Id="99544223"/>
+						<MediaRef Id="175219850"/>
+						<MediaRef Id="190165072"/>
+						<MediaRef Id="655595191"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1876713613" Name="AUD_GLOB_Dialogue_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="39389702" Name="AUD_GLOB_Dialogue_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2907054036" Name="AUD_GLOB_Game_Pause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3056393030" Name="AUD_GLOB_Game_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4066955427" Name="AUD_GLOB_Game_Unpause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="317055371" Name="AUD_MUS_Game_Start" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="2435155766"/>
 							<MediaRefs>
 								<MediaRef Id="246514766"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="491961918"/>
+							<MediaRefs>
+								<MediaRef Id="419758210"/>
+								<MediaRef Id="495556401"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -114,7 +230,7 @@
 			<ShortName>PLAYER</ShortName>
 			<Path>PLAYER.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7EAFBFDD-FA15-BF42-8DF6-9C429946B8EA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3C3F2F45-5253-8FB4-5846-414F40A47EF6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -127,6 +243,7 @@
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="2813969293" Name="ENVIRONMENT SFX"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3930136735" Name="DIALOGUE"/>
 				<Bus Id="3991942870" Name="MUSIC"/>
 				<Bus Id="4248982831" Name="PLAYER SFX"/>
 			</Busses>
@@ -168,10 +285,12 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{A0039831-507A-BA11-CE01-2B47236D938C}">
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{97B659F9-5596-B0E1-37D3-279A3B2D808E}">
 			<ShortName>GLOBAL</ShortName>
 			<Path>GLOBAL.bnk</Path>
 			<Events>
+				<Event Id="1876713613" Name="AUD_GLOB_Dialogue_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="39389702" Name="AUD_GLOB_Dialogue_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2907054036" Name="AUD_GLOB_Game_Pause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3056393030" Name="AUD_GLOB_Game_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4066955427" Name="AUD_GLOB_Game_Unpause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -194,5 +313,5 @@
 			<Path>TUTORIAL.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2789BE72-ACC4-877A-2838-6843F08F15C5}</FileHash>
+	<FileHash>{31C33049-B87D-662F-DC40-7589A4A9B3B0}</FileHash>
 </SoundBanksInfo>

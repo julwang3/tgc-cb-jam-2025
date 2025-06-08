@@ -18,8 +18,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="AUD_GLOB_Dialogue_Start" ID="{17D2606C-4F4F-4DEB-8260-3DE3506452BB}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="AUD_GLOB_Game_Unpause" ID="{2AA96A4D-A8ED-46FC-9B22-2A86D0552381}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AUD_GLOB_Dialogue_End" ID="{6270701D-8067-43CB-AFC9-8BC37B2EEFC5}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -29,10 +37,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
+						<CurrentStateRef Name="Forest" ID="{9549A0BC-4B86-410A-AC99-B3D71978176A}"/>
 						<CurrentStateRef Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}"/>
-						<CurrentStateRef Name="Yes" ID="{5F0E9A45-00AB-4B53-A58B-10FDDEB2ED6B}"/>
-						<CurrentStateRef Name="Yes" ID="{4AA763B7-7160-438F-9A97-05B8776CCBDC}"/>
+						<CurrentStateRef Name="No" ID="{DF2A908A-AA34-4A6C-8F00-9C899DCB7D25}"/>
+						<CurrentStateRef Name="No" ID="{4FD6CC64-7180-44FA-8031-1B88E2CB75A5}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

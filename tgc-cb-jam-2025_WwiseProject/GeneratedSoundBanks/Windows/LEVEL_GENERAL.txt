@@ -1,5 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
+	39389702	AUD_GLOB_Dialogue_Start			\Default Work Unit\AUD_GLOB\AUD_GLOB_Dialogue_Start	
 	317055371	AUD_MUS_Game_Start			\Default Work Unit\AUD_MUS\AUD_MUS_Game_Start	
+	1573584026	AUD_DIA_Bat			\Default Work Unit\AUD_DIA\AUD_DIA_Bat	
+	1814518349	AUD_DIA_Kiwi			\Default Work Unit\AUD_DIA\AUD_DIA_Kiwi	
+	1876713613	AUD_GLOB_Dialogue_End			\Default Work Unit\AUD_GLOB\AUD_GLOB_Dialogue_End	
+	2907054036	AUD_GLOB_Game_Pause			\Default Work Unit\AUD_GLOB\AUD_GLOB_Game_Pause	
+	2922012112	AUD_DIA_Tortoise			\Default Work Unit\AUD_DIA\AUD_DIA_Tortoise	
+	3056393030	AUD_GLOB_Game_Start			\Default Work Unit\AUD_GLOB\AUD_GLOB_Game_Start	
+	3474783690	AUD_DIA_Mouse			\Default Work Unit\AUD_DIA\AUD_DIA_Mouse	
+	4066955427	AUD_GLOB_Game_Unpause			\Default Work Unit\AUD_GLOB\AUD_GLOB_Game_Unpause	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1425512237	AUD_MUS_Helped_Kiwi			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Kiwi	
@@ -22,9 +31,27 @@ State	ID	Name	State Group			Notes
 	1668749452	No	AUD_MUS_Helped_Tortoise			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	218422190	AUD_MUS_Cave_Loop_120bpm	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Cave_Loop_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Loop_120bpm		10989984
-	246514766	HOMECOMING - The Meadow	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\HOMECOMING - The Meadow_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Meadow\AUD_MUS_Meadow_Loop\HOMECOMING - The Meadow\HOMECOMING - The Meadow		6553696
-	540817431	AUD_MUS_Cave_Kiwi_120bpm	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Cave_Kiwi_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Kiwi_120bpm		10368096
-	700659346	HOMECOMING - The Sword	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\HOMECOMING - The Sword_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Tutorial\AUD_MUS_Tutorial_Loop\HOMECOMING - The Sword\HOMECOMING - The Sword		12583008
-	759196080	AUD_MUS_Cave_Tortoise_120bpm	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Cave_Tortoise_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Tortoise_120bpm		10368096
+	4974575	AUD_DIA_Mouse_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Mouse_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_3		1039072
+	60427033	AUD_DIA_Mouse_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Mouse_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_4		1039072
+	99544223	AUD_DIA_Tortoise_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Tortoise_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_4		514784
+	101391054	AUD_DIA_Kiwi_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Kiwi_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_2		514784
+	136752868	AUD_DIA_Kiwi_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Kiwi_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_1		514784
+	175219850	AUD_DIA_Tortoise_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Tortoise_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_1		514784
+	190165072	AUD_DIA_Tortoise_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Tortoise_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_3		514784
+	218422190	AUD_MUS_Cave_Loop_120bpm	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Cave_Loop_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Loop_120bpm		10980384
+	224155800	AUD_DIA_Mouse_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Mouse_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_1		1039072
+	246514766	HOMECOMING - The Meadow	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\HOMECOMING - The Meadow_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Meadow\AUD_MUS_Meadow_Loop\HOMECOMING - The Meadow\HOMECOMING - The Meadow		6553696
+	402414549	AUD_DIA_Mouse_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Mouse_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_2		1039072
+	415448254	AUD_DIA_Bat_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Bat_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_2		514784
+	419758210	AUD_MUS_Forest_Tortoise_76bpm	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Forest_Tortoise_76bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Forest\AUD_MUS_Forest\AUD_MUS_Forest_Loop_76bpm\AUD_MUS_Forest_Tortoise_76bpm		7578272
+	495556401	AUD_MUS_Forest_Loop_76bpm	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Forest_Loop_76bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Forest\AUD_MUS_Forest\AUD_MUS_Forest_Loop_76bpm\AUD_MUS_Forest_Loop_76bpm		7840416
+	540817431	AUD_MUS_Cave_Kiwi_120bpm	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Cave_Kiwi_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Kiwi_120bpm		10368096
+	603749455	AUD_DIA_Kiwi_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Kiwi_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_4		514784
+	655595191	AUD_DIA_Tortoise_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Tortoise_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_2		514784
+	696195780	AUD_DIA_Bat_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Bat_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_3		514784
+	700659346	HOMECOMING - The Sword	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\HOMECOMING - The Sword_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Tutorial\AUD_MUS_Tutorial_Loop\HOMECOMING - The Sword\HOMECOMING - The Sword		12583008
+	730019814	AUD_DIA_Bat_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Bat_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_1		514784
+	759196080	AUD_MUS_Cave_Tortoise_120bpm	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_MUS_Cave_Tortoise_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Tortoise_120bpm		10368096
+	939524038	AUD_DIA_Kiwi_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Kiwi_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_3		514784
+	1043615165	AUD_DIA_Bat_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Windows\SFX\AUD_DIA_Bat_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_4		252640
 
