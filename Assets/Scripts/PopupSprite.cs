@@ -11,6 +11,8 @@ public class PopupSprite : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        animator.enabled = false;
+        GetComponent<SpriteRenderer>().enabled = false;
     }
 
     // Update is called once per frame
