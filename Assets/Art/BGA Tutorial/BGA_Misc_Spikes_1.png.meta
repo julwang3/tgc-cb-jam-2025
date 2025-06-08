@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: e3933f83472e5fd4fa22e1a8141dddea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5024373448735627576
+    second: BGA_Misc_Spikes_1_0
+  - first:
+      213: -3637005380392104747
+    second: BGA_Misc_Spikes_1_1
+  - first:
+      213: -3574239869227679991
+    second: BGA_Misc_Spikes_1_2
+  - first:
+      213: 6083624549023877567
+    second: BGA_Misc_Spikes_1_3
+  - first:
+      213: -1493975839847433676
+    second: BGA_Misc_Spikes_1_4
+  - first:
+      213: 7938840061159266480
+    second: BGA_Misc_Spikes_1_5
+  - first:
+      213: 4476738672423639281
+    second: BGA_Misc_Spikes_1_6
+  - first:
+      213: -1555896904159596736
+    second: BGA_Misc_Spikes_1_7
+  - first:
+      213: 1215012059289390097
+    second: BGA_Misc_Spikes_1_8
+  - first:
+      213: -5978584849702178268
+    second: BGA_Misc_Spikes_1_9
+  - first:
+      213: -7569892386721939910
+    second: BGA_Misc_Spikes_1_10
+  - first:
+      213: 973535625032904590
+    second: BGA_Misc_Spikes_1_11
+  - first:
+      213: 4559949381595975975
+    second: BGA_Misc_Spikes_1_12
+  - first:
+      213: 9096022616825237871
+    second: BGA_Misc_Spikes_1_13
+  - first:
+      213: 2676014207981198884
+    second: BGA_Misc_Spikes_1_14
+  - first:
+      213: 4504415400679283604
+    second: BGA_Misc_Spikes_1_15
+  - first:
+      213: -9056078401411385335
+    second: BGA_Misc_Spikes_1_16
+  - first:
+      213: 8442062644568626093
+    second: BGA_Misc_Spikes_1_17
+  - first:
+      213: 1956057378968545414
+    second: BGA_Misc_Spikes_1_18
+  - first:
+      213: 5569524866639304433
+    second: BGA_Misc_Spikes_1_19
+  - first:
+      213: -4276444078891213809
+    second: BGA_Misc_Spikes_1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 197
+        width: 64
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8399ac608092ab540800000000000000
+      internalID: 5024373448735627576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 186
+        width: 27
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc4b8f40e2c68dc0800000000000000
+      internalID: -3637005380392104747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 191
+        width: 97
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f35aca6cfb56ec0800000000000000
+      internalID: -3574239869227679991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 197
+        width: 74
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb90a6f7b406d6450800000000000000
+      internalID: 6083624549023877567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 204
+        width: 29
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ab0ea93e4544be0800000000000000
+      internalID: -1493975839847433676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 204
+        width: 27
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8d90e49fc6c2e60800000000000000
+      internalID: 7938840061159266480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 180
+        width: 72
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f890129a12902e30800000000000000
+      internalID: 4476738672423639281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_7
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 201
+        width: 25
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fef685208586ae0800000000000000
+      internalID: -1555896904159596736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_8
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 185
+        width: 36
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c82cfc7079cd010800000000000000
+      internalID: 1215012059289390097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 189
+        width: 34
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42238fd41ccc70da0800000000000000
+      internalID: -5978584849702178268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_10
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 172
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e31853bf652f690800000000000000
+      internalID: -7569892386721939910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_11
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 200
+        width: 63
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f26423e71b28d00800000000000000
+      internalID: 973535625032904590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_12
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 202
+        width: 70
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7215acb8dc1384f30800000000000000
+      internalID: 4559949381595975975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_13
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 192
+        width: 21
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6199c090609b3e70800000000000000
+      internalID: 9096022616825237871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_14
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 202
+        width: 61
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e1e987ebc132520800000000000000
+      internalID: 2676014207981198884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_15
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 189
+        width: 74
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b994601f5e28e30800000000000000
+      internalID: 4504415400679283604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_16
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 199
+        width: 41
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90879c1dca8525280800000000000000
+      internalID: -9056078401411385335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_17
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 208
+        width: 62
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da39b1d4f3b382570800000000000000
+      internalID: 8442062644568626093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 206
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688a3b192df452b10800000000000000
+      internalID: 1956057378968545414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_19
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 208
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f69dbb8b5dea4d40800000000000000
+      internalID: 5569524866639304433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Misc_Spikes_1_20
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 199
+        width: 83
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cdddf84c407a4c0800000000000000
+      internalID: -4276444078891213809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BGA_Misc_Spikes_1_0: 5024373448735627576
+      BGA_Misc_Spikes_1_1: -3637005380392104747
+      BGA_Misc_Spikes_1_10: -7569892386721939910
+      BGA_Misc_Spikes_1_11: 973535625032904590
+      BGA_Misc_Spikes_1_12: 4559949381595975975
+      BGA_Misc_Spikes_1_13: 9096022616825237871
+      BGA_Misc_Spikes_1_14: 2676014207981198884
+      BGA_Misc_Spikes_1_15: 4504415400679283604
+      BGA_Misc_Spikes_1_16: -9056078401411385335
+      BGA_Misc_Spikes_1_17: 8442062644568626093
+      BGA_Misc_Spikes_1_18: 1956057378968545414
+      BGA_Misc_Spikes_1_19: 5569524866639304433
+      BGA_Misc_Spikes_1_2: -3574239869227679991
+      BGA_Misc_Spikes_1_20: -4276444078891213809
+      BGA_Misc_Spikes_1_3: 6083624549023877567
+      BGA_Misc_Spikes_1_4: -1493975839847433676
+      BGA_Misc_Spikes_1_5: 7938840061159266480
+      BGA_Misc_Spikes_1_6: 4476738672423639281
+      BGA_Misc_Spikes_1_7: -1555896904159596736
+      BGA_Misc_Spikes_1_8: 1215012059289390097
+      BGA_Misc_Spikes_1_9: -5978584849702178268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
