@@ -11,15 +11,97 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID AUD_GLOB_GAME_PAUSE = 2907054036U;
+        static const AkUniqueID AUD_GLOB_GAME_START = 3056393030U;
+        static const AkUniqueID AUD_GLOB_GAME_UNPAUSE = 4066955427U;
+        static const AkUniqueID AUD_MUS_GAME_START = 317055371U;
+    } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace AUD_MUS_AREA
+        {
+            static const AkUniqueID GROUP = 1562869527U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BA3 = 513390177U;
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID HOME = 3181406844U;
+                static const AkUniqueID MEADOW = 2435155766U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TUTORIAL = 3762955427U;
+            } // namespace STATE
+        } // namespace AUD_MUS_AREA
+
+        namespace AUD_MUS_HELPED_BAT
+        {
+            static const AkUniqueID GROUP = 2208174842U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NO = 1668749452U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID YES = 979470758U;
+            } // namespace STATE
+        } // namespace AUD_MUS_HELPED_BAT
+
+        namespace AUD_MUS_HELPED_KIWI
+        {
+            static const AkUniqueID GROUP = 1425512237U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NO = 1668749452U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID YES = 979470758U;
+            } // namespace STATE
+        } // namespace AUD_MUS_HELPED_KIWI
+
+        namespace AUD_MUS_HELPED_TORTOISE
+        {
+            static const AkUniqueID GROUP = 2380841904U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NO = 1668749452U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID YES = 979470758U;
+            } // namespace STATE
+        } // namespace AUD_MUS_HELPED_TORTOISE
+
+    } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MENU = 2607556080U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID BA1 = 513390179U;
+        static const AkUniqueID BA2 = 513390176U;
+        static const AkUniqueID BA3 = 513390177U;
+        static const AkUniqueID GLOBAL = 1465331116U;
+        static const AkUniqueID HOME = 3181406844U;
+        static const AkUniqueID LEVEL_GENERAL = 116707640U;
+        static const AkUniqueID MENU = 2607556080U;
+        static const AkUniqueID PLAYER = 1069431850U;
+        static const AkUniqueID TUTORIAL = 3762955427U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 
     namespace BUSSES
     {
+        static const AkUniqueID ENVIRONMENT_SFX = 2813969293U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PLAYER_SFX = 4248982831U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

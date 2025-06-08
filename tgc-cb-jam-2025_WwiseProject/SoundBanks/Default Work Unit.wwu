@@ -38,6 +38,25 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="LEVEL_GENERAL" ID="{2FB16741-C018-4D6D-BB98-2E465935F558}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AUD_MUS_Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MENU" ID="{722EF351-4270-42D0-BB84-3C5C23C07617}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GLOBAL" ID="{D7658DD9-C5EB-4E71-8F60-377BA23CEEFB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AUD_GLOB" ID="{0B5E5D3B-7E0E-4CAC-A397-6E5AED917395}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

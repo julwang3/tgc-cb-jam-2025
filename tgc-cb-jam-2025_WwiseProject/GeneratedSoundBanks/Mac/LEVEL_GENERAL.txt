@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	317055371	AUD_MUS_Game_Start			\Default Work Unit\AUD_MUS\AUD_MUS_Game_Start	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1425512237	AUD_MUS_Helped_Kiwi			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Kiwi	
+	1562869527	AUD_MUS_Area			\Default Work Unit\AUD_MUS\AUD_MUS_Area	
+	2380841904	AUD_MUS_Helped_Tortoise			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Tortoise	
+
+State	ID	Name	State Group			Notes
+	748895195	None	AUD_MUS_Helped_Kiwi			
+	979470758	Yes	AUD_MUS_Helped_Kiwi			
+	1668749452	No	AUD_MUS_Helped_Kiwi			
+	491961918	Forest	AUD_MUS_Area			
+	513390177	BA3	AUD_MUS_Area			
+	748895195	None	AUD_MUS_Area			
+	2435155766	Meadow	AUD_MUS_Area			
+	3181406844	Home	AUD_MUS_Area			
+	3762955427	Tutorial	AUD_MUS_Area			
+	4122393694	Cave	AUD_MUS_Area			
+	748895195	None	AUD_MUS_Helped_Tortoise			
+	979470758	Yes	AUD_MUS_Helped_Tortoise			
+	1668749452	No	AUD_MUS_Helped_Tortoise			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	218422190	AUD_MUS_Cave_Loop_120bpm	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_MUS_Cave_Loop_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Loop_120bpm		10989984
+	246514766	HOMECOMING - The Meadow	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\HOMECOMING - The Meadow_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Meadow\AUD_MUS_Meadow_Loop\HOMECOMING - The Meadow\HOMECOMING - The Meadow		6553696
+	540817431	AUD_MUS_Cave_Kiwi_120bpm	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_MUS_Cave_Kiwi_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Kiwi_120bpm		10368096
+	700659346	HOMECOMING - The Sword	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\HOMECOMING - The Sword_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Tutorial\AUD_MUS_Tutorial_Loop\HOMECOMING - The Sword\HOMECOMING - The Sword		12583008
+	759196080	AUD_MUS_Cave_Tortoise_120bpm	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_MUS_Cave_Tortoise_120bpm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_AREA\AUD_MUS_Cave\AUD_MUS_Cave\AUD_MUS_Cave_Loop_120bpm\AUD_MUS_Cave_Tortoise_120bpm		10368096
+

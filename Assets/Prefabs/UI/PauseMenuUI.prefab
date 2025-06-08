@@ -411,6 +411,14 @@ MonoBehaviour:
   resumeButtom: {fileID: 2056652449070299959}
   menuButton: {fileID: 68989054492511537}
   quitButton: {fileID: 5610495147189362032}
+  PauseWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 641c13f9ce12e9b40b9b43ed85dd69ad, type: 2}
+  UnpauseWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0b52669b9f679294e99f839bccd975b4, type: 2}
 --- !u!1 &5815429789380744893
 GameObject:
   m_ObjectHideFlags: 0

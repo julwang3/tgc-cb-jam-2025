@@ -16,6 +16,9 @@ public class PauseMenuUI : MonoBehaviour
     [SerializeField] private Button menuButton;
     [SerializeField] private Button quitButton;
 
+    [SerializeField] AK.Wwise.Event PauseWwiseEvent;
+    [SerializeField] AK.Wwise.Event UnpauseWwiseEvent;
+
     private InputAction pauseAction;
     private CanvasGroup canvasGroup;
 
@@ -39,6 +42,11 @@ public class PauseMenuUI : MonoBehaviour
         IsPaused = false;
     }
 
+    private void Start()
+    {
+        AudioManager.Instance.PostEventPersist(UnpauseWwiseEvent);
+    }
+
     private void OnPause()
     {
         OnPause(!IsPaused);
@@ -58,6 +66,7 @@ public class PauseMenuUI : MonoBehaviour
             canvasGroup.interactable = true;
             canvasGroup.blocksRaycasts = true;
             Time.timeScale = 0f;
+            AudioManager.Instance.PostEventPersist(PauseWwiseEvent);
         }
         else
         {
@@ -69,6 +78,7 @@ public class PauseMenuUI : MonoBehaviour
             canvasGroup.interactable = false;
             canvasGroup.blocksRaycasts = false;
             Time.timeScale = 1f;
+            AudioManager.Instance.PostEventPersist(UnpauseWwiseEvent);
         }
         IsPaused = pause;
     }
@@ -76,6 +86,7 @@ public class PauseMenuUI : MonoBehaviour
     private void OnMenuPressed()
     {
         if (LevelManager.Instance.IsLoading) { return; }
+        AudioManager.Instance.StopLevel();
         LevelManager.Instance.LoadLevel(mainMenuScene);
     }
 

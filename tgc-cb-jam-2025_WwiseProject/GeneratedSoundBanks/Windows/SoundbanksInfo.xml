@@ -9,7 +9,112 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{1B25B5AF-EC58-EB4F-0798-05F70AB49AAD}">
+			<ShortName>LEVEL_GENERAL</ShortName>
+			<Path>LEVEL_GENERAL.bnk</Path>
+			<Media>
+				<File Id="218422190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Cave_Loop_120bpm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Cave_Loop_120bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="246514766" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HOMECOMING - The Meadow.wav</ShortName>
+					<CachePath>SFX/HOMECOMING - The Meadow_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="540817431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Cave_Kiwi_120bpm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Cave_Kiwi_120bpm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="700659346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HOMECOMING - The Sword.wav</ShortName>
+					<CachePath>SFX/HOMECOMING - The Sword_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="759196080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Cave_Tortoise_120bpm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Cave_Tortoise_120bpm_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="317055371" Name="AUD_MUS_Game_Start" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="2435155766"/>
+							<MediaRefs>
+								<MediaRef Id="246514766"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="4122393694"/>
+							<MediaRefs>
+								<MediaRef Id="218422190"/>
+								<MediaRef Id="540817431"/>
+								<MediaRef Id="759196080"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="3762955427"/>
+							<MediaRefs>
+								<MediaRef Id="700659346"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2380841904" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1425512237" Name="AUD_MUS_Helped_Kiwi">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1562869527" Name="AUD_MUS_Area">
+					<States>
+						<State Id="491961918" Name="Forest"/>
+						<State Id="513390177" Name="BA3"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2435155766" Name="Meadow"/>
+						<State Id="3181406844" Name="Home"/>
+						<State Id="3762955427" Name="Tutorial"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2208174842" Name="AUD_MUS_Helped_Bat">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2380841904" Name="AUD_MUS_Helped_Tortoise">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="513390176" Type="User" Language="SFX" Hash="{7A2B318D-1860-A729-1CA7-5186552FC150}">
+			<ShortName>BA2</ShortName>
+			<Path>BA2.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="513390177" Type="User" Language="SFX" Hash="{B809EC7C-19CE-4A3B-8177-69B2A99B9FDD}">
+			<ShortName>BA3</ShortName>
+			<Path>BA3.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="513390179" Type="User" Language="SFX" Hash="{E93EB0E2-B79B-7E0D-415F-849E512552BF}">
+			<ShortName>BA1</ShortName>
+			<Path>BA1.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{B258A9CB-9B78-99D5-DC38-0D2D05EE44EB}">
+			<ShortName>PLAYER</ShortName>
+			<Path>PLAYER.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7EAFBFDD-FA15-BF42-8DF6-9C429946B8EA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,13 +124,75 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="2813969293" Name="ENVIRONMENT SFX"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
+				<Bus Id="4248982831" Name="PLAYER SFX"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2607556080" Name="Menu"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1425512237" Name="AUD_MUS_Helped_Kiwi">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1562869527" Name="AUD_MUS_Area">
+					<States>
+						<State Id="491961918" Name="Forest"/>
+						<State Id="513390177" Name="BA3"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2435155766" Name="Meadow"/>
+						<State Id="3181406844" Name="Home"/>
+						<State Id="3762955427" Name="Tutorial"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2208174842" Name="AUD_MUS_Helped_Bat">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2380841904" Name="AUD_MUS_Helped_Tortoise">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" Language="SFX" Hash="{3CD3933C-1AE4-8675-075C-2998FC974B9A}">
-			<ShortName>test</ShortName>
-			<Path>test.bnk</Path>
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{A0039831-507A-BA11-CE01-2B47236D938C}">
+			<ShortName>GLOBAL</ShortName>
+			<Path>GLOBAL.bnk</Path>
+			<Events>
+				<Event Id="2907054036" Name="AUD_GLOB_Game_Pause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3056393030" Name="AUD_GLOB_Game_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4066955427" Name="AUD_GLOB_Game_Unpause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{4DAAF1AA-AC05-2700-7B3E-41076F4BB1CA}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2607556080" Type="User" Language="SFX" Hash="{9B0A6AB2-159A-9AE8-539E-8885E447FDA8}">
+			<ShortName>MENU</ShortName>
+			<Path>MENU.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3181406844" Type="User" Language="SFX" Hash="{418C97BF-0F35-F9FB-BD98-BAD1BA6B4943}">
+			<ShortName>HOME</ShortName>
+			<Path>HOME.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3762955427" Type="User" Language="SFX" Hash="{0D8B86CB-09F5-4F07-D83D-A8E49D6BD50E}">
+			<ShortName>TUTORIAL</ShortName>
+			<Path>TUTORIAL.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{025E7E7A-BC27-F5DA-E592-28EA2F3D90A1}</FileHash>
+	<FileHash>{2789BE72-ACC4-877A-2838-6843F08F15C5}</FileHash>
 </SoundBanksInfo>

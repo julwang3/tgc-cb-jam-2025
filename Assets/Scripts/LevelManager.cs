@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -60,6 +61,10 @@ public class LevelManager : MonoBehaviour
 
     IEnumerator Transition(string sceneName)
     {
+        if (LevelAudio.Instance && !LevelAudio.Instance.gameObject.IsDestroyed())
+        {
+            LevelAudio.Instance.OnLevelUnload();
+        }
         yield return StartCoroutine(FadeToBlack());
 
         SceneManager.LoadScene(sceneName);

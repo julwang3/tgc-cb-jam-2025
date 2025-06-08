@@ -58,16 +58,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{86A78F03-58AC-4FE8-967D-C277ECDD395E}" ShortID="152436465">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{F8A926AF-24AD-4D5E-91A3-A559AA4A254C}" ShortID="735643527">
 									<ReferenceList>
 										<Reference Name="Target">

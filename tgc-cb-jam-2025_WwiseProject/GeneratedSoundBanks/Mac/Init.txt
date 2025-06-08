@@ -1,5 +1,36 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1425512237	AUD_MUS_Helped_Kiwi			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Kiwi	
+	1562869527	AUD_MUS_Area			\Default Work Unit\AUD_MUS\AUD_MUS_Area	
+	2208174842	AUD_MUS_Helped_Bat			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Bat	
+	2380841904	AUD_MUS_Helped_Tortoise			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Tortoise	
+
+State	ID	Name	State Group			Notes
+	748895195	None	AUD_MUS_Helped_Kiwi			
+	979470758	Yes	AUD_MUS_Helped_Kiwi			
+	1668749452	No	AUD_MUS_Helped_Kiwi			
+	491961918	Forest	AUD_MUS_Area			
+	513390177	BA3	AUD_MUS_Area			
+	748895195	None	AUD_MUS_Area			
+	2435155766	Meadow	AUD_MUS_Area			
+	3181406844	Home	AUD_MUS_Area			
+	3762955427	Tutorial	AUD_MUS_Area			
+	4122393694	Cave	AUD_MUS_Area			
+	748895195	None	AUD_MUS_Helped_Bat			
+	979470758	Yes	AUD_MUS_Helped_Bat			
+	1668749452	No	AUD_MUS_Helped_Bat			
+	748895195	None	AUD_MUS_Helped_Tortoise			
+	979470758	Yes	AUD_MUS_Helped_Tortoise			
+	1668749452	No	AUD_MUS_Helped_Tortoise			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2607556080	Menu			\Default Work Unit\Menu	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	2813969293	ENVIRONMENT SFX			\Default Work Unit\Master Audio Bus\ENVIRONMENT SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+	4248982831	PLAYER SFX			\Default Work Unit\Master Audio Bus\PLAYER SFX	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
