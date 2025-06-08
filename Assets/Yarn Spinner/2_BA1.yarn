@@ -1,0 +1,10 @@
+title: BA1
+position: 0,0
+---
+Mouse: I remember this old camp. Raccoon, Sparrow, and Toad ate these suspicious mushrooms one day...and started throwing up. We had to stop and make camp until the others got better.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Now that I think about it...
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: ...I think it was Raccoon who gave them to the others. 
+<<PlaySound "AUD_DIA_Mouse">>
+===
