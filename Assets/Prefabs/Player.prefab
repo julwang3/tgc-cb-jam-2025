@@ -136,7 +136,7 @@ MonoBehaviour:
   MaxSpeed: 4.2
   JumpForce: 15
   JumpStart: 0.6
-  JumpCooldown: 0.325
+  JumpCooldown: 0.2
   DashDistance: 14
   DashTime: 0.25
   GroundedDistance: 1.6
@@ -225,7 +225,7 @@ PolygonCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 22b8b8a0a21eddc41a106e59ef2c1b99, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

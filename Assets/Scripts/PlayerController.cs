@@ -92,7 +92,11 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded)
             {
-                jumps = 0;
+                if (canJump)
+                {
+                    jumps = 0;
+                }
+                
                 animator.SetInteger("Jump", jumps);
             }
             // else if (jumps < 1)
@@ -104,9 +108,10 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (canMove && dashState == DashState.NotDashing && !InteractionSystem.Instance.IsInteractionRunning
+        if (canMove && dashState == DashState.NotDashing
             && !(PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused) 
-            && !(LevelManager.Instance && LevelManager.Instance.IsLoading))
+            && !(LevelManager.Instance && LevelManager.Instance.IsLoading)
+            && !(InteractionSystem.Instance && InteractionSystem.Instance.IsInteractionRunning))
         {
             Vector2 moveDirection = moveAction.ReadValue<Vector2>();
             if (moveDirection.x != 0.0f)
@@ -135,14 +140,13 @@ public class PlayerController : MonoBehaviour
     public void OnJump(CallbackContext ctx)
     {
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
-            && !InteractionSystem.Instance.IsInteractionRunning)
+            && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
         {
             if (!canJump || dashState != DashState.NotDashing) { return; }
 
             if (jumps == 0 || (jumps == 1 && HasDoubleJump))
             {
-                jumps++;
-                animator.SetInteger("Jump", jumps);
+                animator.SetInteger("Jump", jumps+1);
                 StartCoroutine(StartJumpCooldown());
             }
         }
@@ -153,7 +157,7 @@ public class PlayerController : MonoBehaviour
         canJump = false;
 
         // Crouch to jump
-        if (jumps == 1 && isGrounded)
+        if (jumps == 0 && isGrounded)
         {
             canMove = false;
 
@@ -168,6 +172,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocityY = JumpForce;
         yield return new WaitForSeconds(JumpCooldown);
 
+        jumps++;
         canJump = true;
 
         // Jump finished
@@ -184,7 +189,7 @@ public class PlayerController : MonoBehaviour
     public void OnDashStart(CallbackContext ctx)
     {
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
-            && !InteractionSystem.Instance.IsInteractionRunning)
+            && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
         {
             if (HasDash && dashState == DashState.NotDashing)
             {
@@ -198,7 +203,7 @@ public class PlayerController : MonoBehaviour
     public void OnDashCharged(CallbackContext ctx)
     {
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
-            && !InteractionSystem.Instance.IsInteractionRunning)
+            && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
         {
             if (dashState == DashState.Charging)
             {
@@ -217,7 +222,7 @@ public class PlayerController : MonoBehaviour
     public void OnDashRelease(CallbackContext ctx)
     {
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
-            && !InteractionSystem.Instance.IsInteractionRunning)
+            && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
         {
             // Charged enough
             if (dashState == DashState.Charged)
