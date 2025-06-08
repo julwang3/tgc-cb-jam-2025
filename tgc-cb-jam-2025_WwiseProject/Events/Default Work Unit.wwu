@@ -77,7 +77,7 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
 										<Property Name="FadeInCurve" Type="int16" Value="5"/>
-										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
 									</PropertyList>
 									<ReferenceList>
@@ -97,6 +97,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Menu" ID="{99586FB1-C6EA-4044-9844-945F2F402950}" WorkUnitID="{1DF0B782-90C9-4300-AB58-4A6BFEC769C8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A6A5A4F5-AAFC-4B57-B1C1-8B97166FE869}" ShortID="189176930">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -169,7 +179,7 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
 										<Property Name="FadeInCurve" Type="int16" Value="5"/>
-										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -185,7 +195,7 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="26"/>
 										<Property Name="FadeInCurve" Type="int16" Value="5"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
 										<Property Name="Lowpass" Type="int16" Value="55"/>
 									</PropertyList>
 									<ReferenceList>
@@ -207,6 +217,36 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MUSIC" ID="{D01C9DB6-ABCA-4516-B627-9005F02114B1}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_GLOB_Level_Transition" ID="{28D853FD-0243-4907-B5A3-CAF2734B7964}">
+							<ChildrenList>
+								<Action Name="" ID="{2E35DAE5-52CE-46E0-9281-817834DB5A7F}" ShortID="130136331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="FadeInCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{589ACAF7-E008-4336-A092-CD5266648A32}" ShortID="568081163">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeInCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
