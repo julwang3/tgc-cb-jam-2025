@@ -25,9 +25,9 @@ Bat: AHHHH!! Oh! It's just a mouse…. you scared me!! It's so dark in here... I
     <<PlaySound "AUD_DIA_Bat">>
     Bat: My mom and uncle told me to follow the torches, but it looks like they all went out.
 
--> Mouse: I've got something that might help.
+-> Mouse: I've got this acorn lamp here, if you need a warm light to help you find your family.
     <<PlaySound "AUD_DIA_Mouse">>
-    Mouse: I've got something that might help.
+    Mouse: I've got this acorn lamp here, if you need a warm light to help you find your family.
     // Yes lamp
     <<PlaySound "AUD_DIA_Bat">>
     Bat: Wow... are you sure you dont need this? .... won't you be scared..?
