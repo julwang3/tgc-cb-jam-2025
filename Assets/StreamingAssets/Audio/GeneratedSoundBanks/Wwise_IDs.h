@@ -79,6 +79,18 @@ namespace AK
             } // namespace STATE
         } // namespace AUD_MUS_HELPED_TORTOISE
 
+        namespace AUD_MUS_PREAMBLE
+        {
+            static const AkUniqueID GROUP = 3411182576U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NO = 1668749452U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID YES = 979470758U;
+            } // namespace STATE
+        } // namespace AUD_MUS_PREAMBLE
+
     } // namespace STATES
 
     namespace GAME_PARAMETERS

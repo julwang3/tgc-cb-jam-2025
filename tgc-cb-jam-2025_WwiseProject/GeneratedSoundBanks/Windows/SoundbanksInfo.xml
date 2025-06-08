@@ -9,10 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{854C77AB-4ACC-7533-8439-21664AACF6EA}">
+		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{0D58E4C5-3BA2-F1EF-564E-1FF42A3450FE}">
 			<ShortName>LEVEL_GENERAL</ShortName>
 			<Path>LEVEL_GENERAL.bnk</Path>
 			<Media>
+				<File Id="2932055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Tutorial_Strings_90bpm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Tutorial_Strings_90bpm_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="4974575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Mouse_3.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Mouse_3_818F3B66.wem</CachePath>
@@ -28,6 +32,10 @@
 				<File Id="101391054" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Kiwi_2.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Kiwi_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="134170867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Tutorial_Loop_90bpm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Tutorial_Loop_90bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="136752868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Kiwi_1.wav</ShortName>
@@ -49,13 +57,13 @@
 					<ShortName>AUD_DIA_Mouse_1.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Mouse_1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="246514766" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HOMECOMING - The Meadow.wav</ShortName>
-					<CachePath>SFX/HOMECOMING - The Meadow_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="402414549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Mouse_2.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Mouse_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="407304084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Meadow_Loop_110pm.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Meadow_Loop_110pm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="415448254" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Bat_2.wav</ShortName>
@@ -84,10 +92,6 @@
 				<File Id="696195780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Bat_3.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Bat_3_818F3B66.wem</CachePath>
-				</File>
-				<File Id="700659346" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HOMECOMING - The Sword.wav</ShortName>
-					<CachePath>SFX/HOMECOMING - The Sword_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="730019814" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Bat_1.wav</ShortName>
@@ -146,7 +150,7 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="2435155766"/>
 							<MediaRefs>
-								<MediaRef Id="246514766"/>
+								<MediaRef Id="407304084"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -167,7 +171,8 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="3762955427"/>
 							<MediaRefs>
-								<MediaRef Id="700659346"/>
+								<MediaRef Id="2932055"/>
+								<MediaRef Id="134170867"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -231,7 +236,7 @@
 			<ShortName>PLAYER</ShortName>
 			<Path>PLAYER.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DBD1A970-FB54-ACED-445E-A015FB1633AF}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9E9E0C15-A3C4-8CEB-4C83-48440E9E318A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -287,6 +292,13 @@
 						<State Id="1668749452" Name="No"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="3411182576" Name="AUD_MUS_Preamble">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{1CF02DA0-4001-3EBB-6314-19AEEB778AFA}">
@@ -323,5 +335,5 @@
 			<Path>CAVE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{29B5B083-4EC3-3034-CAFD-60F943555F7A}</FileHash>
+	<FileHash>{06688AEE-36C0-26C5-B3B8-DBD83662ED08}</FileHash>
 </SoundBanksInfo>

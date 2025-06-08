@@ -3,6 +3,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1562869527	AUD_MUS_Area			\Default Work Unit\AUD_MUS\AUD_MUS_Area	
 	2208174842	AUD_MUS_Helped_Bat			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Bat	
 	2380841904	AUD_MUS_Helped_Tortoise			\Default Work Unit\AUD_MUS\AUD_MUS_Helped\AUD_MUS_Helped_Tortoise	
+	3411182576	AUD_MUS_Preamble			\Default Work Unit\AUD_MUS\AUD_MUS_Preamble	
 
 State	ID	Name	State Group			Notes
 	748895195	None	AUD_MUS_Helped_Kiwi			
@@ -21,6 +22,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	AUD_MUS_Helped_Tortoise			
 	979470758	Yes	AUD_MUS_Helped_Tortoise			
 	1668749452	No	AUD_MUS_Helped_Tortoise			
+	748895195	None	AUD_MUS_Preamble			
+	979470758	Yes	AUD_MUS_Preamble			
+	1668749452	No	AUD_MUS_Preamble			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	988953028	SfxVolume			\Default Work Unit\SfxVolume	

@@ -46,6 +46,13 @@
 								</StateGroup>
 							</ChildrenList>
 						</Folder>
+						<StateGroup Name="AUD_MUS_Preamble" ID="{3615E053-D0F8-4199-BFF6-29B9E8F750BA}">
+							<ChildrenList>
+								<State Name="None" ID="{F8E75A0C-3B9A-4063-B837-E5B69A719439}"/>
+								<State Name="Yes" ID="{DC5FE8FE-B789-4447-9331-D8819A0366AF}"/>
+								<State Name="No" ID="{DC6BA909-79C5-414E-BE99-BD1F7F6ABB48}"/>
+							</ChildrenList>
+						</StateGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

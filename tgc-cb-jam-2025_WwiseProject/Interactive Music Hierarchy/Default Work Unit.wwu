@@ -73,6 +73,11 @@
 								<Folder Name="AUD_MUS_Tutorial" ID="{1DBD4E5F-1A5D-405A-ACB2-BCF885470363}" ShortID="570309690">
 									<ChildrenList>
 										<MusicPlaylistContainer Name="AUD_MUS_Tutorial_Loop" ID="{AD7E37F9-4CFA-4130-B0C5-246963A13848}" ShortID="439108527">
+											<PropertyList>
+												<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+												<Property Name="Tempo" Type="Real64" Value="90"/>
+												<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
@@ -84,14 +89,14 @@
 													<Custom>
 														<MusicPlaylistItem Name="" ID="{169E7D63-FA88-4B5C-BF9D-BA9F82A55252}" ShortID="779008757">
 															<ChildrenList>
-																<MusicPlaylistItem Name="" ID="{BC51E84B-B42F-4B2B-BC33-18278276A6D6}" ShortID="461237871">
+																<MusicPlaylistItem Name="" ID="{BA8B26DD-38E2-4340-AB6C-9BF2645F5841}" ShortID="564925317">
 																	<PropertyList>
 																		<Property Name="LoopCount" Type="int16" Value="0"/>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Segment">
-																			<ObjectRef Name="HOMECOMING - The Sword" ID="{D70C8176-FD2D-44FF-890A-17A877491618}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+																			<ObjectRef Name="AUD_MUS_Tutorial_Loop_90bpm" ID="{7AC728CC-6F33-4930-961E-E257304A66D0}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
 																		</Reference>
 																	</ReferenceList>
 																</MusicPlaylistItem>
@@ -116,14 +121,9 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicSegment Name="HOMECOMING - The Sword" ID="{D70C8176-FD2D-44FF-890A-17A877491618}" ShortID="992226310">
+												<MusicSegment Name="AUD_MUS_Tutorial_Loop_90bpm" ID="{7AC728CC-6F33-4930-961E-E257304A66D0}" ShortID="415642602">
 													<PropertyList>
-														<Property Name="EndPosition" Type="Real64" Value="69536"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>10</Value>
-															</ValueList>
-														</Property>
+														<Property Name="EndPosition" Type="Real64" Value="72166.6666666667"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -134,14 +134,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<MusicTrack Name="HOMECOMING - The Sword" ID="{5C2AC5E2-99F9-4E29-874D-6FAB0627229E}" ShortID="977026053">
+														<MusicTrack Name="AUD_MUS_Tutorial_Loop_90bpm" ID="{7179DF66-0D78-4503-860F-C47AC37C2EEB}" ShortID="169706823">
 															<ReferenceList>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
 																</Reference>
 																<Reference Name="TransitionRoot">
 																	<Custom>
-																		<MusicTransition Name="Root" ID="{D9205C38-7A82-4953-94E0-22EF2E79FD45}">
+																		<MusicTransition Name="Root" ID="{1AC1D83F-93A7-47F3-B6C1-F52393D7E371}">
 																			<PropertyList>
 																				<Property Name="IsFolder" Type="bool" Value="True"/>
 																			</PropertyList>
@@ -151,11 +151,11 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="HOMECOMING - The Sword" ID="{479FA99A-8B54-4F77-898A-B21B3F3F31DA}">
+																<AudioFileSource Name="AUD_MUS_Tutorial_Loop_90bpm" ID="{387B607F-704E-4529-8F0C-BD5A8B5B282E}">
 																	<Language>SFX</Language>
-																	<AudioFile>HOMECOMING - The Sword.wav</AudioFile>
+																	<AudioFile>AUD_MUS_Tutorial_Loop_90bpm.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="700659346"/>
+																		<MediaID ID="134170867"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
@@ -163,18 +163,91 @@
 																<ObjectList Name="Sequences">
 																	<Reference>
 																		<Local>
-																			<MusicTrackSequence Name="" ID="{4F6F078E-3D0A-419E-BAF8-A52F04F438AD}">
+																			<MusicTrackSequence Name="" ID="{BD50844D-EACD-43D0-BECE-EFF1AD2070A6}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<Reference>
 																							<Local>
-																								<MusicClip Name="HOMECOMING - The Sword" ID="{1578B091-47BE-4A46-A0FD-6D5E861C36E5}">
+																								<MusicClip Name="AUD_MUS_Tutorial_Loop_90bpm" ID="{162D9B67-0194-49FE-9211-F490E9A4A5A9}">
 																									<PropertyList>
-																										<Property Name="EndTrimOffset" Type="Real64" Value="65536"/>
+																										<Property Name="EndTrimOffset" Type="Real64" Value="68166.6666666667"/>
 																										<Property Name="FadeInMode" Type="int16" Value="0"/>
 																										<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																									</PropertyList>
-																									<AudioSourceRef Name="HOMECOMING - The Sword" ID="{479FA99A-8B54-4F77-898A-B21B3F3F31DA}"/>
+																									<AudioSourceRef Name="AUD_MUS_Tutorial_Loop_90bpm" ID="{387B607F-704E-4529-8F0C-BD5A8B5B282E}"/>
+																								</MusicClip>
+																							</Local>
+																						</Reference>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																		</Local>
+																	</Reference>
+																</ObjectList>
+															</ObjectLists>
+														</MusicTrack>
+														<MusicTrack Name="AUD_MUS_Tutorial_Strings_90bpm" ID="{83ABF2D2-43DE-4988-B22C-23DCAC49C32F}" ShortID="835889946">
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+																<Reference Name="TransitionRoot">
+																	<Custom>
+																		<MusicTransition Name="Root" ID="{29AA3F33-37B8-4152-B59C-CF762C12056D}">
+																			<PropertyList>
+																				<Property Name="IsFolder" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<TransitionInfo/>
+																		</MusicTransition>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_MUS_Tutorial_Strings_90bpm" ID="{B5137885-1B38-442A-B572-66FC3E8EE835}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_MUS_Tutorial_Strings_90bpm.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="2932055"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<StateInfo>
+																<StateGroupList>
+																	<StateGroupInfo MusicSyncType="2">
+																		<StateGroupRef Name="AUD_MUS_Preamble" ID="{3615E053-D0F8-4199-BFF6-29B9E8F750BA}"/>
+																	</StateGroupInfo>
+																</StateGroupList>
+																<CustomStateList>
+																	<CustomState>
+																		<StateRef Name="No" ID="{DC6BA909-79C5-414E-BE99-BD1F7F6ABB48}"/>
+																		<CustomState Name="" ID="{C7CE1C0B-F06E-479B-8488-1B886F9D0A30}" ShortID="860061088">
+																			<PropertyList>
+																				<Property Name="Volume" Type="Real64" Value="-108"/>
+																			</PropertyList>
+																		</CustomState>
+																	</CustomState>
+																	<CustomState>
+																		<StateRef Name="Yes" ID="{DC5FE8FE-B789-4447-9331-D8819A0366AF}"/>
+																		<CustomState Name="" ID="{F7B3E3FE-86A3-4FD1-8F65-10BE6C0D142E}" ShortID="785117905"/>
+																	</CustomState>
+																</CustomStateList>
+															</StateInfo>
+															<ObjectLists>
+																<ObjectList Name="Sequences">
+																	<Reference>
+																		<Local>
+																			<MusicTrackSequence Name="" ID="{E0401717-3F35-4B2A-B523-933316AF2405}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<Reference>
+																							<Local>
+																								<MusicClip Name="AUD_MUS_Tutorial_Strings_90bpm" ID="{C0F68C99-E22C-4BF8-9261-BC2E2811245E}">
+																									<PropertyList>
+																										<Property Name="EndTrimOffset" Type="Real64" Value="66801.3333333333"/>
+																										<Property Name="FadeInMode" Type="int16" Value="0"/>
+																										<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																									</PropertyList>
+																									<AudioSourceRef Name="AUD_MUS_Tutorial_Strings_90bpm" ID="{B5137885-1B38-442A-B572-66FC3E8EE835}"/>
 																								</MusicClip>
 																							</Local>
 																						</Reference>
@@ -191,15 +264,15 @@
 														<ObjectList Name="Cues">
 															<Reference>
 																<Local>
-																	<MusicCue Name="Entry Cue" ID="{5FDD33D3-BDFC-443D-9B64-1C3BE7EFF41E}"/>
+																	<MusicCue Name="Entry Cue" ID="{19E1B13C-051B-497F-BBD1-2D8051571FFA}"/>
 																</Local>
 															</Reference>
 															<Reference>
 																<Local>
-																	<MusicCue Name="Exit Cue" ID="{2F89C965-C373-4998-A968-D7C793EC107F}">
+																	<MusicCue Name="Exit Cue" ID="{1C363347-3D67-4289-AEDC-5E8348D6E27F}">
 																		<PropertyList>
 																			<Property Name="CueType" Type="int16" Value="1"/>
-																			<Property Name="TimeMs" Type="Real64" Value="65536"/>
+																			<Property Name="TimeMs" Type="Real64" Value="64000"/>
 																		</PropertyList>
 																	</MusicCue>
 																</Local>
@@ -214,6 +287,11 @@
 								<Folder Name="AUD_MUS_Meadow" ID="{D7FEFDE5-410B-49FC-9129-6D8290166AAE}" ShortID="367792894">
 									<ChildrenList>
 										<MusicPlaylistContainer Name="AUD_MUS_Meadow_Loop" ID="{C3F04E70-C42F-4911-8F52-9185DDD2D563}" ShortID="530614198">
+											<PropertyList>
+												<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+												<Property Name="Tempo" Type="Real64" Value="110"/>
+												<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
@@ -225,14 +303,14 @@
 													<Custom>
 														<MusicPlaylistItem Name="" ID="{93A42429-3D33-4303-B287-74D4E99A0273}" ShortID="1005568636">
 															<ChildrenList>
-																<MusicPlaylistItem Name="" ID="{58C743B0-B089-4C7D-9756-FA554288E349}" ShortID="775261322">
+																<MusicPlaylistItem Name="" ID="{88132B05-35FB-4715-90D1-C7845B1D88A6}" ShortID="435099385">
 																	<PropertyList>
 																		<Property Name="LoopCount" Type="int16" Value="0"/>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Segment">
-																			<ObjectRef Name="HOMECOMING - The Meadow" ID="{C6422EB4-A6B0-4E1E-9BAC-5E18854CED0E}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+																			<ObjectRef Name="AUD_MUS_Meadow_Loop_110pm" ID="{E9B65E8F-B1F2-42F7-BFE7-3DBF6CED4257}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
 																		</Reference>
 																	</ReferenceList>
 																</MusicPlaylistItem>
@@ -257,9 +335,9 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicSegment Name="HOMECOMING - The Meadow" ID="{C6422EB4-A6B0-4E1E-9BAC-5E18854CED0E}" ShortID="573186736">
+												<MusicSegment Name="AUD_MUS_Meadow_Loop_110pm" ID="{E9B65E8F-B1F2-42F7-BFE7-3DBF6CED4257}" ShortID="749115908">
 													<PropertyList>
-														<Property Name="EndPosition" Type="Real64" Value="36133.3333333333"/>
+														<Property Name="EndPosition" Type="Real64" Value="43590.6666666667"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -270,21 +348,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<MusicTrack Name="HOMECOMING - The Meadow" ID="{AA96EA26-1708-470F-A61A-BCED80D8A702}" ShortID="339073928">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>10</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
+														<MusicTrack Name="AUD_MUS_Meadow_Loop_110pm" ID="{1680134F-5CF1-47D0-BFFF-AB302430738F}" ShortID="636535442">
 															<ReferenceList>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
 																</Reference>
 																<Reference Name="TransitionRoot">
 																	<Custom>
-																		<MusicTransition Name="Root" ID="{F7EEC2D6-DCBF-4DB2-B140-ECAF56B3CB9C}">
+																		<MusicTransition Name="Root" ID="{90AB3184-1E5C-498A-9A90-27A627E9BC69}">
 																			<PropertyList>
 																				<Property Name="IsFolder" Type="bool" Value="True"/>
 																			</PropertyList>
@@ -294,11 +365,11 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="HOMECOMING - The Meadow" ID="{95EEE927-C31E-4240-8E85-0F70639D8EA2}">
+																<AudioFileSource Name="AUD_MUS_Meadow_Loop_110pm" ID="{B0045D76-F8A4-420D-BE27-6D5794D4C6FE}">
 																	<Language>SFX</Language>
-																	<AudioFile>HOMECOMING - The Meadow.wav</AudioFile>
+																	<AudioFile>AUD_MUS_Meadow_Loop_110pm.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="246514766"/>
+																		<MediaID ID="407304084"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
@@ -306,19 +377,18 @@
 																<ObjectList Name="Sequences">
 																	<Reference>
 																		<Local>
-																			<MusicTrackSequence Name="" ID="{488E9D48-6F19-4081-92A6-4C2CB6A956FF}">
+																			<MusicTrackSequence Name="" ID="{3A6C5BE1-148D-4B35-99B9-371A50D9186E}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<Reference>
 																							<Local>
-																								<MusicClip Name="HOMECOMING - The Meadow" ID="{4F6EFB8D-FB6B-491A-B6DF-27AC37236791}">
+																								<MusicClip Name="AUD_MUS_Meadow_Loop_110pm" ID="{80CB97C6-FD94-4BD1-9A21-6434A3691779}">
 																									<PropertyList>
-																										<Property Name="EndTrimOffset" Type="Real64" Value="34133.3333333333"/>
+																										<Property Name="EndTrimOffset" Type="Real64" Value="43590.6666666667"/>
 																										<Property Name="FadeInMode" Type="int16" Value="0"/>
 																										<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																										<Property Name="PlayAt" Type="Real64" Value="2000"/>
 																									</PropertyList>
-																									<AudioSourceRef Name="HOMECOMING - The Meadow" ID="{95EEE927-C31E-4240-8E85-0F70639D8EA2}"/>
+																									<AudioSourceRef Name="AUD_MUS_Meadow_Loop_110pm" ID="{B0045D76-F8A4-420D-BE27-6D5794D4C6FE}"/>
 																								</MusicClip>
 																							</Local>
 																						</Reference>
@@ -335,19 +405,15 @@
 														<ObjectList Name="Cues">
 															<Reference>
 																<Local>
-																	<MusicCue Name="Entry Cue" ID="{6748B4E4-9527-4CD6-9D65-5DCEFC8C6ED6}">
-																		<PropertyList>
-																			<Property Name="TimeMs" Type="Real64" Value="2000"/>
-																		</PropertyList>
-																	</MusicCue>
+																	<MusicCue Name="Entry Cue" ID="{1AB21BC4-C738-4A9D-A6EB-864E70BF6E8D}"/>
 																</Local>
 															</Reference>
 															<Reference>
 																<Local>
-																	<MusicCue Name="Exit Cue" ID="{AB76907F-A766-4772-88F5-1C7ED074B8F9}">
+																	<MusicCue Name="Exit Cue" ID="{141248EE-8D8F-45DD-ACFB-F79471939C62}">
 																		<PropertyList>
 																			<Property Name="CueType" Type="int16" Value="1"/>
-																			<Property Name="TimeMs" Type="Real64" Value="36133.3333333333"/>
+																			<Property Name="TimeMs" Type="Real64" Value="39272.7272727273"/>
 																		</PropertyList>
 																	</MusicCue>
 																</Local>
