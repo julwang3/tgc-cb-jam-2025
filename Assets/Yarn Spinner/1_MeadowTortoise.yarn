@@ -14,7 +14,7 @@ Tortoise: I can't get across, and even if I tried, I'll be late late late!
     -> Mouse: All that matters is your best.
 // Yes boots
 -> Mouse: I've got something that can help!
-    <<GiveDash DialogueSystem>>
+    <<GiveDash "Dialogue System">>
     Tortoise: ...Are you sure? I'm sure I can manage without them.
     -> Mouse: I've no use for them anyway.
 

@@ -7,12 +7,15 @@ Kiwi: I feel so lonely...
     // No scarf
     -> Mouse: Are they really your friends then?
         Kiwi: Well.... I guess you're right.. maybe I'll be stuck here alone....
-        Mouse: I hope that they'll find their way to you, lad.
+        -> Mouse: I hope that they'll find their way to you, lad.
         Kiwi: I hope so too... I really wanted to try the new seed blend my friends have been raving about.
     // Yes scarf
     -> Mouse: Maybe there's another way to get up there, I'll help!
+        <<GiveDoubleJump "Dialogue System">>
         Kiwi: Really I can have this? Are you sure this'll work?
-        Mouse: I think these will suit you better than me. Give it a try!
+        -> Mouse: I think these will suit you better than me. Give it a try!
+        <<KiwiFly "Dialogue Trigger">>
         Kiwi: I can fly! I can fly! No it's better than flying!! Thank you, Sir Mouse!
 -> Mouse: (Ignore.)
+    <<IgnoreKiwi "Dialogue Trigger">>
 ===

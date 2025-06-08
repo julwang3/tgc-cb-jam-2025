@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Playables;
+using Yarn.Unity;
 
 [RequireComponent(typeof(Collider2D))]
 public class DialogueTrigger : MonoBehaviour
@@ -12,13 +14,14 @@ public class DialogueTrigger : MonoBehaviour
         Vision
     };
 
-    [SerializeField] private string dialogueName;
+    [SerializeField] protected string dialogueName;
     [SerializeField] private PlayableDirector givePlayableDirector;
     [SerializeField] private Ability abilityToGive;
+    [SerializeField] private UnityEvent onGiveAbility;
 
     private PlayerController player;
     private bool isTriggered = false;
-    private bool isRunning = false;
+    protected bool isRunning = false;
 
     public bool IsInteractionRunning => isRunning;
 
@@ -39,7 +42,7 @@ public class DialogueTrigger : MonoBehaviour
         InteractionSystem.Instance.RemoveDialogueTrigger(this);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (!isTriggered && collision.gameObject.GetComponent<PlayerController>() != null)
         {
@@ -52,10 +55,11 @@ public class DialogueTrigger : MonoBehaviour
         }
     }
 
-    private void OnDialogueComplete()
+    protected void OnDialogueComplete()
     {
         InteractionSystem.DialogueRunner.onDialogueComplete.RemoveListener(OnDialogueComplete);
 
+        // Play playable director
         if (givePlayableDirector && ((abilityToGive == Ability.Dash && !player.HasDash)
             || (abilityToGive == Ability.DoubleJump && !player.HasDoubleJump)
             || (abilityToGive == Ability.Vision && !player.HasVision)))
@@ -69,12 +73,18 @@ public class DialogueTrigger : MonoBehaviour
         }
     }
 
-    private IEnumerator WaitForInteractionFinish()
+    protected IEnumerator WaitForInteractionFinish()
     {
-        while (givePlayableDirector.state == PlayState.Playing)
+        while (givePlayableDirector.state == PlayState.Playing || InteractionSystem.DialogueRunner.IsDialogueRunning)
         {
             yield return null;
         }
+        transform.parent.gameObject.SetActive(false);
         isRunning = false;
+    }
+
+    public void GiveAbility()
+    {
+        onGiveAbility.Invoke();
     }
 }

@@ -62,17 +62,29 @@ public class InteractionSystem : MonoBehaviour
     public void GiveDash()
     {
         PlayerController.Instance.HasDash = false;
+        for (int i = 0; i < dialogueTriggers.Count; i++)
+        {
+            dialogueTriggers[i].GiveAbility();
+        }
     }
 
     [YarnCommand("GiveDoubleJump")]
     public void GiveDoubleJump()
     {
         PlayerController.Instance.HasDoubleJump = false;
+        for (int i = 0; i < dialogueTriggers.Count; i++)
+        {
+            dialogueTriggers[i].GiveAbility();
+        }
     }
 
     [YarnCommand("GiveVision")]
     public void GiveVision()
     {
         PlayerController.Instance.HasVision = false;
+        for (int i = 0; i < dialogueTriggers.Count; i++)
+        {
+            dialogueTriggers[i].GiveAbility();
+        }
     }
 }
