@@ -12,6 +12,10 @@ public class InteractionSystem : MonoBehaviour
     private List<DialogueTrigger> dialogueTriggers;
     private bool isRunning = false;
 
+    [SerializeField] AK.Wwise.State tortoiseHelped;
+    [SerializeField] AK.Wwise.State kiwiHelped;
+    [SerializeField] AK.Wwise.State batHelped;
+
     private void Awake()
     {
         if (Instance == null)
@@ -62,6 +66,7 @@ public class InteractionSystem : MonoBehaviour
     public void GiveDash()
     {
         PlayerController.Instance.HasDash = false;
+        tortoiseHelped.SetValue();
         for (int i = 0; i < dialogueTriggers.Count; i++)
         {
             dialogueTriggers[i].GiveAbility();
@@ -72,6 +77,7 @@ public class InteractionSystem : MonoBehaviour
     public void GiveDoubleJump()
     {
         PlayerController.Instance.HasDoubleJump = false;
+        kiwiHelped.SetValue();
         for (int i = 0; i < dialogueTriggers.Count; i++)
         {
             dialogueTriggers[i].GiveAbility();
@@ -82,6 +88,7 @@ public class InteractionSystem : MonoBehaviour
     public void GiveVision()
     {
         PlayerController.Instance.HasVision = false;
+        batHelped.SetValue();
         for (int i = 0; i < dialogueTriggers.Count; i++)
         {
             dialogueTriggers[i].GiveAbility();

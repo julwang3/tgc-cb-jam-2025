@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{E49830A3-FC14-71F5-EDB6-0AC9E9B0157F}">
+		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{854C77AB-4ACC-7533-8439-21664AACF6EA}">
 			<ShortName>LEVEL_GENERAL</ShortName>
 			<Path>LEVEL_GENERAL.bnk</Path>
 			<Media>
@@ -141,9 +141,6 @@
 				</Event>
 				<Event Id="1876713613" Name="AUD_GLOB_Dialogue_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="39389702" Name="AUD_GLOB_Dialogue_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2907054036" Name="AUD_GLOB_Game_Pause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3056393030" Name="AUD_GLOB_Game_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4066955427" Name="AUD_GLOB_Game_Unpause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="317055371" Name="AUD_MUS_Game_Start" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -213,6 +210,10 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="491961918" Type="User" Language="SFX" Hash="{1BB75D03-CD27-2A19-8924-F51CEA1BEBB0}">
+			<ShortName>FOREST</ShortName>
+			<Path>FOREST.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="513390176" Type="User" Language="SFX" Hash="{7A2B318D-1860-A729-1CA7-5186552FC150}">
 			<ShortName>BA2</ShortName>
@@ -288,12 +289,10 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{97B659F9-5596-B0E1-37D3-279A3B2D808E}">
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{1CF02DA0-4001-3EBB-6314-19AEEB778AFA}">
 			<ShortName>GLOBAL</ShortName>
 			<Path>GLOBAL.bnk</Path>
 			<Events>
-				<Event Id="1876713613" Name="AUD_GLOB_Dialogue_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="39389702" Name="AUD_GLOB_Dialogue_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2907054036" Name="AUD_GLOB_Game_Pause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3056393030" Name="AUD_GLOB_Game_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4066955427" Name="AUD_GLOB_Game_Unpause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -302,6 +301,10 @@
 		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{4DAAF1AA-AC05-2700-7B3E-41076F4BB1CA}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2435155766" Type="User" Language="SFX" Hash="{1EBA2F58-200F-2FC2-068C-459D63152AE0}">
+			<ShortName>MEADOW</ShortName>
+			<Path>MEADOW.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="2607556080" Type="User" Language="SFX" Hash="{9B0A6AB2-159A-9AE8-539E-8885E447FDA8}">
 			<ShortName>MENU</ShortName>
@@ -315,6 +318,10 @@
 			<ShortName>TUTORIAL</ShortName>
 			<Path>TUTORIAL.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{1B901765-FCE9-FF86-74DC-2B5337D3F710}">
+			<ShortName>CAVE</ShortName>
+			<Path>CAVE.bnk</Path>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CAF78606-B647-76A0-6018-F497A2DC0247}</FileHash>
+	<FileHash>{9465ADBC-82B8-A851-AA49-F6EE7739CCCB}</FileHash>
 </SoundBanksInfo>

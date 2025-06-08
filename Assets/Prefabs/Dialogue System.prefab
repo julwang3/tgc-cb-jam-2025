@@ -349,7 +349,7 @@ MonoBehaviour:
   nextLineAxis: Cancel
   cancelDialogueAxis: 
   hurryUpLineKeyCode: 32
-  nextLineKeyCode: 27
+  nextLineKeyCode: 32
   cancelDialogueKeyCode: 0
 --- !u!1 &4406118840998505852
 GameObject:
@@ -452,6 +452,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf772d625a2e443528bf29474446be7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tortoiseHelped:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fce591899cb2af64588db0dcc346aa83, type: 2}
+  kiwiHelped:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7fb6eff4d39f51d409e6746e9add9040, type: 2}
+  batHelped:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8212ef90e396b7243b43e5efec0351a9, type: 2}
 --- !u!1 &4816254297792147849
 GameObject:
   m_ObjectHideFlags: 0

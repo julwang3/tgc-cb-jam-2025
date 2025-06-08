@@ -95,9 +95,12 @@ namespace AK
         static const AkUniqueID BA1 = 513390179U;
         static const AkUniqueID BA2 = 513390176U;
         static const AkUniqueID BA3 = 513390177U;
+        static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID FOREST = 491961918U;
         static const AkUniqueID GLOBAL = 1465331116U;
         static const AkUniqueID HOME = 3181406844U;
         static const AkUniqueID LEVEL_GENERAL = 116707640U;
+        static const AkUniqueID MEADOW = 2435155766U;
         static const AkUniqueID MENU = 2607556080U;
         static const AkUniqueID PLAYER = 1069431850U;
         static const AkUniqueID TUTORIAL = 3762955427U;
