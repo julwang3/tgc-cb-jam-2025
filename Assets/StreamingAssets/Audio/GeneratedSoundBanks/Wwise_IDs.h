@@ -24,7 +24,6 @@ namespace AK
         static const AkUniqueID AUD_GLOB_GAME_UNPAUSE = 4066955427U;
         static const AkUniqueID AUD_GLOB_LEVEL_TRANSITION = 3895832421U;
         static const AkUniqueID AUD_MUS_GAME_START = 317055371U;
-        static const AkUniqueID AUD_MUS_MENU_START = 2515656128U;
         static const AkUniqueID AUD_SFX_DASH_CHARGE_READY = 4284596371U;
         static const AkUniqueID AUD_SFX_DASH_CHARGE_START = 4062706046U;
         static const AkUniqueID AUD_SFX_DASH_EXECUTE = 254493152U;
@@ -45,6 +44,7 @@ namespace AK
                 static const AkUniqueID FOREST = 491961918U;
                 static const AkUniqueID HOME = 3181406844U;
                 static const AkUniqueID MEADOW = 2435155766U;
+                static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID TUTORIAL = 3762955427U;
             } // namespace STATE

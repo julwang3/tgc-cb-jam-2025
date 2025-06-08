@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2515656128	AUD_MUS_Menu_Start			\Default Work Unit\AUD_MUS\AUD_MUS_Menu_Start	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	871818412	AUD_MUS_Menu_Celeste	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_MUS_Menu_Celeste_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\AUD_MUS\AUD_MUS_Menu_Loop\AUD_MUS_Menu_Celeste\AUD_MUS_Menu_Celeste		12583008
-

@@ -18,6 +18,7 @@
 								<State Name="Forest" ID="{9549A0BC-4B86-410A-AC99-B3D71978176A}"/>
 								<State Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
 								<State Name="Home" ID="{2BECD98B-B59D-44EB-A0E3-0D493164B355}"/>
+								<State Name="Menu" ID="{5CEB4757-F80E-43B4-9FAE-5CDC8495FA82}"/>
 							</ChildrenList>
 						</StateGroup>
 						<Folder Name="AUD_MUS_Helped" ID="{25F34FFC-2AA5-44E2-88F9-BE8B204A4608}" ShortID="486225252">

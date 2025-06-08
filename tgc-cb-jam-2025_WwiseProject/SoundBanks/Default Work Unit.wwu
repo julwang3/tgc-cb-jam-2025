@@ -43,7 +43,6 @@
 				<SoundBank Name="LEVEL_GENERAL" ID="{2FB16741-C018-4D6D-BB98-2E465935F558}">
 					<ObjectInclusionList>
 						<ObjectRef Name="AUD_DIA_Bat" ID="{F3597ED3-9EAD-422C-B839-AAAEF2659DF4}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="AUD_MUS_Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AUD_DIA_Tortoise" ID="{34DF08EC-E01E-494A-AE91-56CF752B94D3}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AUD_DIA_Kiwi" ID="{6D853D8F-2737-4CE7-9090-ECFBF2E2B901}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AUD_DIA_Mouse" ID="{5A4429E3-E641-4F17-BC22-85739F607026}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
@@ -52,14 +51,13 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="MENU" ID="{722EF351-4270-42D0-BB84-3C5C23C07617}">
-					<ObjectInclusionList>
-						<ObjectRef Name="AUD_MUS_Menu_Start" ID="{FFBEA0F2-6B5A-4B10-BC74-8A87FAB8A114}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="GLOBAL" ID="{D7658DD9-C5EB-4E71-8F60-377BA23CEEFB}">
 					<ObjectInclusionList>
+						<ObjectRef Name="AUD_MUS_Game_Start" ID="{8C589ED6-6021-4922-BBFF-997F6837DA06}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AUD_GLOB" ID="{0B5E5D3B-7E0E-4CAC-A397-6E5AED917395}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

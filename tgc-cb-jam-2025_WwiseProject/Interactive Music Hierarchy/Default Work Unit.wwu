@@ -35,7 +35,7 @@
 															<MusicFade Name="Source Fade-out" ID="{F0650E73-41F3-4310-8E83-92FF6188323A}">
 																<PropertyList>
 																	<Property Name="FadeCurve" Type="int16" Value="5"/>
-																	<Property Name="FadeOffset" Type="Real64" Value="2"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="1"/>
 																	<Property Name="FadeTime" Type="Real64" Value="2"/>
 																	<Property Name="FadeType" Type="int16" Value="1"/>
 																</PropertyList>
@@ -45,7 +45,7 @@
 															<MusicFade Name="Destination Fade-in" ID="{C1C5C67E-8DC7-4B2D-8476-B17D53E8A75E}">
 																<PropertyList>
 																	<Property Name="FadeCurve" Type="int16" Value="5"/>
-																	<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="-1"/>
 																	<Property Name="FadeTime" Type="Real64" Value="2"/>
 																</PropertyList>
 															</MusicFade>
@@ -1440,6 +1440,145 @@
 										</MusicPlaylistContainer>
 									</ChildrenList>
 								</Folder>
+								<MusicPlaylistContainer Name="AUD_MUS_Menu" ID="{8EF4D9CA-00B2-4B4D-B624-A7A16C2B5EE7}" ShortID="372741415">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{1C43DE30-BC68-40D1-9282-4618D0D03D83}" ShortID="654082152">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{A2A997F1-C29B-4CFC-8209-03A7923D79E9}" ShortID="101706746">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="AUD_MUS_Menu_Celeste" ID="{892557BD-F491-4671-96C2-2F28002067BE}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{72F109D4-EE1D-4341-967B-20BBC29EA2C9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{E5DECF79-9721-44A6-813C-8DD08673A79B}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="AUD_MUS_Menu_Celeste" ID="{892557BD-F491-4671-96C2-2F28002067BE}" ShortID="428539913">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="65536"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="AUD_MUS_Menu_Celeste" ID="{723C8B86-D48A-41CD-80A4-7F3254A91654}" ShortID="711470343">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{8AC8D541-659B-4B03-9DCF-DED7290C3507}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_MUS_Menu_Celeste" ID="{1BBC0E20-DC49-474E-9A28-089D23E24393}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_MUS_Menu_Celeste.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="871818412"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{4CE6E332-C875-42DE-8CDE-37D36DC2E755}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="AUD_MUS_Menu_Celeste" ID="{47DEEEB4-33CA-45DB-9FE5-87D7DACE3331}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="65536"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="AUD_MUS_Menu_Celeste" ID="{1BBC0E20-DC49-474E-9A28-089D23E24393}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{D2222C20-9459-484B-A439-65398DB6AE70}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{F129C74B-BC02-417B-9A83-695E0D10D4AD}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="65536"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Arguments">
@@ -1551,148 +1690,27 @@
 											</MultiSwitchEntry>
 										</Local>
 									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{785EC14B-BD80-45F0-9E5B-5D7BE4389E19}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="AUD_MUS_Menu" ID="{8EF4D9CA-00B2-4B4D-B624-A7A16C2B5EE7}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="Menu" ID="{5CEB4757-F80E-43B4-9FAE-5CDC8495FA82}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
 								</ObjectList>
 							</ObjectLists>
 						</MusicSwitchContainer>
-						<MusicPlaylistContainer Name="AUD_MUS_Menu_Loop" ID="{8EF4D9CA-00B2-4B4D-B624-A7A16C2B5EE7}" ShortID="372741415">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
-								</Reference>
-								<Reference Name="PlaylistRoot">
-									<Custom>
-										<MusicPlaylistItem Name="" ID="{1C43DE30-BC68-40D1-9282-4618D0D03D83}" ShortID="654082152">
-											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{A2A997F1-C29B-4CFC-8209-03A7923D79E9}" ShortID="101706746">
-													<PropertyList>
-														<Property Name="LoopCount" Type="int16" Value="0"/>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Segment">
-															<ObjectRef Name="AUD_MUS_Menu_Celeste" ID="{892557BD-F491-4671-96C2-2F28002067BE}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
-														</Reference>
-													</ReferenceList>
-												</MusicPlaylistItem>
-											</ChildrenList>
-										</MusicPlaylistItem>
-									</Custom>
-								</Reference>
-								<Reference Name="TransitionRoot">
-									<Custom>
-										<MusicTransition Name="Root" ID="{72F109D4-EE1D-4341-967B-20BBC29EA2C9}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<ChildrenList>
-												<MusicTransition Name="Transition" ID="{E5DECF79-9721-44A6-813C-8DD08673A79B}">
-													<TransitionInfo/>
-												</MusicTransition>
-											</ChildrenList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</Custom>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicSegment Name="AUD_MUS_Menu_Celeste" ID="{892557BD-F491-4671-96C2-2F28002067BE}" ShortID="428539913">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="65536"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="AUD_MUS_Menu_Celeste" ID="{723C8B86-D48A-41CD-80A4-7F3254A91654}" ShortID="711470343">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{8AC8D541-659B-4B03-9DCF-DED7290C3507}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AUD_MUS_Menu_Celeste" ID="{1BBC0E20-DC49-474E-9A28-089D23E24393}">
-													<Language>SFX</Language>
-													<AudioFile>AUD_MUS_Menu_Celeste.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="871818412"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{4CE6E332-C875-42DE-8CDE-37D36DC2E755}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="AUD_MUS_Menu_Celeste" ID="{47DEEEB4-33CA-45DB-9FE5-87D7DACE3331}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="65536"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="AUD_MUS_Menu_Celeste" ID="{1BBC0E20-DC49-474E-9A28-089D23E24393}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{D2222C20-9459-484B-A439-65398DB6AE70}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{F129C74B-BC02-417B-9A83-695E0D10D4AD}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="65536"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
-							</ChildrenList>
-						</MusicPlaylistContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
