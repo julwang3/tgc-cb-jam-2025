@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.InputSystem.InputAction;
 
 public class PauseMenuUI : MonoBehaviour
 {
@@ -20,24 +21,17 @@ public class PauseMenuUI : MonoBehaviour
     [SerializeField] AK.Wwise.Event UnpauseWwiseEvent;
 
     private InputAction pauseAction;
-    private CanvasGroup canvasGroup;
+    private GameObject pauseMenu;
 
     private void Awake()
     {
         Instance = this;
 
         pauseAction = InputSystem.actions.FindAction("Pause");
-        pauseAction.performed += _ => OnPause();
+        pauseAction.performed += OnPause;
 
-        canvasGroup = GetComponent<CanvasGroup>();
-        if (canvasGroup == null)
-        {
-            Debug.LogError("Pause menu is missing a canvas group.");
-        }
+        pauseMenu = gameObject.transform.GetChild(0).gameObject;
 
-        canvasGroup.alpha = 0;
-        canvasGroup.interactable = false;
-        canvasGroup.blocksRaycasts = false;
         Time.timeScale = 1f;
         IsPaused = false;
     }
@@ -47,7 +41,20 @@ public class PauseMenuUI : MonoBehaviour
         AudioManager.Instance.PostEventPersist(UnpauseWwiseEvent);
     }
 
-    private void OnPause()
+    private void OnDestroy()
+    {
+        if (pauseAction != null)
+        {
+            pauseAction.performed -= OnPause;
+        }
+    }
+
+    public void OnPause()
+    {
+        OnPause(!IsPaused);
+    }
+
+    public void OnPause(CallbackContext ctx)
     {
         OnPause(!IsPaused);
     }
@@ -58,39 +65,27 @@ public class PauseMenuUI : MonoBehaviour
 
         if (pause)
         {
-            resumeButtom.onClick.AddListener(OnPause);
-            menuButton.onClick.AddListener(OnMenuPressed);
-            quitButton.onClick.AddListener(OnQuitPressed);
-
-            canvasGroup.alpha = 1;
-            canvasGroup.interactable = true;
-            canvasGroup.blocksRaycasts = true;
             Time.timeScale = 0f;
             AudioManager.Instance.PostEventPersist(PauseWwiseEvent);
+            pauseMenu.SetActive(true);
         }
         else
         {
-            resumeButtom.onClick.RemoveListener(OnPause);
-            menuButton.onClick.RemoveListener(OnMenuPressed);
-            quitButton.onClick.RemoveListener(OnQuitPressed);
-
-            canvasGroup.alpha = 0;
-            canvasGroup.interactable = false;
-            canvasGroup.blocksRaycasts = false;
             Time.timeScale = 1f;
             AudioManager.Instance.PostEventPersist(UnpauseWwiseEvent);
+            pauseMenu.SetActive(false);
         }
         IsPaused = pause;
     }
 
-    private void OnMenuPressed()
+    public void OnMenuPressed()
     {
         if (LevelManager.Instance.IsLoading) { return; }
         AudioManager.Instance.StopLevel();
         LevelManager.Instance.LoadLevel(mainMenuScene);
     }
 
-    private void OnQuitPressed()
+    public void OnQuitPressed()
     {
         if (LevelManager.Instance.IsLoading) { return; }
         Application.Quit();

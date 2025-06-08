@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{C5A6B1E9-1C40-887D-507A-166FD91FBD28}">
+		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{E49830A3-FC14-71F5-EDB6-0AC9E9B0157F}">
 			<ShortName>LEVEL_GENERAL</ShortName>
 			<Path>LEVEL_GENERAL.bnk</Path>
 			<Media>
@@ -230,7 +230,7 @@
 			<ShortName>PLAYER</ShortName>
 			<Path>PLAYER.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3C3F2F45-5253-8FB4-5846-414F40A47EF6}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DBD1A970-FB54-ACED-445E-A015FB1633AF}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -248,7 +248,10 @@
 				<Bus Id="4248982831" Name="PLAYER SFX"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="988953028" Name="SfxVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
 				<GameParameter Id="2607556080" Name="Menu"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1425512237" Name="AUD_MUS_Helped_Kiwi">
@@ -313,5 +316,5 @@
 			<Path>TUTORIAL.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{31C33049-B87D-662F-DC40-7589A4A9B3B0}</FileHash>
+	<FileHash>{A480D6BA-5D0D-9EAB-14BB-7AB56F5785C2}</FileHash>
 </SoundBanksInfo>

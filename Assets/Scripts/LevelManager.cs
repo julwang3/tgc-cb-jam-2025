@@ -54,7 +54,7 @@ public class LevelManager : MonoBehaviour
     {
         FadeToBlackObj.SetActive(true);
         FadeToBlackAnim.SetTrigger("FadeFromBlack");
-        yield return new WaitForSecondsRealtime(1.0f);
+        yield return new WaitForSecondsRealtime(2.0f);
         FadeToBlackObj.SetActive(false);
         IsLoading = false;
     }

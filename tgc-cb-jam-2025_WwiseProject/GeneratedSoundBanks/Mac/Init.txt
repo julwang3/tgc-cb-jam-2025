@@ -23,7 +23,10 @@ State	ID	Name	State Group			Notes
 	1668749452	No	AUD_MUS_Helped_Tortoise			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SfxVolume			\Default Work Unit\SfxVolume	
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
 	2607556080	Menu			\Default Work Unit\Menu	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	

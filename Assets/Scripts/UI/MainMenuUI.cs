@@ -7,6 +7,7 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button startButton;
     [SerializeField] private Button creditsButton;
     [SerializeField] private Button quitButton;
+    [SerializeField] private string startScene;
 
     private void OnEnable()
     {
@@ -25,6 +26,7 @@ public class MainMenuUI : MonoBehaviour
     private void OnStartPressed()
     {
         Debug.Log("Start"); // TODO
+        LevelManager.Instance.LoadLevel(startScene);
     }
 
     private void OnCreditsPressed()
