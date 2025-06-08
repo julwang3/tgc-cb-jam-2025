@@ -209,7 +209,7 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("Charging dash");
                 dashState = DashState.Charging;
-                LevelAudio.Instance.PostEventLocal(DashChargeStart);
+                DashChargeStart.Post(gameObject);
                 animator.SetTrigger("DashCharging");
             }
         }
@@ -217,7 +217,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashCharged(CallbackContext ctx)
     {
-        DashChargeStart.Stop(LevelAudio.Instance.gameObject);
+        DashChargeStart.Stop(gameObject);
 
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
             && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
@@ -226,7 +226,7 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("Dash charged");
                 dashState = DashState.Charged;
-                LevelAudio.Instance.PostEventLocal(DashChargeReady);
+                DashChargeReady.Post(gameObject);
                 animator.SetTrigger("DashCharged");
             }
         }
@@ -239,8 +239,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashRelease(CallbackContext ctx)
     {
-        DashChargeStart.Stop(LevelAudio.Instance.gameObject);
-        DashChargeReady.Stop(LevelAudio.Instance.gameObject);
+        DashChargeStart.Stop(gameObject);
+        DashChargeReady.Stop(gameObject);
 
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
             && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
@@ -251,7 +251,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Dashing");
                 dashState = DashState.Dashing;
                 animator.SetTrigger("Dashing");
-                LevelAudio.Instance.PostEventLocal(DashExecuteSfx);
+                DashExecuteSfx.Post(gameObject);
                 StartCoroutine(Dash());
             }
             else
@@ -364,7 +364,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrounded)
         {
-            LevelAudio.Instance.PostEventLocal(FootstepSfx);
+            FootstepSfx.Post(gameObject);
         }
     }
 
@@ -372,11 +372,11 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrounded)
         {
-            LevelAudio.Instance.PostEventLocal(JumpSfx);
+            JumpSfx.Post(gameObject);
         }
         else
         {
-            LevelAudio.Instance.PostEventLocal(JumpMidairSfx);
+            JumpMidairSfx.Post(gameObject); 
         }
     }
 }

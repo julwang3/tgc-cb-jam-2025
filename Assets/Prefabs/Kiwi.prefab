@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 187130697031366404}
   - component: {fileID: 594710899634589382}
   - component: {fileID: 5226997929988886766}
+  - component: {fileID: 2948658007460937191}
+  - component: {fileID: 8081793269459609721}
   m_Layer: 0
   m_Name: Kiwi
   m_TagString: Untagged
@@ -111,6 +113,63 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2948658007460937191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221830760510841023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dbb91bfadb439445871d25242498531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8081793269459609721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221830760510841023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 3fa6607af249e0541b011e362fc2c975, type: 2}
+    - {fileID: 11400000, guid: abcf6a9cf66ae704e92029334856d1ab, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2948658007460937191}
+          m_TargetAssemblyTypeName: AnimAudioHandler, Assembly-CSharp
+          m_MethodName: PlaySound
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: AUD_SFX_Jump
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2948658007460937191}
+          m_TargetAssemblyTypeName: AnimAudioHandler, Assembly-CSharp
+          m_MethodName: PlaySound
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: AUD_SFX_Jump_Midair
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &4175973273451607014
 PrefabInstance:
   m_ObjectHideFlags: 0

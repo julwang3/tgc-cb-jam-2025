@@ -230,7 +230,7 @@
 			<ShortName>BA1</ShortName>
 			<Path>BA1.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{097C9575-04CE-D192-6231-724E0A5D474D}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{CF3737D4-5A1D-F5BB-C5C2-60362FE789CD}">
 			<ShortName>PLAYER</ShortName>
 			<Path>PLAYER.bnk</Path>
 			<Media>
@@ -332,24 +332,24 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4284596371" Name="AUD_SFX_Dash_Charge_Ready" DurationType="Infinite">
+				<Event Id="4284596371" Name="AUD_SFX_Dash_Charge_Ready" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="812881688"/>
 						<MediaRef Id="894874430"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4062706046" Name="AUD_SFX_Dash_Charge_Start" DurationType="OneShot" DurationMin="3" DurationMax="3">
+				<Event Id="4062706046" Name="AUD_SFX_Dash_Charge_Start" MaxAttenuation="10" DurationType="OneShot" DurationMin="3" DurationMax="3">
 					<MediaRefs>
 						<MediaRef Id="3988389"/>
 						<MediaRef Id="633303190"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="254493152" Name="AUD_SFX_Dash_Execute" DurationType="OneShot" DurationMin="2.0000105" DurationMax="2.0000105">
+				<Event Id="254493152" Name="AUD_SFX_Dash_Execute" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.0000105" DurationMax="2.0000105">
 					<MediaRefs>
 						<MediaRef Id="807345477"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4163242294" Name="AUD_SFX_Footstep" DurationType="OneShot" DurationMin="0.375" DurationMax="0.5">
+				<Event Id="4163242294" Name="AUD_SFX_Footstep" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.375" DurationMax="0.5">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="748895195"/>
@@ -423,7 +423,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1307191096" Name="AUD_SFX_Jump" DurationType="OneShot" DurationMin="1.1500105" DurationMax="1.1500105">
+				<Event Id="1307191096" Name="AUD_SFX_Jump" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.1500105" DurationMax="1.1500105">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="748895195"/>
@@ -483,7 +483,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="886799965" Name="AUD_SFX_Jump_Midair" DurationType="OneShot" DurationMin="1.1500105" DurationMax="1.1500105">
+				<Event Id="886799965" Name="AUD_SFX_Jump_Midair" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.1500105" DurationMax="1.1500105">
 					<MediaRefs>
 						<MediaRef Id="536288950"/>
 						<MediaRef Id="660559913"/>
@@ -606,5 +606,5 @@
 			<Path>CAVE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9AF3837D-F3B8-8550-9616-5F73017C62B3}</FileHash>
+	<FileHash>{33722216-476F-F1F2-3A83-0C3902E24AB4}</FileHash>
 </SoundBanksInfo>

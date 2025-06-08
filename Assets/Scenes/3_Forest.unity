@@ -1599,7 +1599,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9221830760510841023, guid: da8a7d3b02acb4260876aff33304ef58, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 992996364}
   m_SourcePrefab: {fileID: 100100000, guid: da8a7d3b02acb4260876aff33304ef58, type: 3}
 --- !u!4 &896960748 stripped
 Transform:
@@ -1611,6 +1614,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5226997929988886766, guid: da8a7d3b02acb4260876aff33304ef58, type: 3}
   m_PrefabInstance: {fileID: 896960747}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &896960750 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8081793269459609721, guid: da8a7d3b02acb4260876aff33304ef58, type: 3}
+  m_PrefabInstance: {fileID: 896960747}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992996361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &930268915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,6 +1703,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &992996361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9221830760510841023, guid: da8a7d3b02acb4260876aff33304ef58, type: 3}
+  m_PrefabInstance: {fileID: 896960747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &992996364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992996361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b13eb5950012545bce5429a00c9032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1058686993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2788,6 +2829,8 @@ PlayableDirector:
     value: {fileID: 896960749}
   - key: {fileID: -693007185337778082, guid: 2f312395852de4b5aa5c9f0c9fe9a3e7, type: 2}
     value: {fileID: 2075219818}
+  - key: {fileID: 7204173056933345862, guid: 2f312395852de4b5aa5c9f0c9fe9a3e7, type: 2}
+    value: {fileID: 896960750}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1669916534
@@ -2939,7 +2982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7134599280878091396, guid: 6937851f64284524782dc77d57e0faca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -0.271
       objectReference: {fileID: 0}
     - target: {fileID: 7134599280878091396, guid: 6937851f64284524782dc77d57e0faca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
