@@ -65,7 +65,7 @@ public class InteractionSystem : MonoBehaviour
     [YarnCommand("GiveDash")]
     public void GiveDash()
     {
-        PlayerController.Instance.HasDash = false;
+        PlayerController.HasDash = false;
         tortoiseHelped.SetValue();
         for (int i = 0; i < dialogueTriggers.Count; i++)
         {
@@ -76,7 +76,7 @@ public class InteractionSystem : MonoBehaviour
     [YarnCommand("GiveDoubleJump")]
     public void GiveDoubleJump()
     {
-        PlayerController.Instance.HasDoubleJump = false;
+        PlayerController.HasDoubleJump = false;
         kiwiHelped.SetValue();
         for (int i = 0; i < dialogueTriggers.Count; i++)
         {
@@ -87,7 +87,7 @@ public class InteractionSystem : MonoBehaviour
     [YarnCommand("GiveVision")]
     public void GiveVision()
     {
-        PlayerController.Instance.HasVision = false;
+        PlayerController.Instance.DeactivateLight();
         batHelped.SetValue();
         for (int i = 0; i < dialogueTriggers.Count; i++)
         {

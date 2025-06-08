@@ -26,6 +26,7 @@ public class MainMenuUI : MonoBehaviour
     private void OnStartPressed()
     {
         Debug.Log("Start"); // TODO
+        PlayerController.Reset();
         LevelManager.Instance.LoadLevel(startScene);
     }
 

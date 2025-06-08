@@ -33,9 +33,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float LightMaxRadius = 20.0f;
 
     [Header("Abilities")]
-    public bool HasDash = true;
-    public bool HasDoubleJump = true;
-    public bool HasVision = true;
+    public static bool HasDash = true;
+    public static bool HasDoubleJump = true;
+    public static bool HasVision = true;
 
     // Private variables
     private Rigidbody2D rb;
@@ -76,6 +76,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public static void Reset()
+    {
+        HasDash = true;
+        HasDoubleJump = true;
+        HasVision = true;
+    }
     private void OnDestroy()
     {
         jumpAction.started -= OnJump;

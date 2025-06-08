@@ -60,9 +60,9 @@ public class DialogueTrigger : MonoBehaviour
         InteractionSystem.DialogueRunner.onDialogueComplete.RemoveListener(OnDialogueComplete);
 
         // Play playable director
-        if (givePlayableDirector && ((abilityToGive == Ability.Dash && !player.HasDash)
-            || (abilityToGive == Ability.DoubleJump && !player.HasDoubleJump)
-            || (abilityToGive == Ability.Vision && !player.HasVision)))
+        if (givePlayableDirector && ((abilityToGive == Ability.Dash && !PlayerController.HasDash)
+            || (abilityToGive == Ability.DoubleJump && !PlayerController.HasDoubleJump)
+            || (abilityToGive == Ability.Vision && !PlayerController.HasVision)))
         {
             givePlayableDirector.Play();
             StartCoroutine(WaitForInteractionFinish());
