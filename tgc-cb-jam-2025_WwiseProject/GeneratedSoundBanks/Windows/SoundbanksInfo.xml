@@ -9,12 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{B6D8ED0D-55DF-4B6B-A355-3E6E2EAB92CB}">
+		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{CD98C50A-2624-F739-B476-CB888DF7C4F9}">
 			<ShortName>LEVEL_GENERAL</ShortName>
 			<Path>LEVEL_GENERAL.bnk</Path>
 			<Media>
-				<File Id="2932055" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="2932055" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Tutorial_Strings_90bpm.wav</ShortName>
+					<Path>Media/2932055.wem</Path>
 					<CachePath>SFX/AUD_MUS_Tutorial_Strings_90bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="4974575" Language="SFX" Streaming="false" Location="Memory">
@@ -33,13 +34,19 @@
 					<ShortName>AUD_DIA_Kiwi_2.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Kiwi_2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="134170867" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="134170867" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Tutorial_Loop_90bpm.wav</ShortName>
+					<Path>Media/134170867.wem</Path>
 					<CachePath>SFX/AUD_MUS_Tutorial_Loop_90bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="136752868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Kiwi_1.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Kiwi_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="174001378" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AUD_MUS_Home_Loop_80bpm.wav</ShortName>
+					<Path>Media/174001378.wem</Path>
+					<CachePath>SFX/AUD_MUS_Home_Loop_80bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="175219850" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Tortoise_1.wav</ShortName>
@@ -49,36 +56,46 @@
 					<ShortName>AUD_DIA_Tortoise_3.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Tortoise_3_818F3B66.wem</CachePath>
 				</File>
-				<File Id="218422190" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="218422190" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Cave_Loop_120bpm.wav</ShortName>
+					<Path>Media/218422190.wem</Path>
 					<CachePath>SFX/AUD_MUS_Cave_Loop_120bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="224155800" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Mouse_1.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Mouse_1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="373698024" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AUD_MUS_Home_Bat_80bpm.wav</ShortName>
+					<Path>Media/373698024.wem</Path>
+					<CachePath>SFX/AUD_MUS_Home_Bat_80bpm_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="402414549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Mouse_2.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Mouse_2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="407304084" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="407304084" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Meadow_Loop_110pm.wav</ShortName>
+					<Path>Media/407304084.wem</Path>
 					<CachePath>SFX/AUD_MUS_Meadow_Loop_110pm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="415448254" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Bat_2.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Bat_2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="419758210" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="419758210" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Forest_Tortoise_76bpm.wav</ShortName>
+					<Path>Media/419758210.wem</Path>
 					<CachePath>SFX/AUD_MUS_Forest_Tortoise_76bpm_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="495556401" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="495556401" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Forest_Loop_76bpm.wav</ShortName>
+					<Path>Media/495556401.wem</Path>
 					<CachePath>SFX/AUD_MUS_Forest_Loop_76bpm_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="540817431" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="540817431" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Cave_Kiwi_120bpm.wav</ShortName>
+					<Path>Media/540817431.wem</Path>
 					<CachePath>SFX/AUD_MUS_Cave_Kiwi_120bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="603749455" Language="SFX" Streaming="false" Location="Memory">
@@ -93,17 +110,28 @@
 					<ShortName>AUD_DIA_Bat_3.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Bat_3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="708696836" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AUD_MUS_Home_Tortoise_80bpm.wav</ShortName>
+					<Path>Media/708696836.wem</Path>
+					<CachePath>SFX/AUD_MUS_Home_Tortoise_80bpm_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="730019814" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Bat_1.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Bat_1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="759196080" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="759196080" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AUD_MUS_Cave_Tortoise_120bpm.wav</ShortName>
+					<Path>Media/759196080.wem</Path>
 					<CachePath>SFX/AUD_MUS_Cave_Tortoise_120bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="939524038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Kiwi_3.wav</ShortName>
 					<CachePath>SFX/AUD_DIA_Kiwi_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1017609995" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AUD_MUS_Home_Kiwi_80bpm.wav</ShortName>
+					<Path>Media/1017609995.wem</Path>
+					<CachePath>SFX/AUD_MUS_Home_Kiwi_80bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="1043615165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AUD_DIA_Bat_4.wav</ShortName>
@@ -145,6 +173,15 @@
 				</Event>
 				<Event Id="317055371" Name="AUD_MUS_Game_Start" DurationType="Infinite">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="3181406844"/>
+							<MediaRefs>
+								<MediaRef Id="174001378"/>
+								<MediaRef Id="373698024"/>
+								<MediaRef Id="708696836"/>
+								<MediaRef Id="1017609995"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="2435155766"/>
 							<MediaRefs>
@@ -190,7 +227,6 @@
 				<StateGroup Id="1562869527" Name="AUD_MUS_Area">
 					<States>
 						<State Id="491961918" Name="Forest"/>
-						<State Id="513390177" Name="BA3"/>
 						<State Id="748895195" Name="None"/>
 						<State Id="2435155766" Name="Meadow"/>
 						<State Id="3181406844" Name="Home"/>
@@ -230,7 +266,7 @@
 			<ShortName>BA1</ShortName>
 			<Path>BA1.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{CF3737D4-5A1D-F5BB-C5C2-60362FE789CD}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{E0812441-D7C0-F8D6-F5C2-037CA814C1B2}">
 			<ShortName>PLAYER</ShortName>
 			<Path>PLAYER.bnk</Path>
 			<Media>
@@ -402,16 +438,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1562869527" Id="513390177"/>
-							<MediaRefs>
-								<MediaRef Id="222359821"/>
-								<MediaRef Id="526593779"/>
-								<MediaRef Id="588754139"/>
-								<MediaRef Id="794556510"/>
-								<MediaRef Id="978953528"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="4122393694"/>
 							<MediaRefs>
 								<MediaRef Id="124675015"/>
@@ -466,14 +492,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1562869527" Id="513390177"/>
-							<MediaRefs>
-								<MediaRef Id="645634828"/>
-								<MediaRef Id="849125793"/>
-								<MediaRef Id="885769221"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1562869527" Id="4122393694"/>
 							<MediaRefs>
 								<MediaRef Id="236781365"/>
@@ -495,7 +513,6 @@
 				<StateGroup Id="1562869527" Name="AUD_MUS_Area">
 					<States>
 						<State Id="491961918" Name="Forest"/>
-						<State Id="513390177" Name="BA3"/>
 						<State Id="748895195" Name="None"/>
 						<State Id="2435155766" Name="Meadow"/>
 						<State Id="3181406844" Name="Home"/>
@@ -539,7 +556,6 @@
 				<StateGroup Id="1562869527" Name="AUD_MUS_Area">
 					<States>
 						<State Id="491961918" Name="Forest"/>
-						<State Id="513390177" Name="BA3"/>
 						<State Id="748895195" Name="None"/>
 						<State Id="2435155766" Name="Meadow"/>
 						<State Id="3181406844" Name="Home"/>
@@ -590,9 +606,22 @@
 			<ShortName>MEADOW</ShortName>
 			<Path>MEADOW.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2607556080" Type="User" Language="SFX" Hash="{9B0A6AB2-159A-9AE8-539E-8885E447FDA8}">
+		<SoundBank Id="2607556080" Type="User" Language="SFX" Hash="{186485A2-52F8-D0B5-1D82-9D57A52F53F0}">
 			<ShortName>MENU</ShortName>
 			<Path>MENU.bnk</Path>
+			<Media>
+				<File Id="871818412" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_MUS_Menu_Celeste.wav</ShortName>
+					<CachePath>SFX/AUD_MUS_Menu_Celeste_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2515656128" Name="AUD_MUS_Menu_Start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="871818412"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="3181406844" Type="User" Language="SFX" Hash="{418C97BF-0F35-F9FB-BD98-BAD1BA6B4943}">
 			<ShortName>HOME</ShortName>
@@ -607,5 +636,5 @@
 			<Path>CAVE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CA14FAEB-163E-DFCC-7C96-730C3C3B53BB}</FileHash>
+	<FileHash>{2B28A732-A73E-A7E1-CD82-CE197BC979EB}</FileHash>
 </SoundBanksInfo>

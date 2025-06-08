@@ -1171,12 +1171,6 @@
 														</ItemList>
 													</Grouping>
 													<Grouping>
-														<SwitchRef Name="BA3" ID="{723444C9-2FE9-4555-8618-FB86FCF6C5B1}"/>
-														<ItemList>
-															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
 														<SwitchRef Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
 														<ItemList>
 															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Stone" ID="{E33750D1-0AE7-4DD2-AFC3-37FD156B15AF}"/>
@@ -1403,12 +1397,6 @@
 														<SwitchRef Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}"/>
 														<ItemList>
 															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Stone" ID="{DD4348ED-284A-4DE0-92C8-47CFED0AF4EA}"/>
-														</ItemList>
-													</Grouping>
-													<Grouping>
-														<SwitchRef Name="BA3" ID="{723444C9-2FE9-4555-8618-FB86FCF6C5B1}"/>
-														<ItemList>
-															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>

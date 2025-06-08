@@ -52,7 +52,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="MENU" ID="{722EF351-4270-42D0-BB84-3C5C23C07617}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="AUD_MUS_Menu_Start" ID="{FFBEA0F2-6B5A-4B10-BC74-8A87FAB8A114}" WorkUnitID="{BCD3473B-BA27-4369-A47A-519086E531A6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
