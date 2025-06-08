@@ -37,6 +37,14 @@ public class PlayerController : MonoBehaviour
     public static bool HasDoubleJump = true;
     public static bool HasVision = true;
 
+    [Header("Audio")]
+    [SerializeField] AK.Wwise.Event FootstepSfx;
+    [SerializeField] AK.Wwise.Event JumpSfx;
+    [SerializeField] AK.Wwise.Event JumpMidairSfx;
+    [SerializeField] AK.Wwise.Event DashChargeStart;
+    [SerializeField] AK.Wwise.Event DashChargeReady;
+    [SerializeField] AK.Wwise.Event DashExecuteSfx;
+
     // Private variables
     private Rigidbody2D rb;
     private Animator animator;
@@ -102,7 +110,7 @@ public class PlayerController : MonoBehaviour
                 {
                     jumps = 0;
                 }
-                
+
                 animator.SetInteger("Jump", jumps);
             }
             // else if (jumps < 1)
@@ -115,7 +123,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         if (canMove && dashState == DashState.NotDashing
-            && !(PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused) 
+            && !(PauseMenuUI.Instance && PauseMenuUI.Instance.IsPaused)
             && !(LevelManager.Instance && LevelManager.Instance.IsLoading)
             && !(InteractionSystem.Instance && InteractionSystem.Instance.IsInteractionRunning))
         {
@@ -152,7 +160,7 @@ public class PlayerController : MonoBehaviour
 
             if (jumps == 0 || (jumps == 1 && HasDoubleJump))
             {
-                animator.SetInteger("Jump", jumps+1);
+                animator.SetInteger("Jump", jumps + 1);
                 StartCoroutine(StartJumpCooldown());
             }
         }
@@ -201,6 +209,7 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("Charging dash");
                 dashState = DashState.Charging;
+                LevelAudio.Instance.PostEventLocal(DashChargeStart);
                 animator.SetTrigger("DashCharging");
             }
         }
@@ -208,6 +217,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashCharged(CallbackContext ctx)
     {
+        DashChargeStart.Stop(LevelAudio.Instance.gameObject);
+
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
             && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
         {
@@ -215,6 +226,7 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("Dash charged");
                 dashState = DashState.Charged;
+                LevelAudio.Instance.PostEventLocal(DashChargeReady);
                 animator.SetTrigger("DashCharged");
             }
         }
@@ -227,6 +239,9 @@ public class PlayerController : MonoBehaviour
 
     public void OnDashRelease(CallbackContext ctx)
     {
+        DashChargeStart.Stop(LevelAudio.Instance.gameObject);
+        DashChargeReady.Stop(LevelAudio.Instance.gameObject);
+
         if ((!PauseMenuUI.Instance || !PauseMenuUI.Instance.IsPaused) && !LevelManager.Instance.IsLoading
             && (!InteractionSystem.Instance || !InteractionSystem.Instance.IsInteractionRunning))
         {
@@ -236,6 +251,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Dashing");
                 dashState = DashState.Dashing;
                 animator.SetTrigger("Dashing");
+                LevelAudio.Instance.PostEventLocal(DashExecuteSfx);
                 StartCoroutine(Dash());
             }
             else
@@ -268,7 +284,7 @@ public class PlayerController : MonoBehaviour
         {
             timer += Time.deltaTime;
             rb.linearVelocityX = velocity;
-            
+
             yield return new WaitForFixedUpdate();
 
             // If bumped into a wall, stop dashing
@@ -342,5 +358,25 @@ public class PlayerController : MonoBehaviour
         }
         Light.pointLightInnerRadius = 0.0f;
         Light.pointLightOuterRadius = LightMinRadius;
+    }
+
+    public void PlayFootstep()
+    {
+        if (isGrounded)
+        {
+            LevelAudio.Instance.PostEventLocal(FootstepSfx);
+        }
+    }
+
+    public void PlayJump()
+    {
+        if (isGrounded)
+        {
+            LevelAudio.Instance.PostEventLocal(JumpSfx);
+        }
+        else
+        {
+            LevelAudio.Instance.PostEventLocal(JumpMidairSfx);
+        }
     }
 }

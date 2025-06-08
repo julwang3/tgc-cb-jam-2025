@@ -214,7 +214,76 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="AUD_SFX" ID="{F4968546-D08D-45D6-B07B-D924E12CE802}" ShortID="111095228"/>
+				<Folder Name="AUD_SFX" ID="{F4968546-D08D-45D6-B07B-D924E12CE802}" ShortID="111095228">
+					<ChildrenList>
+						<Event Name="AUD_SFX_Jump" ID="{863ADB0C-6E3C-4FEE-B248-A0D79992FB47}">
+							<ChildrenList>
+								<Action Name="" ID="{1D010E40-31CE-4183-BEC8-6B908220E19F}" ShortID="958318177">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_SFX_PLY_MOV_Jump" ID="{774155D4-26C1-4B23-BCA4-F20A76B0582A}" WorkUnitID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_SFX_Footstep" ID="{76D0A396-5CA0-4359-9BAA-BF07CD5551E8}">
+							<ChildrenList>
+								<Action Name="" ID="{BA31C8E5-9D51-4282-90F9-92CD0606F9FD}" ShortID="695821267">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_SFX_PLY_MOV_Footstep" ID="{0164B7C7-4C72-4ED4-B90B-0FA6FED73668}" WorkUnitID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_SFX_Jump_Midair" ID="{2EA83483-48F1-40AB-B893-0470B6D9A93A}">
+							<ChildrenList>
+								<Action Name="" ID="{A1353F4D-E1D7-4C1B-B9E1-B9ACE33D5C2E}" ShortID="849161539">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_SFX_PLY_MOV_Jump_Midair" ID="{B16F6D5A-B941-4909-83FE-58DF253861F4}" WorkUnitID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_SFX_Dash_Charge_Ready" ID="{EC275853-0EAB-4380-9328-93F70AD6C6C7}">
+							<ChildrenList>
+								<Action Name="" ID="{360FAC64-4ED5-4E5B-B35E-2DB536D25050}" ShortID="1733747">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_SFX_PLY_MOV_Dash_Charged" ID="{5938CFE0-A36E-43BE-8BCA-36C126DF2C76}" WorkUnitID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_SFX_Dash_Charge_Start" ID="{C40FE5BF-8AB2-4C56-BC95-0351EF5B6440}">
+							<ChildrenList>
+								<Action Name="" ID="{6893E751-D4C0-4BA1-BC23-6C4F95679421}" ShortID="119562697">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_SFX_PLY_MOV_Dash_Charging" ID="{F403F748-63CD-4079-B8A8-D4414D371A58}" WorkUnitID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_SFX_Dash_Execute" ID="{F66E5527-BBEA-4D73-A132-A2FF9C54F162}">
+							<ChildrenList>
+								<Action Name="" ID="{DE102D7C-3CDE-4163-98C6-0186BA90A719}" ShortID="441201621">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AUD_SFX_PLY_MOV_Dash_Execute" ID="{A269EE86-5EE0-4030-BB9D-0DD850EA2D10}" WorkUnitID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="AUD_DIA" ID="{851BC997-9FD6-4AEA-91CB-807D9343A43D}" ShortID="920455742">
 					<ChildrenList>
 						<Event Name="AUD_DIA_Mouse" ID="{5A4429E3-E641-4F17-BC22-85739F607026}">

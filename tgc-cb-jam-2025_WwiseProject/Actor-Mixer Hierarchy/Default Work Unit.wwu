@@ -510,6 +510,906 @@
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<ActorMixer Name="AUD_SFX_PLY_MOV" ID="{7423D562-60DB-48F3-BACE-406BBB37C64B}" ShortID="642082171">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="AUD_SFX_PLY_MOV_Jump_Midair" ID="{B16F6D5A-B941-4909-83FE-58DF253861F4}" ShortID="76767984">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AUD_SFX_PLY_MOV_Jump_Midair_1_v1" ID="{3F8EC9CB-C73E-4F7E-918E-3BA84A49AB5C}" ShortID="328112328">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Midair_1_v1" ID="{09AFF16C-875A-403E-AF57-F3D3F1C76679}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Jump_Midair_1_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="536288950"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Midair_1_v1" ID="{09AFF16C-875A-403E-AF57-F3D3F1C76679}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AUD_SFX_PLY_MOV_Jump_Midair_2_v1" ID="{59AB75F7-AF21-4436-ADBF-42BAAB0334C9}" ShortID="113546414">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Midair_2_v1" ID="{36E61B89-5DC9-48A4-A282-9D817CA2EBD9}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Jump_Midair_2_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="660559913"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Midair_2_v1" ID="{36E61B89-5DC9-48A4-A282-9D817CA2EBD9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AUD_SFX_PLY_MOV_Jump_Midair_3_v1" ID="{0F3B583B-9223-4B00-BEAC-E433355BFABC}" ShortID="577404254">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Midair_3_v1" ID="{11802915-24D0-45CA-A811-4B3F1E91B431}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Jump_Midair_3_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="780326755"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Midair_3_v1" ID="{11802915-24D0-45CA-A811-4B3F1E91B431}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<BlendContainer Name="AUD_SFX_PLY_MOV_Dash_Charging" ID="{F403F748-63CD-4079-B8A8-D4414D371A58}" ShortID="173014870">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AUD_SFX_PLY_MOV_Dash_Charging_Base_v1" ID="{132B0662-B05A-4AA4-B3AF-59FDD136A7D9}" ShortID="186695706">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Dash_Charging_Base_v1" ID="{3A6259F0-399D-483A-AB2B-5A5B713E3D6C}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Dash_Charging_Base_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="633303190"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Dash_Charging_Base_v1" ID="{3A6259F0-399D-483A-AB2B-5A5B713E3D6C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AUD_SFX_PLY_MOV_Dash_Charging_Tuned_v2" ID="{C8A1A147-BB05-43D2-A496-FEE42DC2178F}" ShortID="1040725474">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Dash_Charging_Tuned_v2" ID="{00EE72C6-21AB-4EA2-8402-E18A942517B7}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Dash_Charging_Tuned_v2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="3988389"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Dash_Charging_Tuned_v2" ID="{00EE72C6-21AB-4EA2-8402-E18A942517B7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="AUD_SFX_PLY_MOV_Dash_Charged" ID="{5938CFE0-A36E-43BE-8BCA-36C126DF2C76}" ShortID="511753128">
+											<PropertyList>
+												<Property Name="BlendBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AUD_SFX_PLY_MOV_Dash_ChargeComplete_Tuned_v2" ID="{3C9DDAC0-D56C-4890-84DF-978F7F74225C}" ShortID="805262781">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Dash_ChargeComplete_Tuned_v2" ID="{450AE6A1-EF1D-491F-BE7E-B1FBB176C5EC}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Dash_ChargeComplete_Tuned_v2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="894874430"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Dash_ChargeComplete_Tuned_v2" ID="{450AE6A1-EF1D-491F-BE7E-B1FBB176C5EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AUD_SFX_PLY_MOV_Dash_Charged_Loop_v1" ID="{AB52B6A2-2CEA-4E11-9E35-AB230E33542B}" ShortID="466274037">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Dash_Charged_Loop_v1" ID="{284FA539-F412-4BE1-97F1-4078D400CEB4}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Dash_Charged_Loop_v1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="812881688"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Dash_Charged_Loop_v1" ID="{284FA539-F412-4BE1-97F1-4078D400CEB4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<RandomSequenceContainer Name="AUD_SFX_PLY_MOV_Dash_Execute" ID="{A269EE86-5EE0-4030-BB9D-0DD850EA2D10}" ShortID="22864448">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AUD_SFX_PLY_MOV_Dash_Execute_1_v2" ID="{3A4C6604-F813-4378-A5EF-8A9C475A790E}" ShortID="971798825">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>41</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_SFX_PLY_MOV_Dash_Execute_1_v2" ID="{2740A952-D4AF-4700-83A1-88BC8351E609}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_SFX_PLY_MOV_Dash_Execute_1_v2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="807345477"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AUD_SFX_PLY_MOV_Dash_Execute_1_v2" ID="{2740A952-D4AF-4700-83A1-88BC8351E609}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<SwitchContainer Name="AUD_SFX_PLY_MOV_Footstep" ID="{0164B7C7-4C72-4ED4-B90B-0FA6FED73668}" ShortID="190582435">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="AUD_MUS_Area" ID="{1702854A-3793-454C-AD88-03EF944C78B1}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}" ShortID="923173723">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>48</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Grass_1_v1" ID="{B5368A15-4AA4-43BB-AC57-6804F30D631C}" ShortID="703975131">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_1_v1" ID="{40B41B98-6FBE-452F-8CBF-81B27A6AA59A}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="0.5"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Grass_1_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="588754139"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_1_v1" ID="{40B41B98-6FBE-452F-8CBF-81B27A6AA59A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Grass_2_v1" ID="{5F143B2E-3270-4866-AE9A-0E66CA7F8880}" ShortID="1065657526">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_2_v1" ID="{033ECB99-CD04-4F23-9ADB-BF8EEF3123F0}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Grass_2_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="526593779"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_2_v1" ID="{033ECB99-CD04-4F23-9ADB-BF8EEF3123F0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Grass_3_v1" ID="{BC56C4F5-11B7-4741-BE65-142B5BF4F5D8}" ShortID="80445408">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_3_v1" ID="{FBED399B-461B-4C9C-B8C7-46D662580FCA}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Grass_3_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794556510"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_3_v1" ID="{FBED399B-461B-4C9C-B8C7-46D662580FCA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Grass_4_v1" ID="{F838E342-820C-49C6-B7AF-2C09680D3144}" ShortID="359766134">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_4_v1" ID="{391A619C-5483-4317-B62C-D4C3282363AC}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Grass_4_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="222359821"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_4_v1" ID="{391A619C-5483-4317-B62C-D4C3282363AC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Grass_5_v1" ID="{993BBD75-5B1A-4BE9-B5C2-F4BCF6A72C7E}" ShortID="563894248">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_5_v1" ID="{7F50D6E5-4CEB-4B57-BBEE-4E17B31085D9}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Grass_5_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="978953528"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Grass_5_v1" ID="{7F50D6E5-4CEB-4B57-BBEE-4E17B31085D9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="AUD_SFX_PLY_MOV_Footstep_Stone" ID="{E33750D1-0AE7-4DD2-AFC3-37FD156B15AF}" ShortID="808535318">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>48</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>34</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Stone_4_v1" ID="{48518407-41E8-4D7D-AC43-0B920E65BCBA}" ShortID="350393011">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_4_v1" ID="{4A939693-D83F-431E-A5CB-DE8E3DBA4A5B}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Stone_4_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="124675015"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_4_v1" ID="{4A939693-D83F-431E-A5CB-DE8E3DBA4A5B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Stone_1_v1" ID="{1E51B16C-C02C-41CC-97BF-5A11A67CC2EF}" ShortID="937380495">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_1_v1" ID="{1AA0F8A6-6453-4DA1-9006-3DED9658BD4D}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Stone_1_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="823056445"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_1_v1" ID="{1AA0F8A6-6453-4DA1-9006-3DED9658BD4D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Stone_5_v1" ID="{10DD208D-5D4B-40A2-9C45-8BC35C6154E6}" ShortID="7385635">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_5_v1" ID="{7E1C1678-1C8A-4F1F-9C42-545B6F257DF7}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Stone_5_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="254240715"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_5_v1" ID="{7E1C1678-1C8A-4F1F-9C42-545B6F257DF7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Stone_2_v1" ID="{F75E376B-8787-4483-A743-AAADAFCB2605}" ShortID="788522851">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_2_v1" ID="{EFAC03E6-E931-4291-B4EF-FED479A58238}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Stone_2_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="999161263"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_2_v1" ID="{EFAC03E6-E931-4291-B4EF-FED479A58238}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Footstep_Stone_3_v1" ID="{27902D97-073B-4606-890A-2EC2E7D48EF6}" ShortID="129145068">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_3_v1" ID="{4FA41A61-851A-49F3-996D-1C8514BBCBD5}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Footstep_Stone_3_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="340879913"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Footstep_Stone_3_v1" ID="{4FA41A61-851A-49F3-996D-1C8514BBCBD5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Stone" ID="{E33750D1-0AE7-4DD2-AFC3-37FD156B15AF}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="None" ID="{53955B02-A833-41B4-B769-AA65CEB80894}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Home" ID="{2BECD98B-B59D-44EB-A0E3-0D493164B355}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Meadow" ID="{F140149E-E4A3-49D5-8041-3BC0D6128AEE}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Forest" ID="{9549A0BC-4B86-410A-AC99-B3D71978176A}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Stone" ID="{E33750D1-0AE7-4DD2-AFC3-37FD156B15AF}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="BA3" ID="{723444C9-2FE9-4555-8618-FB86FCF6C5B1}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Grass" ID="{2E1FDE6D-3AE8-4F61-8F30-F660B20722CE}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Footstep_Stone" ID="{E33750D1-0AE7-4DD2-AFC3-37FD156B15AF}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="AUD_SFX_PLY_MOV_Jump" ID="{774155D4-26C1-4B23-BCA4-F20A76B0582A}" ShortID="84442969">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="AUD_MUS_Area" ID="{1702854A-3793-454C-AD88-03EF944C78B1}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}" ShortID="819280732">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AUD_SFX_PLY_MOV_Jump_Grass_1_v1" ID="{6DB3F7D1-D367-42A4-8E24-A04BD34335DD}" ShortID="168492181">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Grass_1_v1" ID="{D606AAFD-89C7-405E-960C-03B8AC34DAEE}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Jump_Grass_1_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="885769221"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Grass_1_v1" ID="{D606AAFD-89C7-405E-960C-03B8AC34DAEE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Jump_Grass_2_v1" ID="{C3CA6C95-0657-40C6-8044-F1764AE8D95F}" ShortID="496532103">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Grass_2_v1" ID="{6364E310-AE3F-40CF-BF93-1FB1940A6D7E}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Jump_Grass_2_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="849125793"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Grass_2_v1" ID="{6364E310-AE3F-40CF-BF93-1FB1940A6D7E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Jump_Grass_3_v1" ID="{F903169D-6275-4068-A1CE-86E8E4E5D715}" ShortID="74124571">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Grass_3_v1" ID="{FB7E105A-587D-46DE-AF1E-2FB68835BEBE}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Jump_Grass_3_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="645634828"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Grass_3_v1" ID="{FB7E105A-587D-46DE-AF1E-2FB68835BEBE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="AUD_SFX_PLY_MOV_Jump_Stone" ID="{DD4348ED-284A-4DE0-92C8-47CFED0AF4EA}" ShortID="513702542">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PLAYER SFX" ID="{1EE3723C-CADA-4438-8189-F27E25D33123}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AUD_SFX_PLY_MOV_Jump_Stone_1_v1" ID="{CC908761-75A7-4D0E-B765-0C1B6C66E095}" ShortID="790659884">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Stone_1_v1" ID="{77615005-7752-4658-B476-1A9E48959A4C}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Jump_Stone_1_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="816551594"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Stone_1_v1" ID="{77615005-7752-4658-B476-1A9E48959A4C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Jump_Stone_2_v1" ID="{FF88AA59-21D3-4E3E-A4F5-9C90E2670307}" ShortID="450839341">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Stone_2_v1" ID="{BFE6B17F-5EBE-4C01-9AC0-EBBC58E0E241}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Jump_Stone_2_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="336648722"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Stone_2_v1" ID="{BFE6B17F-5EBE-4C01-9AC0-EBBC58E0E241}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AUD_SFX_PLY_MOV_Jump_Stone_3_v1" ID="{C821453C-3730-4018-B287-FD97CE47F595}" ShortID="524539540">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AUD_SFX_PLY_MOV_Jump_Stone_3_v1" ID="{3A03A616-17A1-458B-B749-B58903D35530}">
+																	<Language>SFX</Language>
+																	<AudioFile>AUD_SFX_PLY_MOV_Jump_Stone_3_v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="236781365"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AUD_SFX_PLY_MOV_Jump_Stone_3_v1" ID="{3A03A616-17A1-458B-B749-B58903D35530}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Stone" ID="{DD4348ED-284A-4DE0-92C8-47CFED0AF4EA}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="None" ID="{53955B02-A833-41B4-B769-AA65CEB80894}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Home" ID="{2BECD98B-B59D-44EB-A0E3-0D493164B355}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Meadow" ID="{F140149E-E4A3-49D5-8041-3BC0D6128AEE}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Forest" ID="{9549A0BC-4B86-410A-AC99-B3D71978176A}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Tutorial" ID="{4DCFA8C1-762B-413D-826A-D4AAE78808EE}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Stone" ID="{DD4348ED-284A-4DE0-92C8-47CFED0AF4EA}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="BA3" ID="{723444C9-2FE9-4555-8618-FB86FCF6C5B1}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Grass" ID="{E218F153-094E-4853-92C5-118B13083902}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
+														<ItemList>
+															<ItemRef Name="AUD_SFX_PLY_MOV_Jump_Stone" ID="{DD4348ED-284A-4DE0-92C8-47CFED0AF4EA}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
 						</Folder>
 						<Folder Name="AUD_UI" ID="{373D8949-6F98-4DDC-A51F-6518CAE58D4F}" ShortID="41948783">
 							<PropertyList>

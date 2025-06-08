@@ -144,9 +144,30 @@ MonoBehaviour:
   LightChangeTime: 1
   LightMinRadius: 5
   LightMaxRadius: 30
-  HasDash: 1
-  HasDoubleJump: 1
-  HasVision: 1
+  FootstepSfx:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 936e30db6a2917948a0898781587bc00, type: 2}
+  JumpSfx:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72f8afccdb7265b46997d2d03b3bef64, type: 2}
+  JumpMidairSfx:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a6e5730b458ed904c8e5c8ac6d9c1d7d, type: 2}
+  DashChargeStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8d45778fd9f201441a38498f781af153, type: 2}
+  DashChargeReady:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 50aa641916e6f4043a936ec6ba96354c, type: 2}
+  DashExecuteSfx:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d675b7056308b9c47b3796b83f77182f, type: 2}
 --- !u!95 &8193800003025336439
 Animator:
   serializedVersion: 7

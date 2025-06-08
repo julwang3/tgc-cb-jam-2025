@@ -23,6 +23,12 @@ namespace AK
         static const AkUniqueID AUD_GLOB_GAME_START = 3056393030U;
         static const AkUniqueID AUD_GLOB_GAME_UNPAUSE = 4066955427U;
         static const AkUniqueID AUD_MUS_GAME_START = 317055371U;
+        static const AkUniqueID AUD_SFX_DASH_CHARGE_READY = 4284596371U;
+        static const AkUniqueID AUD_SFX_DASH_CHARGE_START = 4062706046U;
+        static const AkUniqueID AUD_SFX_DASH_EXECUTE = 254493152U;
+        static const AkUniqueID AUD_SFX_FOOTSTEP = 4163242294U;
+        static const AkUniqueID AUD_SFX_JUMP = 1307191096U;
+        static const AkUniqueID AUD_SFX_JUMP_MIDAIR = 886799965U;
     } // namespace EVENTS
 
     namespace STATES

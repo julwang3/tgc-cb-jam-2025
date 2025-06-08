@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{0D58E4C5-3BA2-F1EF-564E-1FF42A3450FE}">
+		<SoundBank Id="116707640" Type="User" Language="SFX" Hash="{0DD58CC1-492E-1DB7-0A8F-E9777C3640E8}">
 			<ShortName>LEVEL_GENERAL</ShortName>
 			<Path>LEVEL_GENERAL.bnk</Path>
 			<Media>
@@ -143,8 +143,6 @@
 						<MediaRef Id="655595191"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1876713613" Name="AUD_GLOB_Dialogue_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="39389702" Name="AUD_GLOB_Dialogue_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="317055371" Name="AUD_MUS_Game_Start" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -232,9 +230,280 @@
 			<ShortName>BA1</ShortName>
 			<Path>BA1.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{B258A9CB-9B78-99D5-DC38-0D2D05EE44EB}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{097C9575-04CE-D192-6231-724E0A5D474D}">
 			<ShortName>PLAYER</ShortName>
 			<Path>PLAYER.bnk</Path>
+			<Media>
+				<File Id="3988389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Dash_Charging_Tuned_v2.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Dash_Charging_Tuned_v2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="124675015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Stone_4_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Stone_4_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="222359821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Grass_4_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Grass_4_v1_8FF93199.wem</CachePath>
+				</File>
+				<File Id="236781365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Stone_3_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Stone_3_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="254240715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Stone_5_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Stone_5_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="336648722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Stone_2_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Stone_2_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="340879913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Stone_3_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Stone_3_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="526593779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Grass_2_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Grass_2_v1_8FF93199.wem</CachePath>
+				</File>
+				<File Id="536288950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Midair_1_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Midair_1_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="588754139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Grass_1_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Grass_1_v1_8FF93199.wem</CachePath>
+				</File>
+				<File Id="633303190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Dash_Charging_Base_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Dash_Charging_Base_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="645634828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Grass_3_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Grass_3_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="660559913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Midair_2_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Midair_2_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="780326755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Midair_3_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Midair_3_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="794556510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Grass_3_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Grass_3_v1_8FF93199.wem</CachePath>
+				</File>
+				<File Id="807345477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Dash_Execute_1_v2.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Dash_Execute_1_v2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="812881688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Dash_Charged_Loop_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Dash_Charged_Loop_v1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="816551594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Stone_1_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Stone_1_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="823056445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Stone_1_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Stone_1_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="849125793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Grass_2_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Grass_2_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="885769221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Jump_Grass_1_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Jump_Grass_1_v1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="894874430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Dash_ChargeComplete_Tuned_v2.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Dash_ChargeComplete_Tuned_v2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="978953528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Grass_5_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Grass_5_v1_8FF93199.wem</CachePath>
+				</File>
+				<File Id="999161263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AUD_SFX_PLY_MOV_Footstep_Stone_2_v1.wav</ShortName>
+					<CachePath>SFX/AUD_SFX_PLY_MOV_Footstep_Stone_2_v1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4284596371" Name="AUD_SFX_Dash_Charge_Ready" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="812881688"/>
+						<MediaRef Id="894874430"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4062706046" Name="AUD_SFX_Dash_Charge_Start" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="3988389"/>
+						<MediaRef Id="633303190"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="254493152" Name="AUD_SFX_Dash_Execute" DurationType="OneShot" DurationMin="2.0000105" DurationMax="2.0000105">
+					<MediaRefs>
+						<MediaRef Id="807345477"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4163242294" Name="AUD_SFX_Footstep" DurationType="OneShot" DurationMin="0.375" DurationMax="0.5">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="222359821"/>
+								<MediaRef Id="526593779"/>
+								<MediaRef Id="588754139"/>
+								<MediaRef Id="794556510"/>
+								<MediaRef Id="978953528"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="3181406844"/>
+							<MediaRefs>
+								<MediaRef Id="222359821"/>
+								<MediaRef Id="526593779"/>
+								<MediaRef Id="588754139"/>
+								<MediaRef Id="794556510"/>
+								<MediaRef Id="978953528"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="2435155766"/>
+							<MediaRefs>
+								<MediaRef Id="222359821"/>
+								<MediaRef Id="526593779"/>
+								<MediaRef Id="588754139"/>
+								<MediaRef Id="794556510"/>
+								<MediaRef Id="978953528"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="491961918"/>
+							<MediaRefs>
+								<MediaRef Id="222359821"/>
+								<MediaRef Id="526593779"/>
+								<MediaRef Id="588754139"/>
+								<MediaRef Id="794556510"/>
+								<MediaRef Id="978953528"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="3762955427" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="124675015"/>
+								<MediaRef Id="254240715"/>
+								<MediaRef Id="340879913"/>
+								<MediaRef Id="823056445"/>
+								<MediaRef Id="999161263"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="513390177"/>
+							<MediaRefs>
+								<MediaRef Id="222359821"/>
+								<MediaRef Id="526593779"/>
+								<MediaRef Id="588754139"/>
+								<MediaRef Id="794556510"/>
+								<MediaRef Id="978953528"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="4122393694"/>
+							<MediaRefs>
+								<MediaRef Id="124675015"/>
+								<MediaRef Id="254240715"/>
+								<MediaRef Id="340879913"/>
+								<MediaRef Id="823056445"/>
+								<MediaRef Id="999161263"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1307191096" Name="AUD_SFX_Jump" DurationType="OneShot" DurationMin="1.1500105" DurationMax="1.1500105">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="748895195"/>
+							<MediaRefs>
+								<MediaRef Id="645634828"/>
+								<MediaRef Id="849125793"/>
+								<MediaRef Id="885769221"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="3181406844"/>
+							<MediaRefs>
+								<MediaRef Id="645634828"/>
+								<MediaRef Id="849125793"/>
+								<MediaRef Id="885769221"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="2435155766"/>
+							<MediaRefs>
+								<MediaRef Id="645634828"/>
+								<MediaRef Id="849125793"/>
+								<MediaRef Id="885769221"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="491961918"/>
+							<MediaRefs>
+								<MediaRef Id="645634828"/>
+								<MediaRef Id="849125793"/>
+								<MediaRef Id="885769221"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="3762955427" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="236781365"/>
+								<MediaRef Id="336648722"/>
+								<MediaRef Id="816551594"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="513390177"/>
+							<MediaRefs>
+								<MediaRef Id="645634828"/>
+								<MediaRef Id="849125793"/>
+								<MediaRef Id="885769221"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1562869527" Id="4122393694"/>
+							<MediaRefs>
+								<MediaRef Id="236781365"/>
+								<MediaRef Id="336648722"/>
+								<MediaRef Id="816551594"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="886799965" Name="AUD_SFX_Jump_Midair" DurationType="OneShot" DurationMin="1.1500105" DurationMax="1.1500105">
+					<MediaRefs>
+						<MediaRef Id="536288950"/>
+						<MediaRef Id="660559913"/>
+						<MediaRef Id="780326755"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1562869527" Name="AUD_MUS_Area">
+					<States>
+						<State Id="491961918" Name="Forest"/>
+						<State Id="513390177" Name="BA3"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2435155766" Name="Meadow"/>
+						<State Id="3181406844" Name="Home"/>
+						<State Id="3762955427" Name="Tutorial"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0227B5ED-09A3-27D4-CB03-D911CEDCD12D}">
 			<ShortName>Init</ShortName>
@@ -301,10 +570,12 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{1CF02DA0-4001-3EBB-6314-19AEEB778AFA}">
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{97B659F9-5596-B0E1-37D3-279A3B2D808E}">
 			<ShortName>GLOBAL</ShortName>
 			<Path>GLOBAL.bnk</Path>
 			<Events>
+				<Event Id="1876713613" Name="AUD_GLOB_Dialogue_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="39389702" Name="AUD_GLOB_Dialogue_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2907054036" Name="AUD_GLOB_Game_Pause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3056393030" Name="AUD_GLOB_Game_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4066955427" Name="AUD_GLOB_Game_Unpause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -335,5 +606,5 @@
 			<Path>CAVE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9671BCC0-E4D8-4B98-6304-40787529011C}</FileHash>
+	<FileHash>{B6C6B7B1-6F95-C0E6-1A8B-9BEC3559B03D}</FileHash>
 </SoundBanksInfo>
