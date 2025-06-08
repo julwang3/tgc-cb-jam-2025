@@ -1,21 +1,40 @@
 ﻿title: ForestKiwi
 ---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+<<PlaySound "AUD_DIA_Kiwi">>
 Kiwi: I feel so lonely...
 
 -> Mouse: Are you okay?
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Are you okay?
+    <<PlaySound "AUD_DIA_Kiwi">>
     Kiwi: All my friends are up there in the tree branches... oh I wish I could fly too.
     // No scarf
     -> Mouse: Are they really your friends then?
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: Are they really your friends then?
+        <<PlaySound "AUD_DIA_Kiwi">>
         Kiwi: Well.... I guess you're right.. maybe I'll be stuck here alone....
         -> Mouse: I hope that they'll find their way to you, lad.
+            <<PlaySound "AUD_DIA_Mouse">>
+            Mouse: I hope that they'll find their way to you, lad.
+        <<PlaySound "AUD_DIA_Kiwi">>
         Kiwi: I hope so too... I really wanted to try the new seed blend my friends have been raving about.
     // Yes scarf
     -> Mouse: Maybe there's another way to get up there, I'll help!
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: Maybe there's another way to get up there, I'll help!
         <<GiveDoubleJump "Dialogue System">>
+        <<PlaySound "AUD_DIA_Kiwi">>
         Kiwi: Really I can have this? Are you sure this'll work?
         -> Mouse: I think these will suit you better than me. Give it a try!
+            <<PlaySound "AUD_DIA_Mouse">>
+            Mouse: I think these will suit you better than me. Give it a try!
         <<KiwiFly "Dialogue Trigger">>
+        <<PlaySound "AUD_DIA_Kiwi">>
         Kiwi: I can fly! I can fly! No it's better than flying!! Thank you, Sir Mouse!
 -> Mouse: (Ignore.)
     <<IgnoreKiwi "Dialogue Trigger">>
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
 ===

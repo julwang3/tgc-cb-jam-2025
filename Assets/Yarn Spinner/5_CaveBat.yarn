@@ -1,25 +1,52 @@
 ﻿title: CaveBat
 ---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+<<PlaySound "AUD_DIA_Bat">>
 Bat: It's so dark… I can't see... is there someone out there?
 
 -> Mouse: I'm here! What's wrong?
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: I'm here! What's wrong?
 -> Mouse: Boo! A ghost!
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Boo! A ghost!
 
+<<PlaySound "AUD_DIA_Bat">>
 Bat: AHHHH!! Oh! It's just a mouse…. you scared me!! It's so dark in here... I wish I could see.
 
 -> Mouse: A bat, afraid of the dark? How can that be?
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: A bat, afraid of the dark? How can that be?
+    <<PlaySound "AUD_DIA_Bat">>
     Bat: I can hear really well, but everything in the caves sounds so scary...
 -> Mouse: Your family has been looking for you, they're worried.
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Your family has been looking for you, they're worried.
+    <<PlaySound "AUD_DIA_Bat">>
     Bat: My mom and uncle told me to follow the torches, but it looks like they all went out.
 
 -> Mouse: I've got something that might help.
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: I've got something that might help.
     // Yes lamp
+    <<PlaySound "AUD_DIA_Bat">>
     Bat: Wow... are you sure you dont need this? .... won't you be scared..?
     -> Mouse: I'll be alright, I've fared well in..stickier situations.
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: I'll be alright, I've fared well in..stickier situations.
+    <<PlaySound "AUD_DIA_Bat">>
     Bat: Thank you sir mouse! With this, I think I might be able to find my famil-AHH!! ....... Oh! It was just your shadow haha!
 -> Mouse: There's nothing dangerous here...
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: There's nothing dangerous here...
     // No lamp
+    <<PlaySound "AUD_DIA_Bat">>
     Bat: I can't find my way through the cave …. it's dangerous, Mr. Mouse !!
     -> Mouse: You'll be fine. I'm sure you'll work up the courage eventually.
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: You'll be fine. I'm sure you'll work up the courage eventually.
+    <<PlaySound "AUD_DIA_Bat">>
     Bat: I think I'll just stay here then... it's too scary to move...
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
 ===
