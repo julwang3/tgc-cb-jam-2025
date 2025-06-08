@@ -5,7 +5,8 @@ public class ParallaxController : MonoBehaviour
     private float length;
     private Vector3 startPos;
     public GameObject cam;
-    public float parallaxEffect;
+    public float parallaxEffectX;
+    public float parallaxEffectY;
 
     void Start()
     {
@@ -15,8 +16,9 @@ public class ParallaxController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float distX = (cam.transform.position.x * parallaxEffect);
-        float distY = (cam.transform.position.y * parallaxEffect);
+        float distX = (cam.transform.position.x * parallaxEffectX);
+        float distY = (cam.transform.position.y * parallaxEffectY);
+        //float distY = 0.0f; // Disable vertical parallax for now
 
         transform.position = startPos + new Vector3(distX, distY, 0.0f);
     }
