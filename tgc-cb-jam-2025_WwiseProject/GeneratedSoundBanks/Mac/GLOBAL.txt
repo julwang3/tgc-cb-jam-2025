@@ -3,5 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1876713613	AUD_GLOB_Dialogue_End			\Default Work Unit\AUD_GLOB\AUD_GLOB_Dialogue_End	
 	2907054036	AUD_GLOB_Game_Pause			\Default Work Unit\AUD_GLOB\AUD_GLOB_Game_Pause	
 	3056393030	AUD_GLOB_Game_Start			\Default Work Unit\AUD_GLOB\AUD_GLOB_Game_Start	
+	3895832421	AUD_GLOB_Level_Transition			\Default Work Unit\AUD_GLOB\AUD_GLOB_Level_Transition	
 	4066955427	AUD_GLOB_Game_Unpause			\Default Work Unit\AUD_GLOB\AUD_GLOB_Game_Unpause	
 
