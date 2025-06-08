@@ -13,6 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AUD_DIA_BAT = 1573584026U;
+        static const AkUniqueID AUD_DIA_KIWI = 1814518349U;
+        static const AkUniqueID AUD_DIA_MOUSE = 3474783690U;
+        static const AkUniqueID AUD_DIA_TORTOISE = 2922012112U;
+        static const AkUniqueID AUD_GLOB_DIALOGUE_END = 1876713613U;
+        static const AkUniqueID AUD_GLOB_DIALOGUE_START = 39389702U;
         static const AkUniqueID AUD_GLOB_GAME_PAUSE = 2907054036U;
         static const AkUniqueID AUD_GLOB_GAME_START = 3056393030U;
         static const AkUniqueID AUD_GLOB_GAME_UNPAUSE = 4066955427U;
@@ -97,6 +103,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID ENVIRONMENT_SFX = 2813969293U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;

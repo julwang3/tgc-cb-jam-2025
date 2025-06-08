@@ -3,34 +3,13 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{9D28887F-EF6F-41D7-A40B-AD3CBF36DE20}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="AUD_SFX_Environment" ID="{FF9ED9F4-45CC-4EC8-99F9-FC1F9D89AAD6}" ShortID="65513751">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="13"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
-				<Folder Name="AUD_SFX_Player" ID="{A4735A5B-6DB3-4BE7-8C23-A124B2F60A63}" ShortID="1033428007">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
-				<Folder Name="AUD_UI" ID="{373D8949-6F98-4DDC-A51F-6518CAE58D4F}" ShortID="41948783">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
-				<Folder Name="AUD_TEMPLATE, set settings here and copy paste" ID="{5835A113-8945-4E98-BF80-26647D9CAC51}" ShortID="202672130">
+				<Folder Name="AUD_DIALOGUE" ID="{D42CA746-3A59-4470-ABA5-F5BC859B0CE2}" ShortID="939949047">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="5"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<ActorMixer Name="AUD_SFX_ENV_AMB_XXX" ID="{1B0A8A50-8C3F-43D9-9EF8-EB0F2252AE0D}" ShortID="91290058">
-							<PropertyList>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
+						<ActorMixer Name="AUD_DIA_Character" ID="{EC3DCFEA-B4DB-44AC-970D-50D27563960A}" ShortID="650174154">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
@@ -39,59 +18,578 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="AUD_DIA_Mouse" ID="{D689E06E-1598-4179-A218-8C52981263F2}" ShortID="704676376">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AUD_DIA_Mouse_1" ID="{D8F02518-0879-471C-93C3-09D393C75424}" ShortID="497331327">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Mouse_1" ID="{ACB6B12D-09E0-46AF-B1F7-3B54969FC8E6}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Mouse_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="224155800"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Mouse_1" ID="{ACB6B12D-09E0-46AF-B1F7-3B54969FC8E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Mouse_2" ID="{F2139824-EF05-49E1-B8E3-2FE4148BC763}" ShortID="886296486">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Mouse_2" ID="{3CEDC2E4-0D74-483D-BF0F-BB6BE120396B}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Mouse_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="402414549"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Mouse_2" ID="{3CEDC2E4-0D74-483D-BF0F-BB6BE120396B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Mouse_3" ID="{8E557162-0D05-4618-A429-D84C2451D208}" ShortID="345721169">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Mouse_3" ID="{E713626B-9374-42BE-A85D-0F3C085648D4}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Mouse_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="4974575"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Mouse_3" ID="{E713626B-9374-42BE-A85D-0F3C085648D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Mouse_4" ID="{FECC33FF-21D3-42E7-B518-4036D9E9C3A3}" ShortID="783020656">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Mouse_4" ID="{66379FEA-6DAF-448D-8868-AA7BB3ACCDF9}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Mouse_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="60427033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Mouse_4" ID="{66379FEA-6DAF-448D-8868-AA7BB3ACCDF9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="AUD_DIA_Bat" ID="{5054D00F-3D03-4D66-A37E-6E485FBAC149}" ShortID="37999834">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AUD_DIA_Bat_1" ID="{FE7C1D62-C4DB-4925-A029-54D981FC1626}" ShortID="735106011">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Bat_1" ID="{16D7257A-95BF-4DC8-8673-774932837D14}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Bat_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="730019814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Bat_1" ID="{16D7257A-95BF-4DC8-8673-774932837D14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Bat_2" ID="{BE0D8FA9-47EC-4B49-B01E-AC2AFF4BCCD7}" ShortID="66397944">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Bat_2" ID="{9FD370EC-4B15-44B6-9307-B71AA6D09840}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Bat_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="415448254"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Bat_2" ID="{9FD370EC-4B15-44B6-9307-B71AA6D09840}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Bat_3" ID="{2029D0DF-79D2-40B9-AACC-E321351519FE}" ShortID="855780991">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Bat_3" ID="{B00466D6-B809-4F17-BC58-92E7A28C7C59}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Bat_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="696195780"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Bat_3" ID="{B00466D6-B809-4F17-BC58-92E7A28C7C59}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Bat_4" ID="{29225128-741F-4760-82E1-DD0F70991E12}" ShortID="380696499">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Bat_4" ID="{6AA2620C-4190-47F7-9649-A56C3C1A6DE5}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Bat_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1043615165"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Bat_4" ID="{6AA2620C-4190-47F7-9649-A56C3C1A6DE5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="AUD_DIA_Kiwi" ID="{BB81E158-38F2-452D-9E2C-86D654C53299}" ShortID="793948094">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AUD_DIA_Kiwi_1" ID="{61B03FC7-3196-4ACB-999A-C79373554ADD}" ShortID="585814578">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Kiwi_1" ID="{9B7F00B4-15F4-4FA3-A0B7-29B5B1B9D82E}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Kiwi_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="136752868"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Kiwi_1" ID="{9B7F00B4-15F4-4FA3-A0B7-29B5B1B9D82E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Kiwi_2" ID="{6309865A-8181-4F9D-B8DF-4B56AC0788DA}" ShortID="931240938">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Kiwi_2" ID="{A46BAFB2-852B-4203-B324-8B8CA2383399}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Kiwi_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="101391054"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Kiwi_2" ID="{A46BAFB2-852B-4203-B324-8B8CA2383399}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Kiwi_3" ID="{1AC52BE1-BEF4-4919-90CB-624263E645D7}" ShortID="800507471">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Kiwi_3" ID="{21D3C4E7-BDAE-433A-A156-F1FF31184A5C}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Kiwi_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="939524038"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Kiwi_3" ID="{21D3C4E7-BDAE-433A-A156-F1FF31184A5C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Kiwi_4" ID="{EB7E4485-5D1E-4129-AA63-29B9FA25E56D}" ShortID="162221805">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Kiwi_4" ID="{AEBCCDAC-EE5A-40E2-9144-F56629AC1024}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Kiwi_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="603749455"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Kiwi_4" ID="{AEBCCDAC-EE5A-40E2-9144-F56629AC1024}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="AUD_DIA_Tortoise" ID="{67D3E4F2-7605-4593-BD76-09102BDF4AEF}" ShortID="769674918">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AUD_DIA_Tortoise_1" ID="{DC232C73-31CE-492E-ADCC-B7DF5FD931EC}" ShortID="562998387">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Tortoise_1" ID="{B8C25B9B-7EAA-4ABE-A4AA-961E050D0CD7}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Tortoise_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="175219850"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Tortoise_1" ID="{B8C25B9B-7EAA-4ABE-A4AA-961E050D0CD7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Tortoise_2" ID="{D7BB4768-5B9C-4F0F-A13C-D7A012F6C8B4}" ShortID="126557233">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Tortoise_2" ID="{762B9534-8A00-4279-A1FF-3F91C12B4E21}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Tortoise_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="655595191"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Tortoise_2" ID="{762B9534-8A00-4279-A1FF-3F91C12B4E21}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Tortoise_3" ID="{A1C28324-D31D-4BAC-A9CE-DEEEEE3A89F2}" ShortID="89282989">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Tortoise_3" ID="{0952719F-C5CB-435D-A24F-C3622BC4C156}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Tortoise_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="190165072"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Tortoise_3" ID="{0952719F-C5CB-435D-A24F-C3622BC4C156}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AUD_DIA_Tortoise_4" ID="{3613F2FB-0E25-41F9-AB7F-97BDAC40AD39}" ShortID="386788826">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AUD_DIA_Tortoise_4" ID="{0F8A9058-418A-4479-9850-B7CA707E52A5}">
+													<Language>SFX</Language>
+													<AudioFile>AUD_DIA_Tortoise_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="99544223"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AUD_DIA_Tortoise_4" ID="{0F8A9058-418A-4479-9850-B7CA707E52A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="AUD_DIA_Bird" ID="{9701BFA7-E0A7-4797-B865-65BF068BD2A5}" ShortID="125494689">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
 						</ActorMixer>
-						<ActorMixer Name="AUD_SFX_ENV_OBJ_XXX" ID="{39493A5C-AB7F-4077-9284-2D810482F942}" ShortID="7157661">
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AUD_SFX" ID="{EDA11E2F-EB0F-4FF6-82DD-A926712981C2}" ShortID="320017608">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="AUD_SFX_Environment" ID="{FF9ED9F4-45CC-4EC8-99F9-FC1F9D89AAD6}" ShortID="65513751">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
-								</Reference>
-							</ReferenceList>
-						</ActorMixer>
-						<ActorMixer Name="AUD_SFX_PLY_FOL_XXX" ID="{84E28283-99C5-4812-BC68-152A144CC2A4}" ShortID="75192080">
+						</Folder>
+						<Folder Name="AUD_SFX_Player" ID="{A4735A5B-6DB3-4BE7-8C23-A124B2F60A63}" ShortID="1033428007">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
-								</Reference>
-							</ReferenceList>
-						</ActorMixer>
-						<ActorMixer Name="AUD_SFX_PLY_MOV_XXX" ID="{17432BE1-4471-49A6-90C2-B2660D4EB4D2}" ShortID="75089198">
+						</Folder>
+						<Folder Name="AUD_UI" ID="{373D8949-6F98-4DDC-A51F-6518CAE58D4F}" ShortID="41948783">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
-								</Reference>
-							</ReferenceList>
-						</ActorMixer>
-						<ActorMixer Name="AUD_UI_MENU_XTABX_XXX" ID="{F25746E3-175C-4F76-A6F6-219F4C15740C}" ShortID="23681850">
+						</Folder>
+						<Folder Name="AUD_TEMPLATE, set settings here and copy paste" ID="{5835A113-8945-4E98-BF80-26647D9CAC51}" ShortID="202672130">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="5"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
-								</Reference>
-							</ReferenceList>
-						</ActorMixer>
+							<ChildrenList>
+								<ActorMixer Name="AUD_SFX_ENV_AMB_XXX" ID="{1B0A8A50-8C3F-43D9-9EF8-EB0F2252AE0D}" ShortID="91290058">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+								<ActorMixer Name="AUD_SFX_ENV_OBJ_XXX" ID="{39493A5C-AB7F-4077-9284-2D810482F942}" ShortID="7157661">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+								<ActorMixer Name="AUD_SFX_PLY_FOL_XXX" ID="{84E28283-99C5-4812-BC68-152A144CC2A4}" ShortID="75192080">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+								<ActorMixer Name="AUD_SFX_PLY_MOV_XXX" ID="{17432BE1-4471-49A6-90C2-B2660D4EB4D2}" ShortID="75089198">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+								<ActorMixer Name="AUD_UI_MENU_XTABX_XXX" ID="{F25746E3-175C-4F76-A6F6-219F4C15740C}" ShortID="23681850">
+									<PropertyList>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
