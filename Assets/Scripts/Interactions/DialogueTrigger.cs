@@ -11,7 +11,8 @@ public class DialogueTrigger : MonoBehaviour
     {
         Dash,
         DoubleJump,
-        Vision
+        Vision,
+        None
     };
 
     [SerializeField] protected string dialogueName;

@@ -14,7 +14,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="AUD_MUS_MENU" ID="{59E7D889-4F3A-4D1B-B059-41352A3B52A0}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+											<ObjectRef Name="AUD_MUS_AREA" ID="{582ADD88-F524-458A-B0A7-0BACFABBE297}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

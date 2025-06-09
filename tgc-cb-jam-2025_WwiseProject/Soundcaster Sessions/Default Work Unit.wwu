@@ -42,7 +42,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Yes" ID="{DC5FE8FE-B789-4447-9331-D8819A0366AF}"/>
-						<CurrentStateRef Name="Forest" ID="{9549A0BC-4B86-410A-AC99-B3D71978176A}"/>
+						<CurrentStateRef Name="Cave" ID="{047800F0-2581-491E-918C-F8BA09618C1C}"/>
 						<CurrentStateRef Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}"/>
 						<CurrentStateRef Name="No" ID="{DF2A908A-AA34-4A6C-8F00-9C899DCB7D25}"/>
 						<CurrentStateRef Name="No" ID="{4FD6CC64-7180-44FA-8031-1B88E2CB75A5}"/>

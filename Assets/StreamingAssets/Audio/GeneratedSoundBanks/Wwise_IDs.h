@@ -40,11 +40,11 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID BA3 = 513390177U;
                 static const AkUniqueID CAVE = 4122393694U;
                 static const AkUniqueID FOREST = 491961918U;
                 static const AkUniqueID HOME = 3181406844U;
                 static const AkUniqueID MEADOW = 2435155766U;
+                static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID TUTORIAL = 3762955427U;
             } // namespace STATE
