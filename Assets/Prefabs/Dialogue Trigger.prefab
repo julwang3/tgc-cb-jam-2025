@@ -46,7 +46,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueName: 
-  OnTriggerEvents: []
+  givePlayableDirector: {fileID: 0}
+  abilityToGive: 3
+  onGiveAbility:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &3794212716347677362
 BoxCollider2D:
   m_ObjectHideFlags: 0

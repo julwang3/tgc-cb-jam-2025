@@ -1,0 +1,14 @@
+title: MouseStart
+position: 0,0
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+<<if HasDash() == false || HasDoubleJump() == false || HasVision() == false>>
+    Mouse: Almost home... just this final stretch.
+<<else>>
+    Mouse: It's quiet.
+<<endif>>
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===
