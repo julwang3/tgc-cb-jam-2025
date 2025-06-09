@@ -19,6 +19,7 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private PlayableDirector givePlayableDirector;
     [SerializeField] private Ability abilityToGive;
     [SerializeField] private UnityEvent onGiveAbility;
+    [SerializeField] private UnityEvent onCompleteEvent;
 
     private PlayerController player;
     private bool isTriggered = false;
@@ -70,6 +71,10 @@ public class DialogueTrigger : MonoBehaviour
         }
         else
         {
+            if (onCompleteEvent != null)
+            {
+                onCompleteEvent.Invoke();
+            }
             isRunning = false;
         }
     }
@@ -80,7 +85,14 @@ public class DialogueTrigger : MonoBehaviour
         {
             yield return null;
         }
-        transform.parent.gameObject.SetActive(false);
+        if (transform.parent != null)
+        {
+            transform.parent.gameObject.SetActive(false);
+        }
+        if (onCompleteEvent != null)
+        {
+            onCompleteEvent.Invoke();
+        }
         isRunning = false;
     }
 
