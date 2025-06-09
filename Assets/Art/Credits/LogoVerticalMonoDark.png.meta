@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 0acbccfb38a631c48851d15f6e9afa71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3467121535646071609
+    second: LogoVerticalMonoDark_0
+  - first:
+      213: 6564720735219395992
+    second: LogoVerticalMonoDark_1
+  - first:
+      213: 5250854140601913912
+    second: LogoVerticalMonoDark_2
+  - first:
+      213: -6875396722525416274
+    second: LogoVerticalMonoDark_3
+  - first:
+      213: 3120008545801227316
+    second: LogoVerticalMonoDark_4
+  - first:
+      213: -2116137232637328584
+    second: LogoVerticalMonoDark_5
+  - first:
+      213: 6447002565216548187
+    second: LogoVerticalMonoDark_6
+  - first:
+      213: 4377082462903787070
+    second: LogoVerticalMonoDark_7
+  - first:
+      213: 3591509371771445032
+    second: LogoVerticalMonoDark_8
+  - first:
+      213: 1459233468038436407
+    second: LogoVerticalMonoDark_9
+  - first:
+      213: 6321659057491357357
+    second: LogoVerticalMonoDark_10
+  - first:
+      213: -7718236765825541826
+    second: LogoVerticalMonoDark_11
+  - first:
+      213: 4661819256016347613
+    second: LogoVerticalMonoDark_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1679
+        width: 2512
+        height: 3591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c485ba355f42efc0800000000000000
+      internalID: -3467121535646071609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 829
+        width: 464
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89da4603ab29a1b50800000000000000
+      internalID: 6564720735219395992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_2
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 817
+        width: 419
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83257f94508ced840800000000000000
+      internalID: 5250854140601913912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_3
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 833
+        width: 416
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4dcf7bb1fa590a0800000000000000
+      internalID: -6875396722525416274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_4
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 833
+        width: 361
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c4aaced3f7c4b20800000000000000
+      internalID: 3120008545801227316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 136
+        width: 417
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8338ca01668f1a2e0800000000000000
+      internalID: -2116137232637328584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_6
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 567
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55b3c5ecaa587950800000000000000
+      internalID: 6447002565216548187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_7
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 397
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ed8f92f458ebc30800000000000000
+      internalID: 4377082462903787070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_8
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 147
+        width: 338
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f5ce7beba97d130800000000000000
+      internalID: 3591509371771445032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_9
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 151
+        width: 361
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736daca9b1d304410800000000000000
+      internalID: 1459233468038436407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_10
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 151
+        width: 361
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae27e05b6b0bb750800000000000000
+      internalID: 6321659057491357357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_11
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 135
+        width: 385
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39db90fd8053e490800000000000000
+      internalID: -7718236765825541826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMonoDark_12
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 151
+        width: 415
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd12ee9f9eb12b040800000000000000
+      internalID: 4661819256016347613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoVerticalMonoDark_0: -3467121535646071609
+      LogoVerticalMonoDark_1: 6564720735219395992
+      LogoVerticalMonoDark_10: 6321659057491357357
+      LogoVerticalMonoDark_11: -7718236765825541826
+      LogoVerticalMonoDark_12: 4661819256016347613
+      LogoVerticalMonoDark_2: 5250854140601913912
+      LogoVerticalMonoDark_3: -6875396722525416274
+      LogoVerticalMonoDark_4: 3120008545801227316
+      LogoVerticalMonoDark_5: -2116137232637328584
+      LogoVerticalMonoDark_6: 6447002565216548187
+      LogoVerticalMonoDark_7: 4377082462903787070
+      LogoVerticalMonoDark_8: 3591509371771445032
+      LogoVerticalMonoDark_9: 1459233468038436407
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -31,7 +31,7 @@ public class MainMenuUI : MonoBehaviour
 
     private void OnCreditsPressed()
     {
-        Debug.Log("Credits"); // TODO
+        LevelManager.Instance.LoadLevel("Credits");
     }
 
     private void OnQuitPressed()

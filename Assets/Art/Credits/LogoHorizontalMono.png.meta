@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: c7db8ab90c53ba442af00cff0adcd9ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1930477569033385063
+    second: LogoHorizontalMono_0
+  - first:
+      213: 5358987323949884020
+    second: LogoHorizontalMono_1
+  - first:
+      213: -6431846670168393085
+    second: LogoHorizontalMono_2
+  - first:
+      213: 439693977670720873
+    second: LogoHorizontalMono_3
+  - first:
+      213: -1156909548487497568
+    second: LogoHorizontalMono_4
+  - first:
+      213: 115716014467442121
+    second: LogoHorizontalMono_5
+  - first:
+      213: 4322250947262068258
+    second: LogoHorizontalMono_6
+  - first:
+      213: -294993333656493295
+    second: LogoHorizontalMono_7
+  - first:
+      213: 7293397459001966896
+    second: LogoHorizontalMono_8
+  - first:
+      213: 7641749465520714219
+    second: LogoHorizontalMono_9
+  - first:
+      213: 528135384102963748
+    second: LogoHorizontalMono_10
+  - first:
+      213: -3404852411748464553
+    second: LogoHorizontalMono_11
+  - first:
+      213: -6347818520200122331
+    second: LogoHorizontalMono_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoHorizontalMono_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 889
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bc7ea01e09535e0800000000000000
+      internalID: -1930477569033385063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_1
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 734
+        width: 416
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472aad7f392fe5a40800000000000000
+      internalID: 5358987323949884020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_2
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 724
+        width: 378
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a75d6e78d7db6a0800000000000000
+      internalID: -6431846670168393085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_3
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 736
+        width: 373
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d11f4d75b1a1600800000000000000
+      internalID: 439693977670720873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_4
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 736
+        width: 324
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8252d25e4d1ffe0800000000000000
+      internalID: -1156909548487497568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_5
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 129
+        width: 374
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5e7212a1b1b9100800000000000000
+      internalID: 115716014467442121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_6
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 525
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226b6a51658bbfb30800000000000000
+      internalID: 4322250947262068258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_7
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 0
+        width: 363
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113eb404029f7ebf0800000000000000
+      internalID: -294993333656493295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_8
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 139
+        width: 308
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0318c8dc85a573560800000000000000
+      internalID: 7293397459001966896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_9
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 141
+        width: 324
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1b4e2b6a2fc0a60800000000000000
+      internalID: 7641749465520714219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_10
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 141
+        width: 324
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a85ca6550545700800000000000000
+      internalID: 528135384102963748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_11
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 129
+        width: 349
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758c91d65c88fb0d0800000000000000
+      internalID: -3404852411748464553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoHorizontalMono_12
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 141
+        width: 373
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52073d420b408e7a0800000000000000
+      internalID: -6347818520200122331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoHorizontalMono_0: -1930477569033385063
+      LogoHorizontalMono_1: 5358987323949884020
+      LogoHorizontalMono_10: 528135384102963748
+      LogoHorizontalMono_11: -3404852411748464553
+      LogoHorizontalMono_12: -6347818520200122331
+      LogoHorizontalMono_2: -6431846670168393085
+      LogoHorizontalMono_3: 439693977670720873
+      LogoHorizontalMono_4: -1156909548487497568
+      LogoHorizontalMono_5: 115716014467442121
+      LogoHorizontalMono_6: 4322250947262068258
+      LogoHorizontalMono_7: -294993333656493295
+      LogoHorizontalMono_8: 7293397459001966896
+      LogoHorizontalMono_9: 7641749465520714219
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 13d05490c2e880c4b8a0bd6598006945
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1699220459452062512
+    second: LogoVerticalMono_0
+  - first:
+      213: -4321014455583886484
+    second: LogoVerticalMono_1
+  - first:
+      213: -7367264757864304245
+    second: LogoVerticalMono_2
+  - first:
+      213: 4730634777878131763
+    second: LogoVerticalMono_3
+  - first:
+      213: -6786505681065429666
+    second: LogoVerticalMono_4
+  - first:
+      213: -1196229850616332046
+    second: LogoVerticalMono_5
+  - first:
+      213: -3513405508369682810
+    second: LogoVerticalMono_6
+  - first:
+      213: -3898773347768725657
+    second: LogoVerticalMono_7
+  - first:
+      213: -704987291714574004
+    second: LogoVerticalMono_8
+  - first:
+      213: 8098915749327229416
+    second: LogoVerticalMono_9
+  - first:
+      213: 1535919449654485978
+    second: LogoVerticalMono_10
+  - first:
+      213: 3845761946377547714
+    second: LogoVerticalMono_11
+  - first:
+      213: -5428051771379337052
+    second: LogoVerticalMono_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoVerticalMono_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1679
+        width: 2512
+        height: 3591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4a847bef72b68e0800000000000000
+      internalID: -1699220459452062512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 829
+        width: 464
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6338911f3ca804c0800000000000000
+      internalID: -4321014455583886484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_2
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 817
+        width: 419
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b817e357cb732c990800000000000000
+      internalID: -7367264757864304245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_3
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 833
+        width: 416
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334f889344796a140800000000000000
+      internalID: 4730634777878131763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_4
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 833
+        width: 361
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55bced1a0d71d1a0800000000000000
+      internalID: -6786505681065429666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 136
+        width: 417
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f08b4ce943266fe0800000000000000
+      internalID: -1196229850616332046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_6
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 567
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e69b11e40ed3fc0800000000000000
+      internalID: -3513405508369682810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_7
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 397
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f0c7afb46c4e9c0800000000000000
+      internalID: -3898773347768725657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_8
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 147
+        width: 338
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49203a1bc16736f0800000000000000
+      internalID: -704987291714574004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_9
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 151
+        width: 361
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e15770d6f0256070800000000000000
+      internalID: 8098915749327229416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_10
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 151
+        width: 361
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3e4401a9ea05510800000000000000
+      internalID: 1535919449654485978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_11
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 135
+        width: 385
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf6c805d14ee5530800000000000000
+      internalID: 3845761946377547714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoVerticalMono_12
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 151
+        width: 415
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a831884cafaba4b0800000000000000
+      internalID: -5428051771379337052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoVerticalMono_0: -1699220459452062512
+      LogoVerticalMono_1: -4321014455583886484
+      LogoVerticalMono_10: 1535919449654485978
+      LogoVerticalMono_11: 3845761946377547714
+      LogoVerticalMono_12: -5428051771379337052
+      LogoVerticalMono_2: -7367264757864304245
+      LogoVerticalMono_3: 4730634777878131763
+      LogoVerticalMono_4: -6786505681065429666
+      LogoVerticalMono_5: -1196229850616332046
+      LogoVerticalMono_6: -3513405508369682810
+      LogoVerticalMono_7: -3898773347768725657
+      LogoVerticalMono_8: -704987291714574004
+      LogoVerticalMono_9: 8098915749327229416
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
