@@ -168,6 +168,10 @@ PrefabInstance:
       value: MeadowTortoise
       objectReference: {fileID: 0}
     - target: {fileID: 2644816979660724092, guid: 6e80b5323511248bc865248e24dfd0b2, type: 3}
+      propertyPath: abilityToGive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644816979660724092, guid: 6e80b5323511248bc865248e24dfd0b2, type: 3}
       propertyPath: OnDialogueCompleteEvents.Array.size
       value: 1
       objectReference: {fileID: 0}

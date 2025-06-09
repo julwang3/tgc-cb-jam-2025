@@ -94,4 +94,23 @@ public class InteractionSystem : MonoBehaviour
             dialogueTriggers[i].GiveAbility();
         }
     }
+
+    [YarnFunction]
+    public static bool HasDash()
+    {
+        return false;
+        return PlayerController.HasDash;
+    }
+
+    [YarnFunction]
+    public static bool HasDoubleJump()
+    {
+        return PlayerController.HasDoubleJump;
+    }
+
+    [YarnFunction]
+    public static bool HasVision()
+    {
+        return PlayerController.HasVision;
+    }
 }
