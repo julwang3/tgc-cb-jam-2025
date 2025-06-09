@@ -153,6 +153,16 @@ MonoBehaviour:
   IsLoading: 1
   FadeToBlackObj: {fileID: 2967660277137752370}
   FadeToBlackAnim: {fileID: 118631380882810234}
+  TransitionEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c2db24cb7f416ef4d9e1434a184e3aa0, type: 2}
+  NextLevelState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   HasSpawnPos: 0
   SpawnPos: {x: 0, y: 0}
 --- !u!223 &5134661888281646354

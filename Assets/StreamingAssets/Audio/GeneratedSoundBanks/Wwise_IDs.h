@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID AUD_GLOB_GAME_UNPAUSE = 4066955427U;
         static const AkUniqueID AUD_GLOB_LEVEL_TRANSITION = 3895832421U;
         static const AkUniqueID AUD_MUS_GAME_START = 317055371U;
+        static const AkUniqueID AUD_SFX_AMBIENCE = 3596488612U;
         static const AkUniqueID AUD_SFX_DASH_CHARGE_READY = 4284596371U;
         static const AkUniqueID AUD_SFX_DASH_CHARGE_START = 4062706046U;
         static const AkUniqueID AUD_SFX_DASH_EXECUTE = 254493152U;

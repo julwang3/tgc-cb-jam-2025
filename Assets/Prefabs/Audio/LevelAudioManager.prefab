@@ -55,7 +55,7 @@ MonoBehaviour:
   Ambience:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2d226ac1e566b44488fad3ebc31fff3c, type: 2}
 --- !u!114 &790534588024174570
 MonoBehaviour:
   m_ObjectHideFlags: 0

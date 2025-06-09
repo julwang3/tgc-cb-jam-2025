@@ -3,22 +3,38 @@ Event	ID	Name			Wwise Object Path	Notes
 	1814518349	AUD_DIA_Kiwi			\Default Work Unit\AUD_DIA\AUD_DIA_Kiwi	
 	2922012112	AUD_DIA_Tortoise			\Default Work Unit\AUD_DIA\AUD_DIA_Tortoise	
 	3474783690	AUD_DIA_Mouse			\Default Work Unit\AUD_DIA\AUD_DIA_Mouse	
+	3596488612	AUD_SFX_Ambience			\Default Work Unit\AUD_SFX\AUD_SFX_Ambience	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1562869527	AUD_MUS_Area			\Default Work Unit\AUD_MUS\AUD_MUS_Area	
+
+State	ID	Name	State Group			Notes
+	491961918	Forest	AUD_MUS_Area			
+	748895195	None	AUD_MUS_Area			
+	2435155766	Meadow	AUD_MUS_Area			
+	2607556080	Menu	AUD_MUS_Area			
+	3181406844	Home	AUD_MUS_Area			
+	3762955427	Tutorial	AUD_MUS_Area			
+	4122393694	Cave	AUD_MUS_Area			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	4974575	AUD_DIA_Mouse_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_3		1039072
-	60427033	AUD_DIA_Mouse_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_4		1039072
-	99544223	AUD_DIA_Tortoise_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_4		514784
-	101391054	AUD_DIA_Kiwi_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_2		514784
-	136752868	AUD_DIA_Kiwi_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_1		514784
-	175219850	AUD_DIA_Tortoise_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_1		514784
-	190165072	AUD_DIA_Tortoise_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_3		514784
-	224155800	AUD_DIA_Mouse_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_1		1039072
-	402414549	AUD_DIA_Mouse_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_2		1039072
-	415448254	AUD_DIA_Bat_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_2		514784
-	603749455	AUD_DIA_Kiwi_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_4		514784
-	655595191	AUD_DIA_Tortoise_2	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_2		514784
-	696195780	AUD_DIA_Bat_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_3		514784
-	730019814	AUD_DIA_Bat_1	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_1		514784
-	939524038	AUD_DIA_Kiwi_3	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_3		514784
-	1043615165	AUD_DIA_Bat_4	Y:\Desktop\Game Dev\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_4		252640
+	4974575	AUD_DIA_Mouse_3	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_3		1039072
+	60427033	AUD_DIA_Mouse_4	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_4		1039072
+	99544223	AUD_DIA_Tortoise_4	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_4		514784
+	101391054	AUD_DIA_Kiwi_2	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_2		514784
+	136752868	AUD_DIA_Kiwi_1	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_1		514784
+	175219850	AUD_DIA_Tortoise_1	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_1		514784
+	190165072	AUD_DIA_Tortoise_3	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_3		514784
+	224155800	AUD_DIA_Mouse_1	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_1		1039072
+	238365278	AUD_SFX_ENV_AMB_Cave	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_SFX_ENV_AMB_Cave_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_SFX\AUD_SFX_Environment\AUD_SFX_ENV_AMB\AUD_SFX_ENV_AMB_General\AUD_SFX_ENV_AMB_Cave		9984096
+	402414549	AUD_DIA_Mouse_2	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Mouse_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Mouse\AUD_DIA_Mouse_2		1039072
+	415448254	AUD_DIA_Bat_2	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_2		514784
+	564014820	AUD_SFX_ENV_AMB_Forest	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_SFX_ENV_AMB_Forest_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_SFX\AUD_SFX_Environment\AUD_SFX_ENV_AMB\AUD_SFX_ENV_AMB_General\AUD_SFX_ENV_AMB_Forest		6624096
+	603749455	AUD_DIA_Kiwi_4	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_4		514784
+	655595191	AUD_DIA_Tortoise_2	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Tortoise_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Tortoise\AUD_DIA_Tortoise_2		514784
+	696195780	AUD_DIA_Bat_3	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_3		514784
+	730019814	AUD_DIA_Bat_1	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_1		514784
+	930990091	AUD_SFX_ENV_AMB_Meadow	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_SFX_ENV_AMB_Meadow_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_SFX\AUD_SFX_Environment\AUD_SFX_ENV_AMB\AUD_SFX_ENV_AMB_General\AUD_SFX_ENV_AMB_Meadow		6528096
+	939524038	AUD_DIA_Kiwi_3	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Kiwi_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Kiwi\AUD_DIA_Kiwi_3		514784
+	1043615165	AUD_DIA_Bat_4	C:\Users\danie\Documents\GitHub\tgc-cb-jam-2025\tgc-cb-jam-2025_WwiseProject\.cache\Mac\SFX\AUD_DIA_Bat_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUD_DIALOGUE\AUD_DIA_Character\AUD_DIA_Bat\AUD_DIA_Bat_4		252640
 

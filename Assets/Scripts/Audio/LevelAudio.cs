@@ -15,8 +15,8 @@ public class LevelAudio : MonoBehaviour
     void Start()
     {
         LevelState.SetValue();
-        PostEventLocal(Ambience);
         AudioManager.Instance.StartLevel();
+        PostEventLocal(Ambience);
     }
 
     public void OnLevelUnload()

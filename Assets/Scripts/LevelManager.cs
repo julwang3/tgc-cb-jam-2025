@@ -10,6 +10,8 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] GameObject FadeToBlackObj;
     [SerializeField] Animator FadeToBlackAnim;
+    [SerializeField] AK.Wwise.Event TransitionEvent;
+    [SerializeField] AK.Wwise.State NextLevelState;
 
     [HideInInspector] public bool HasSpawnPos = false;
     [HideInInspector] public Vector2 SpawnPos;
@@ -61,6 +63,12 @@ public class LevelManager : MonoBehaviour
 
     IEnumerator Transition(string sceneName)
     {
+        AudioManager.Instance.PostEventPersist(TransitionEvent);
+        if (sceneName != "MainMenu" && NextLevelState != null && NextLevelState.IsValid())
+        {
+            NextLevelState.SetValue();
+        }
+
         if (LevelAudio.Instance && !LevelAudio.Instance.gameObject.IsDestroyed())
         {
             LevelAudio.Instance.OnLevelUnload();

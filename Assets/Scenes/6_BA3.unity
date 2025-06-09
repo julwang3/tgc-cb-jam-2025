@@ -1859,7 +1859,7 @@ PrefabInstance:
     - target: {fileID: 240114631459623129, guid: fbb20a96a5fe92d4caffa95ae9ea0534, type: 3}
       propertyPath: LevelState.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 616bd897f6b56d54f82dee6e9e8f5dfc, type: 2}
+      objectReference: {fileID: 11400000, guid: 2357c52f5c209484a8450ad0464bfc1e, type: 2}
     - target: {fileID: 790534588024174570, guid: fbb20a96a5fe92d4caffa95ae9ea0534, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
@@ -2758,6 +2758,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6348588277262508567, guid: 9a8c0ff92af9ec74b8e4ee00e9cc8542, type: 3}
+      propertyPath: NextLevelState.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2357c52f5c209484a8450ad0464bfc1e, type: 2}
     - target: {fileID: 7212970236347049981, guid: 9a8c0ff92af9ec74b8e4ee00e9cc8542, type: 3}
       propertyPath: m_Name
       value: LevelManager
