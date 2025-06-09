@@ -35,6 +35,8 @@ Bat: AHHHH!! Oh! It's just a mouse…. you scared me!! It's so dark in here... I
         <<PlaySound "AUD_DIA_Mouse">>
         Mouse: I'll be alright, I've fared well in..stickier situations.
     <<PlaySound "AUD_DIA_Bat">>
+    <<GiveVision "Dialogue System">>
+    <<GiveLight "Bat">>
     Bat: Thank you sir mouse! With this, I think I might be able to find my famil-AHH!! ....... Oh! It was just your shadow haha!
 -> Mouse: There's nothing dangerous here...
     <<PlaySound "AUD_DIA_Mouse">>

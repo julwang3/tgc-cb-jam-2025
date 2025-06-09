@@ -84,6 +84,12 @@ public class PlayerController : MonoBehaviour
             Physics.SyncTransforms();
             LevelManager.Instance.HasSpawnPos = false; // Reset spawn position
         }
+
+        if (!HasVision)
+        {
+            Light.pointLightInnerRadius = InnerLightMinRadius;
+            Light.pointLightOuterRadius = OuterLightMinRadius;
+        }
     }
 
     public static void Reset()
