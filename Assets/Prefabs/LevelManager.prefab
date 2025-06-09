@@ -174,7 +174,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4178874891cf67d47a214ea556933db4, type: 2}
   HasSpawnPos: 0
   SpawnPos: {x: 0, y: 0}
 --- !u!223 &5134661888281646354

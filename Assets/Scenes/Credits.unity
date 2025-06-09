@@ -1313,7 +1313,7 @@ PrefabInstance:
     - target: {fileID: 240114631459623129, guid: fbb20a96a5fe92d4caffa95ae9ea0534, type: 3}
       propertyPath: LevelState.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 15eda6d6134e7e44ca8a9d9d9b7ade73, type: 2}
+      objectReference: {fileID: 11400000, guid: 4178874891cf67d47a214ea556933db4, type: 2}
     - target: {fileID: 790534588024174570, guid: fbb20a96a5fe92d4caffa95ae9ea0534, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
