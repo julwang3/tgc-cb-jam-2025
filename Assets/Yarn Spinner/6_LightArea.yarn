@@ -1,0 +1,65 @@
+title: LightArea
+position: 0,0
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+<<if HasVision() == false>>
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Ah, it’s getting dark. I can’t even see my own paw in front of my face...
+    <<if HasDoubleJump() == false>>
+        <<PlaySound "AUD_DIA_Kiwi">>
+        Kiwi: Sir Mouse...Do we have to go through this forest?
+        <<if HasDash() == false>>
+            <<PlaySound "AUD_DIA_Tortoise">>
+            Tortoise: I agree with Kiwi here, it’s not wise to go into a dangerous and dark forest without a light.
+        <<endif>>
+    <<elseif HasDash() == false>>
+        <<PlaySound "AUD_DIA_Tortoise">>
+        Tortoise: Kind Mouse, are you sure we have to go into this forest? It’s nearing night and we both know there are dangerous creatures after dark.
+    <<endif>>
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: If only we had light...
+    <<PlaySound "AUD_DIA_Bat">>
+    Bat: Wait!! Mr. Mouse!!
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: ...Lad? What are you doing here?
+    <<PlaySound "AUD_DIA_Bat">>
+    Bat: I thought I saw you crossing the cliffs earlier! I found my family, so I thought I could catch you before you went into the forest after dark.
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: I appreciate it, lad. I’m glad you found your way safely in that cave.
+    <<if HasDash() == false || HasDoubleJump() == false>>  
+        <<PlaySound "AUD_DIA_Bat">>
+        Bat: I see you have some friends, too! We can go through the forest together with your acorn lantern.
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: If you’d like, you can join us at my home for a meal. As thanks, and I doubt your mother would like you wandering these woods at night.
+    <<else>>
+        <<PlaySound "AUD_DIA_Bat">>
+        Bat: You definitely need some light to get through this forest... so we can go together. It’s the least I can do for you, Mr. Mouse!
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: It’ll be fully dark once we get out of this forest...Would you like to join me for a meal at my home? I doubt your mother would like you wandering these woods at night.
+    <<endif>>
+    <<PlaySound "AUD_DIA_Bat">>
+    Bat: Wow, really? Thanks! I would love to!
+<<else>>
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Ah, it’s getting dark. I’m glad I still have this acorn lantern.
+    <<if HasDoubleJump() == false>>
+        <<PlaySound "AUD_DIA_Kiwi">>
+        Kiwi: Sir Mouse...Do we have to go through this forest?
+        <<if HasDash() == false>>
+            <<PlaySound "AUD_DIA_Tortoise">>
+            Tortoise: I think we’ll be alright, Kiwi. Kind Mouse has a lantern guiding our way.
+        <<endif>>
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: We’ll be alright. Just stay close to me.
+    <<elseif HasDash() == false>>
+        <<PlaySound "AUD_DIA_Tortoise">>
+        Tortoise: It’s almost night, we should get through this forest quickly.
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: We’ll be alright. Just stay close to me.
+    <<else>>
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: I guess it’s time to go through this forest.
+    <<endif>>
+<<endif>>
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

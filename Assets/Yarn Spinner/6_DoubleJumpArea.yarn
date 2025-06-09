@@ -1,0 +1,51 @@
+title: DoubleJumpArea
+position: 0,0
+---
+<<if HasDoubleJump() == false>>
+    <<PlaySound "AUD_GLOB_Dialogue_Start">>
+    
+    <<if HasDash() == false>>
+        <<PlaySound "AUD_DIA_Tortoise">>
+        Tortoise: This stone wall... I don’t think we can get across. Sorry, Kind Mouse, this wall is too tall for the both of us.
+    <<endif>>
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Hm, I wonder if I can find another way around...
+    <<PlaySound "AUD_DIA_Kiwi">>
+    Kiwi: Sir Mouse!!!
+    <<PlaySound "AUD_DIA_Kiwi">>
+    Kiwi: Sir Mouse! It’s so good to see you again!
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Hello, again. Did you find your friends in the Forest?
+    <<PlaySound "AUD_DIA_Kiwi">>
+    Kiwi: Yes! We had such a fun party, that new seed blend was awesome!
+    <<PlaySound "AUD_DIA_Kiwi">>
+    Kiwi: How is it going for you, Sir Mouse?
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Well, I've come across this stone wall that I can’t climb over.
+    <<PlaySound "AUD_DIA_Kiwi">>
+    Kiwi: I mean, you gave me this scarf…You’ve helped me…so I’ll help you!
+    <<PlaySound "AUD_DIA_Mouse">>
+    <<if HasDash() == false>>
+        Mouse: You and this tortoise too... I’d like to show my appreciation with a feast once we arrive at my home.
+    <<else>>
+        Mouse: You didn’t need to...I can always find another way. But, thank you.
+    <<endif>>
+    
+    <<PlaySound "AUD_GLOB_Dialogue_End">>
+<<else>>
+    <<if HasDash() == false>>
+        <<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+        <<PlaySound "AUD_DIA_Tortoise">>
+        Tortoise: This stone wall… I don’t think I can get across. Sorry, Kind Mouse. You’ll have to go ahead without me.
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: If you wouldn’t mind... I can help you over this wall.
+        <<PlaySound "AUD_DIA_Mouse">>
+        Mouse: I’m still grateful you’ve helped me across that cliff. I’d like to treat you to dinner at my home.
+        <<PlaySound "AUD_DIA_Tortoise">>
+        Tortoise: Really? I’d love that! 
+
+        <<PlaySound "AUD_GLOB_Dialogue_End">>
+    <<endif>>
+<<endif>>
+===

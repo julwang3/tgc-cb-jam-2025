@@ -1,9 +1,8 @@
 title: DashArea
 position: 0,0
 ---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
 <<if HasDash() == false>>
-    <<PlaySound "AUD_GLOB_Dialogue_Start">>
-
     <<PlaySound "AUD_DIA_Mouse">>
     Mouse: Oh... I gave my boots away. I wonder if that tortoise won the race? Better go around, somehow.
     <<EnterTortoise "Dialogue Trigger - Dash Area">>
@@ -17,7 +16,15 @@ position: 0,0
     Tortoise: Thanks to you, I won the race !!! The hare fell asleep, and those boots gave me the extra boost I needed!
     <<PlaySound "AUD_DIA_Mouse">>
     Mouse: That's good on you, Sir Tortoise. I'm glad you found those boots useful.
-
-    <<PlaySound "AUD_GLOB_Dialogue_End">>
+    <<PlaySound "AUD_DIA_Tortoise">>
+    Tortoise: Enough about me… Where are you going, Mouse, Sir?
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Well... I’m going back home, but I can’t seem to get across this cliff.
+    <<PlaySound "AUD_DIA_Tortoise">>
+    Tortoise: Oh! Since you’ve helped me, I can help you across! Get on my back, Kind Mouse!
+<<else>>
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Dash boots...again. These are useful to me even after the quest’s over.
 <<endif>>
+<<PlaySound "AUD_GLOB_Dialogue_End">>
 ===
