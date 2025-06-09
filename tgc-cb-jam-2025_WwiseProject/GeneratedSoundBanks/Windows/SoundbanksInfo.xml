@@ -513,7 +513,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{0FB73466-8C4B-5186-4826-CEBB11606251}">
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{E9137EAB-A2B9-36B1-B751-03BFC3F4519A}">
 			<ShortName>GLOBAL</ShortName>
 			<Path>GLOBAL.bnk</Path>
 			<Media>
@@ -738,5 +738,5 @@
 			<Path>CAVE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{769E9E04-EFC6-D649-43CA-F121CE7250AE}</FileHash>
+	<FileHash>{74071760-1ACB-6F06-0503-77E304F5737B}</FileHash>
 </SoundBanksInfo>
