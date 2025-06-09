@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 369a9bb2f83591e4e8250047c7bc619e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3883421632672564293
+    second: BGA_Cave_Object_Mural_BatFamily_0
+  - first:
+      213: 769535765921752076
+    second: BGA_Cave_Object_Mural_BatFamily_1
+  - first:
+      213: -5443887497663065777
+    second: BGA_Cave_Object_Mural_BatFamily_2
+  - first:
+      213: 893465257963158353
+    second: BGA_Cave_Object_Mural_BatFamily_3
+  - first:
+      213: -7097392938346818747
+    second: BGA_Cave_Object_Mural_BatFamily_4
+  - first:
+      213: -3833129056329966437
+    second: BGA_Cave_Object_Mural_BatFamily_5
+  - first:
+      213: 3795189893732256857
+    second: BGA_Cave_Object_Mural_BatFamily_6
+  - first:
+      213: -4604652705726812306
+    second: BGA_Cave_Object_Mural_BatFamily_7
+  - first:
+      213: 5047127183976436780
+    second: BGA_Cave_Object_Mural_BatFamily_8
+  - first:
+      213: -3085646601999109741
+    second: BGA_Cave_Object_Mural_BatFamily_9
+  - first:
+      213: 8025566980456904728
+    second: BGA_Cave_Object_Mural_BatFamily_10
+  - first:
+      213: -6567118703985216621
+    second: BGA_Cave_Object_Mural_BatFamily_11
+  - first:
+      213: 2912207056189082194
+    second: BGA_Cave_Object_Mural_BatFamily_12
+  - first:
+      213: 6730396152095133811
+    second: BGA_Cave_Object_Mural_BatFamily_13
+  - first:
+      213: -3869298279173887722
+    second: BGA_Cave_Object_Mural_BatFamily_14
+  - first:
+      213: 184858003346463557
+    second: BGA_Cave_Object_Mural_BatFamily_15
+  - first:
+      213: 1283061368008364970
+    second: BGA_Cave_Object_Mural_BatFamily_16
+  - first:
+      213: 1677945226251206541
+    second: BGA_Cave_Object_Mural_BatFamily_17
+  - first:
+      213: 8667383309140969765
+    second: BGA_Cave_Object_Mural_BatFamily_18
+  - first:
+      213: 6619779199825342617
+    second: BGA_Cave_Object_Mural_BatFamily_19
+  - first:
+      213: 3913727509524837246
+    second: BGA_Cave_Object_Mural_BatFamily_20
+  - first:
+      213: 3396360655672478806
+    second: BGA_Cave_Object_Mural_BatFamily_21
+  - first:
+      213: -9142325127950648349
+    second: BGA_Cave_Object_Mural_BatFamily_22
+  - first:
+      213: -2749567430567365028
+    second: BGA_Cave_Object_Mural_BatFamily_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_0
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 271
+        width: 97
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbfb7fa9905b1ac0800000000000000
+      internalID: -3883421632672564293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 392
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0469b1b3b0fdaa00800000000000000
+      internalID: 769535765921752076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 334
+        width: 124
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f415a90f92d6374b0800000000000000
+      internalID: -5443887497663065777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 367
+        width: 130
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bfb081be9366c00800000000000000
+      internalID: 893465257963158353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 325
+        width: 44
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543d876e9bef08d90800000000000000
+      internalID: -7097392938346818747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 364
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c593b9e6dfdcac0800000000000000
+      internalID: -3833129056329966437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_6
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 349
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c401fb9193ba430800000000000000
+      internalID: 3795189893732256857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_7
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 333
+        width: 101
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fac19b2ccf810c0800000000000000
+      internalID: -4604652705726812306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_8
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 201
+        width: 150
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c241229de6ffa0640800000000000000
+      internalID: 5047127183976436780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_9
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 149
+        width: 76
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391b37193c49d25d0800000000000000
+      internalID: -3085646601999109741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 243
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818fc3fb5aa806f60800000000000000
+      internalID: 8025566980456904728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 264
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39333233558ecd4a0800000000000000
+      internalID: -6567118703985216621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_12
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 263
+        width: 113
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a498853ec3a6820800000000000000
+      internalID: 2912207056189082194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_13
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 297
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370594324ab276d50800000000000000
+      internalID: 6730396152095133811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 153
+        width: 130
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6196fcb27bd7d4ac0800000000000000
+      internalID: -3869298279173887722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_15
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 361
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b9a57ef5fb09200800000000000000
+      internalID: 184858003346463557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_16
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 245
+        width: 87
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa35a2924895ec110800000000000000
+      internalID: 1283061368008364970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 308
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ff34b0b42494710800000000000000
+      internalID: 1677945226251206541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_18
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 270
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5294f79a23bb84870800000000000000
+      internalID: 8667383309140969765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 179
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990fb11fb1e2edb50800000000000000
+      internalID: 6619779199825342617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_20
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 224
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73f6e02f6a505630800000000000000
+      internalID: 3913727509524837246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 232
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c887a850c422f20800000000000000
+      internalID: 3396360655672478806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_22
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 228
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebbf57fbbfef1180800000000000000
+      internalID: -9142325127950648349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_BatFamily_23
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 180
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c567c0f5df297d9d0800000000000000
+      internalID: -2749567430567365028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BGA_Cave_Object_Mural_BatFamily_0: -3883421632672564293
+      BGA_Cave_Object_Mural_BatFamily_1: 769535765921752076
+      BGA_Cave_Object_Mural_BatFamily_10: 8025566980456904728
+      BGA_Cave_Object_Mural_BatFamily_11: -6567118703985216621
+      BGA_Cave_Object_Mural_BatFamily_12: 2912207056189082194
+      BGA_Cave_Object_Mural_BatFamily_13: 6730396152095133811
+      BGA_Cave_Object_Mural_BatFamily_14: -3869298279173887722
+      BGA_Cave_Object_Mural_BatFamily_15: 184858003346463557
+      BGA_Cave_Object_Mural_BatFamily_16: 1283061368008364970
+      BGA_Cave_Object_Mural_BatFamily_17: 1677945226251206541
+      BGA_Cave_Object_Mural_BatFamily_18: 8667383309140969765
+      BGA_Cave_Object_Mural_BatFamily_19: 6619779199825342617
+      BGA_Cave_Object_Mural_BatFamily_2: -5443887497663065777
+      BGA_Cave_Object_Mural_BatFamily_20: 3913727509524837246
+      BGA_Cave_Object_Mural_BatFamily_21: 3396360655672478806
+      BGA_Cave_Object_Mural_BatFamily_22: -9142325127950648349
+      BGA_Cave_Object_Mural_BatFamily_23: -2749567430567365028
+      BGA_Cave_Object_Mural_BatFamily_3: 893465257963158353
+      BGA_Cave_Object_Mural_BatFamily_4: -7097392938346818747
+      BGA_Cave_Object_Mural_BatFamily_5: -3833129056329966437
+      BGA_Cave_Object_Mural_BatFamily_6: 3795189893732256857
+      BGA_Cave_Object_Mural_BatFamily_7: -4604652705726812306
+      BGA_Cave_Object_Mural_BatFamily_8: 5047127183976436780
+      BGA_Cave_Object_Mural_BatFamily_9: -3085646601999109741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

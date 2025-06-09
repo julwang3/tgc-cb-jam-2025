@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: 1a1344b3cb38af94d8e0a8290692087c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4766237381528229945
+    second: BGA_Cave_Object_Mural_Adventure_0
+  - first:
+      213: -8851273654870652517
+    second: BGA_Cave_Object_Mural_Adventure_1
+  - first:
+      213: 328112230987690815
+    second: BGA_Cave_Object_Mural_Adventure_2
+  - first:
+      213: -2386738288760079274
+    second: BGA_Cave_Object_Mural_Adventure_3
+  - first:
+      213: 8567706087991988282
+    second: BGA_Cave_Object_Mural_Adventure_4
+  - first:
+      213: -6151667391851257035
+    second: BGA_Cave_Object_Mural_Adventure_5
+  - first:
+      213: -6784641740403929831
+    second: BGA_Cave_Object_Mural_Adventure_6
+  - first:
+      213: 6017999174308840258
+    second: BGA_Cave_Object_Mural_Adventure_7
+  - first:
+      213: -7804146217226746657
+    second: BGA_Cave_Object_Mural_Adventure_8
+  - first:
+      213: 2022212100240132284
+    second: BGA_Cave_Object_Mural_Adventure_9
+  - first:
+      213: -2199709059687405863
+    second: BGA_Cave_Object_Mural_Adventure_10
+  - first:
+      213: 1762092231452382830
+    second: BGA_Cave_Object_Mural_Adventure_11
+  - first:
+      213: -3022083660174139577
+    second: BGA_Cave_Object_Mural_Adventure_12
+  - first:
+      213: -3728482096302234550
+    second: BGA_Cave_Object_Mural_Adventure_13
+  - first:
+      213: -7432043435710754352
+    second: BGA_Cave_Object_Mural_Adventure_14
+  - first:
+      213: -1707201528604410754
+    second: BGA_Cave_Object_Mural_Adventure_15
+  - first:
+      213: 3596005707015383770
+    second: BGA_Cave_Object_Mural_Adventure_16
+  - first:
+      213: 2286054570788588888
+    second: BGA_Cave_Object_Mural_Adventure_17
+  - first:
+      213: 7411243076737821157
+    second: BGA_Cave_Object_Mural_Adventure_18
+  - first:
+      213: 7821006208167527193
+    second: BGA_Cave_Object_Mural_Adventure_19
+  - first:
+      213: -6510778905107774256
+    second: BGA_Cave_Object_Mural_Adventure_20
+  - first:
+      213: -3084889520923219
+    second: BGA_Cave_Object_Mural_Adventure_21
+  - first:
+      213: 1553947637389118373
+    second: BGA_Cave_Object_Mural_Adventure_22
+  - first:
+      213: 1564346762011997408
+    second: BGA_Cave_Object_Mural_Adventure_23
+  - first:
+      213: -2503078683581163428
+    second: BGA_Cave_Object_Mural_Adventure_24
+  - first:
+      213: 2401659128920060302
+    second: BGA_Cave_Object_Mural_Adventure_25
+  - first:
+      213: 3662128722623373172
+    second: BGA_Cave_Object_Mural_Adventure_26
+  - first:
+      213: 1907953220469133459
+    second: BGA_Cave_Object_Mural_Adventure_27
+  - first:
+      213: 1406114738504285377
+    second: BGA_Cave_Object_Mural_Adventure_28
+  - first:
+      213: -9137893933484890711
+    second: BGA_Cave_Object_Mural_Adventure_29
+  - first:
+      213: -7444837714660271936
+    second: BGA_Cave_Object_Mural_Adventure_30
+  - first:
+      213: 5754534778021604249
+    second: BGA_Cave_Object_Mural_Adventure_31
+  - first:
+      213: -1248390607798586577
+    second: BGA_Cave_Object_Mural_Adventure_32
+  - first:
+      213: 6160956098771542404
+    second: BGA_Cave_Object_Mural_Adventure_33
+  - first:
+      213: -3967288369213302044
+    second: BGA_Cave_Object_Mural_Adventure_34
+  - first:
+      213: -1392615283929817025
+    second: BGA_Cave_Object_Mural_Adventure_35
+  - first:
+      213: -1896765849173884467
+    second: BGA_Cave_Object_Mural_Adventure_36
+  - first:
+      213: -312166884591898064
+    second: BGA_Cave_Object_Mural_Adventure_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 436
+        width: 334
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c762d6aa5ceaddb0800000000000000
+      internalID: -4766237381528229945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 534
+        width: 250
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9949a7c185f92580800000000000000
+      internalID: -8851273654870652517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 627
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f337b7ee550bd8400800000000000000
+      internalID: 328112230987690815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_3
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 633
+        width: 225
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cb1aefb2a90eed0800000000000000
+      internalID: -2386738288760079274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 595
+        width: 251
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30d6ba1b4b96e670800000000000000
+      internalID: 8567706087991988282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_5
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 228
+        width: 164
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5332a5c9913e0aaa0800000000000000
+      internalID: -6151667391851257035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 453
+        width: 303
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d8fee984c18d1a0800000000000000
+      internalID: -6784641740403929831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_7
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 461
+        width: 253
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243c5434d5a348350800000000000000
+      internalID: 6017999174308840258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_8
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 558
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4cdf21d5a12b390800000000000000
+      internalID: -7804146217226746657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_9
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 509
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb84f47e037501c10800000000000000
+      internalID: 2022212100240132284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 324
+        width: 164
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6af18c3401971e0800000000000000
+      internalID: -2199709059687405863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_11
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 183
+        width: 360
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66d13d6c85347810800000000000000
+      internalID: 1762092231452382830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_12
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 496
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fdec93ce66f06d0800000000000000
+      internalID: -3022083660174139577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 174
+        width: 189
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44608aa945c14cc0800000000000000
+      internalID: -3728482096302234550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 282
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1df233fd31cd890800000000000000
+      internalID: -7432043435710754352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_15
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 196
+        width: 159
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cb78f314dce48e0800000000000000
+      internalID: -1707201528604410754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_16
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 344
+        width: 98
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaede8532497e130800000000000000
+      internalID: 3596005707015383770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_17
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 288
+        width: 106
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d03052582b9bf10800000000000000
+      internalID: 2286054570788588888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_18
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 192
+        width: 141
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9e705df460ad660800000000000000
+      internalID: 7411243076737821157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_19
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 118
+        width: 162
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91343f775bbc98c60800000000000000
+      internalID: 7821006208167527193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_20
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 192
+        width: 211
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4c1f5d41115a5a0800000000000000
+      internalID: -6510778905107774256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_21
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 89
+        width: 84
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad1fef2f4a05fff0800000000000000
+      internalID: -3084889520923219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_22
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 182
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abc22e942bb09510800000000000000
+      internalID: 1553947637389118373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_23
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 113
+        width: 161
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4f14f771da5b510800000000000000
+      internalID: 1564346762011997408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 179
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58da4cf237434dd0800000000000000
+      internalID: -2503078683581163428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 154
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81bad2d048645120800000000000000
+      internalID: 2401659128920060302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 117
+        width: 101
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f98b1abae72d230800000000000000
+      internalID: 3662128722623373172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_27
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 95
+        width: 118
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390102268596a7a10800000000000000
+      internalID: 1907953220469133459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_28
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 171
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc3dfd97e5838310800000000000000
+      internalID: 1406114738504285377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_29
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 96
+        width: 46
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5af63d1edaf2180800000000000000
+      internalID: -9137893933484890711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_30
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 91
+        width: 234
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c85e3ffa8f9ea890800000000000000
+      internalID: -7444837714660271936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 89
+        width: 149
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99beb9b44e63cdf40800000000000000
+      internalID: 5754534778021604249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_32
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 89
+        width: 117
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f233b314b53dcaee0800000000000000
+      internalID: -1248390607798586577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_33
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 89
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481ed000eec108550800000000000000
+      internalID: 6160956098771542404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_34
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 86
+        width: 118
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea908f6f3c51f8c0800000000000000
+      internalID: -3967288369213302044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 79
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30659417cf6cace0800000000000000
+      internalID: -1392615283929817025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_36
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 87
+        width: 94
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc106e972855da5e0800000000000000
+      internalID: -1896765849173884467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGA_Cave_Object_Mural_Adventure_37
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 93
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03272455fd5faabf0800000000000000
+      internalID: -312166884591898064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BGA_Cave_Object_Mural_Adventure_0: -4766237381528229945
+      BGA_Cave_Object_Mural_Adventure_1: -8851273654870652517
+      BGA_Cave_Object_Mural_Adventure_10: -2199709059687405863
+      BGA_Cave_Object_Mural_Adventure_11: 1762092231452382830
+      BGA_Cave_Object_Mural_Adventure_12: -3022083660174139577
+      BGA_Cave_Object_Mural_Adventure_13: -3728482096302234550
+      BGA_Cave_Object_Mural_Adventure_14: -7432043435710754352
+      BGA_Cave_Object_Mural_Adventure_15: -1707201528604410754
+      BGA_Cave_Object_Mural_Adventure_16: 3596005707015383770
+      BGA_Cave_Object_Mural_Adventure_17: 2286054570788588888
+      BGA_Cave_Object_Mural_Adventure_18: 7411243076737821157
+      BGA_Cave_Object_Mural_Adventure_19: 7821006208167527193
+      BGA_Cave_Object_Mural_Adventure_2: 328112230987690815
+      BGA_Cave_Object_Mural_Adventure_20: -6510778905107774256
+      BGA_Cave_Object_Mural_Adventure_21: -3084889520923219
+      BGA_Cave_Object_Mural_Adventure_22: 1553947637389118373
+      BGA_Cave_Object_Mural_Adventure_23: 1564346762011997408
+      BGA_Cave_Object_Mural_Adventure_24: -2503078683581163428
+      BGA_Cave_Object_Mural_Adventure_25: 2401659128920060302
+      BGA_Cave_Object_Mural_Adventure_26: 3662128722623373172
+      BGA_Cave_Object_Mural_Adventure_27: 1907953220469133459
+      BGA_Cave_Object_Mural_Adventure_28: 1406114738504285377
+      BGA_Cave_Object_Mural_Adventure_29: -9137893933484890711
+      BGA_Cave_Object_Mural_Adventure_3: -2386738288760079274
+      BGA_Cave_Object_Mural_Adventure_30: -7444837714660271936
+      BGA_Cave_Object_Mural_Adventure_31: 5754534778021604249
+      BGA_Cave_Object_Mural_Adventure_32: -1248390607798586577
+      BGA_Cave_Object_Mural_Adventure_33: 6160956098771542404
+      BGA_Cave_Object_Mural_Adventure_34: -3967288369213302044
+      BGA_Cave_Object_Mural_Adventure_35: -1392615283929817025
+      BGA_Cave_Object_Mural_Adventure_36: -1896765849173884467
+      BGA_Cave_Object_Mural_Adventure_37: -312166884591898064
+      BGA_Cave_Object_Mural_Adventure_4: 8567706087991988282
+      BGA_Cave_Object_Mural_Adventure_5: -6151667391851257035
+      BGA_Cave_Object_Mural_Adventure_6: -6784641740403929831
+      BGA_Cave_Object_Mural_Adventure_7: 6017999174308840258
+      BGA_Cave_Object_Mural_Adventure_8: -7804146217226746657
+      BGA_Cave_Object_Mural_Adventure_9: 2022212100240132284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

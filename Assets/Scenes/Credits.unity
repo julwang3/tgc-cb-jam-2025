@@ -1452,7 +1452,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Animator, Concept Art, Background Art
+  m_text: Animation, Concept Art, Background Art
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4079f654d3c0b4f0ab4f965ee405b4b9, type: 2}
   m_sharedMaterial: {fileID: -3809733217570734538, guid: 4079f654d3c0b4f0ab4f965ee405b4b9, type: 2}

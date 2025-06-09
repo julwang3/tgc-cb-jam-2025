@@ -163,6 +163,18 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  MenuState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 15eda6d6134e7e44ca8a9d9d9b7ade73, type: 2}
+  CreditsState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   HasSpawnPos: 0
   SpawnPos: {x: 0, y: 0}
 --- !u!223 &5134661888281646354

@@ -12,14 +12,14 @@ public class MainMenuUI : MonoBehaviour
     private void OnEnable()
     {
         startButton.onClick.AddListener(OnStartPressed);
-        creditsButton.onClick.AddListener(OnCreditsPressed);
+        //creditsButton.onClick.AddListener(OnCreditsPressed);
         quitButton.onClick.AddListener(OnQuitPressed);
     }
 
     private void OnDisable()
     {
         startButton.onClick.RemoveListener(OnStartPressed);
-        creditsButton.onClick.RemoveListener(OnCreditsPressed);
+        //creditsButton.onClick.RemoveListener(OnCreditsPressed);
         quitButton.onClick.RemoveListener(OnQuitPressed);
     }
 
@@ -27,11 +27,6 @@ public class MainMenuUI : MonoBehaviour
     {
         PlayerController.Reset();
         LevelManager.Instance.LoadLevel(startScene);
-    }
-
-    private void OnCreditsPressed()
-    {
-        LevelManager.Instance.LoadLevel("Credits");
     }
 
     private void OnQuitPressed()

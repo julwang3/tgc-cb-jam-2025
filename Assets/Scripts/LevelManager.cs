@@ -12,6 +12,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] Animator FadeToBlackAnim;
     [SerializeField] AK.Wwise.Event TransitionEvent;
     [SerializeField] AK.Wwise.State NextLevelState;
+    [SerializeField] AK.Wwise.State MenuState;
+    [SerializeField] AK.Wwise.State CreditsState;
 
     [HideInInspector] public bool HasSpawnPos = false;
     [HideInInspector] public Vector2 SpawnPos;
@@ -65,7 +67,15 @@ public class LevelManager : MonoBehaviour
     IEnumerator Transition(string sceneName)
     {
         AudioManager.Instance.PostEventPersist(TransitionEvent);
-        if (sceneName != "MainMenu" && NextLevelState != null && NextLevelState.IsValid())
+        if (sceneName == "MainMenu" && MenuState != null && MenuState.IsValid())
+        {
+            MenuState.SetValue();
+        }
+        else if (sceneName == "Credits" && CreditsState != null && CreditsState.IsValid())
+        {
+            CreditsState.SetValue();
+        }
+        else if (NextLevelState != null && NextLevelState.IsValid())
         {
             NextLevelState.SetValue();
         }
