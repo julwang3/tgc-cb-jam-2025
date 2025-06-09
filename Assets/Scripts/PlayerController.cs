@@ -29,8 +29,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float GroundedDistance;
     [SerializeField] Light2D Light;
     [SerializeField] float LightChangeTime;
-    [SerializeField] float LightMinRadius;
-    [SerializeField] float LightMaxRadius = 20.0f;
+    [SerializeField] float OuterLightMinRadius = 5.0f;
+    [SerializeField] float OuterLightMaxRadius = 20.0f;
+    [SerializeField] float InnerLightMinRadius = 0.0f;
+    [SerializeField] float InnerLightMaxRadius = 5.0f;
 
     [Header("Abilities")]
     public static bool HasDash = true;
@@ -336,12 +338,12 @@ public class PlayerController : MonoBehaviour
         while (timer <= LightChangeTime)
         {
             timer += Time.deltaTime;
-            Light.pointLightInnerRadius = Mathf.Lerp(initInner, LightMaxRadius, timer / LightChangeTime);
-            Light.pointLightOuterRadius = Mathf.Lerp(initOuter, LightMaxRadius, timer / LightChangeTime);
+            Light.pointLightInnerRadius = Mathf.Lerp(initInner, InnerLightMaxRadius, timer / LightChangeTime);
+            Light.pointLightOuterRadius = Mathf.Lerp(initOuter, OuterLightMaxRadius, timer / LightChangeTime);
             yield return null;
         }
-        Light.pointLightInnerRadius = LightMaxRadius;
-        Light.pointLightOuterRadius = LightMaxRadius;
+        Light.pointLightInnerRadius = InnerLightMaxRadius;
+        Light.pointLightOuterRadius = OuterLightMaxRadius;
     }
 
     IEnumerator OnDeactivateLight()
@@ -353,12 +355,12 @@ public class PlayerController : MonoBehaviour
         while (timer <= LightChangeTime)
         {
             timer += Time.deltaTime;
-            Light.pointLightInnerRadius = Mathf.Lerp(initInner, 0.0f, timer / LightChangeTime);
-            Light.pointLightOuterRadius = Mathf.Lerp(initOuter, LightMinRadius, timer / LightChangeTime);
+            Light.pointLightInnerRadius = Mathf.Lerp(initInner, InnerLightMinRadius, timer / LightChangeTime);
+            Light.pointLightOuterRadius = Mathf.Lerp(initOuter, OuterLightMinRadius, timer / LightChangeTime);
             yield return null;
         }
-        Light.pointLightInnerRadius = 0.0f;
-        Light.pointLightOuterRadius = LightMinRadius;
+        Light.pointLightInnerRadius = InnerLightMinRadius;
+        Light.pointLightOuterRadius = OuterLightMinRadius;
     }
 
     public void PlayFootstep()

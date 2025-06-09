@@ -143,7 +143,7 @@ MonoBehaviour:
   Light: {fileID: 3614247023581380823}
   LightChangeTime: 1
   LightMinRadius: 5
-  LightMaxRadius: 30
+  LightMaxRadius: 20
   FootstepSfx:
     idInternal: 0
     valueGuidInternal: 
@@ -360,8 +360,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 30
-  m_PointLightOuterRadius: 30
+  m_PointLightInnerRadius: 5
+  m_PointLightOuterRadius: 20
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
