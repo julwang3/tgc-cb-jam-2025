@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
         StartCoroutine(Transition(sceneName));
     }
 
-    IEnumerator FadeToBlack()
+    public IEnumerator FadeToBlack()
     {
         IsLoading = true;
         FadeToBlackObj.SetActive(true);
@@ -55,7 +55,7 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(2.0f);
     }
 
-    IEnumerator FadeFromBlack()
+    public IEnumerator FadeFromBlack()
     {
         FadeToBlackObj.SetActive(true);
         FadeToBlackAnim.SetTrigger("FadeFromBlack");
