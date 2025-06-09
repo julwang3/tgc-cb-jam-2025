@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BGA_BA3_Rocks_0: -573038412743229471
+      BGA_BA3_Rocks_1: 204633366809298939
+      BGA_BA3_Rocks_2: 7437330866823885818
+      BGA_BA3_Rocks_3: 4333566172745256644
+      BGA_BA3_Rocks_4: -7957540474303401595
+      BGA_BA3_Rocks_5: -1492160387727747204
+      BGA_BA3_Rocks_6: 1269143600071239900
+      BGA_BA3_Rocks_7: 1285007008509417317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
