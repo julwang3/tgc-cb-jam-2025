@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Abilities")]
     public static bool HasDash = true;
-    public static bool HasDoubleJump = true;
+    public static bool HasDoubleJump = false;
     public static bool HasVision = true;
 
     [Header("Audio")]
@@ -160,20 +160,22 @@ public class PlayerController : MonoBehaviour
         {
             if (!canJump || dashState != DashState.NotDashing) { return; }
 
+            if (!isGrounded && jumps < 1) { jumps = 1; }
+
             if (jumps == 0 || (jumps == 1 && HasDoubleJump))
             {
                 animator.SetInteger("Jump", jumps + 1);
-                StartCoroutine(StartJumpCooldown());
+                StartCoroutine(StartJumpCooldown(jumps));
             }
         }
     }
 
-    IEnumerator StartJumpCooldown()
+    IEnumerator StartJumpCooldown(int trueJumps)
     {
         canJump = false;
 
         // Crouch to jump
-        if (jumps == 0 && isGrounded)
+        if (trueJumps == 0 && isGrounded)
         {
             canMove = false;
 
@@ -185,15 +187,15 @@ public class PlayerController : MonoBehaviour
             canMove = true;
         }
 
-        PlayJump();
+        PlayJump(trueJumps);
         rb.linearVelocityY = JumpForce;
         yield return new WaitForSeconds(JumpCooldown);
 
-        jumps++;
+        jumps = ++trueJumps;
         canJump = true;
 
         // Jump finished
-        if (jumps == 1)
+        if (trueJumps >= 1)
         {
             while (!isGrounded)
             {
@@ -313,8 +315,10 @@ public class PlayerController : MonoBehaviour
 
     private bool IsGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, GroundedDistance);
-        return hit.collider != null;
+        //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, GroundedDistance);
+        //return hit.collider != null;
+
+        return rb.linearVelocityY == 0.0f;
     }
 
     public void ActivateLight()
@@ -371,9 +375,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void PlayJump()
+    public void PlayJump(int trueJumps)
     {
-        if (isGrounded)
+        if (trueJumps == 0)
         {
             JumpSfx.Post(gameObject);
         }
