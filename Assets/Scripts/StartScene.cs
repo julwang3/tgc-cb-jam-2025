@@ -7,6 +7,7 @@ public class StartScene : MonoBehaviour
     [SerializeField] private DialogueRunner dialogueRunner;
     [SerializeField] float fadeInDuration;
     [SerializeField] string sceneToLoad;
+    [SerializeField] AK.Wwise.State PreambleComplete;
 
     private void Start()
     {
@@ -24,7 +25,7 @@ public class StartScene : MonoBehaviour
         {
             yield return null;
         }
-
+        PreambleComplete.SetValue();
         // Load tutorial level
         LevelManager.Instance.LoadLevel(sceneToLoad);
     }

@@ -20,6 +20,7 @@ public class LevelManager : MonoBehaviour
     {
         if (Instance != null)
         {
+            Instance.NextLevelState = NextLevelState;
             Destroy(gameObject);
             return;
             

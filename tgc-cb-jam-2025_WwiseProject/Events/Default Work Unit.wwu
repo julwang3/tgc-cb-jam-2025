@@ -58,6 +58,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{57CA107F-6F23-4999-81EF-DFC448AE7E6B}" ShortID="247537641">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{DC6BA909-79C5-414E-BE99-BD1F7F6ABB48}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{F8A926AF-24AD-4D5E-91A3-A559AA4A254C}" ShortID="735643527">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -247,6 +257,50 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AUD_GLOB_Reset" ID="{521CCBCE-B3D6-41DF-BD00-7CF850B83F83}">
+							<ChildrenList>
+								<Action Name="" ID="{8598F344-9906-48D7-8B59-F3D81CDC47ED}" ShortID="292909375">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{DF2A908A-AA34-4A6C-8F00-9C899DCB7D25}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D24CDA84-1134-45BE-A2EA-05D8B7009A54}" ShortID="590006963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EF43015D-076A-4F98-8EEB-875D701ECAC3}" ShortID="96907652">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{4FD6CC64-7180-44FA-8031-1B88E2CB75A5}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{108CF1D9-83DA-4E12-8C4B-0DCF0B362338}" ShortID="508161079">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{DC6BA909-79C5-414E-BE99-BD1F7F6ABB48}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

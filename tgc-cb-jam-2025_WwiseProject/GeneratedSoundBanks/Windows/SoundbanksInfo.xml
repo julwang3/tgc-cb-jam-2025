@@ -510,7 +510,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{B246BDA9-FDD2-DE5B-0526-9C8B08A9D39B}">
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{0262C7DA-E0DA-DDAA-A592-A32EAD2A313C}">
 			<ShortName>GLOBAL</ShortName>
 			<Path>GLOBAL.bnk</Path>
 			<Media>
@@ -586,6 +586,11 @@
 				<Event Id="3056393030" Name="AUD_GLOB_Game_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4066955427" Name="AUD_GLOB_Game_Unpause" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3895832421" Name="AUD_GLOB_Level_Transition" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2357413814" Name="AUD_GLOB_Reset" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2380841904" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="317055371" Name="AUD_MUS_Game_Start" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -670,6 +675,13 @@
 						<State Id="1668749452" Name="No"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="3411182576" Name="AUD_MUS_Preamble">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{4DAAF1AA-AC05-2700-7B3E-41076F4BB1CA}">
@@ -697,5 +709,5 @@
 			<Path>CAVE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4DF5EA6D-D88F-3200-BD0F-3C662BAEB2E7}</FileHash>
+	<FileHash>{9AEC92EA-F6B8-59EE-A8B8-577683E25F75}</FileHash>
 </SoundBanksInfo>

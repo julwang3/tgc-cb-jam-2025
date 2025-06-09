@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Abilities")]
     public static bool HasDash = true;
-    public static bool HasDoubleJump = false;
+    public static bool HasDoubleJump = true;
     public static bool HasVision = true;
 
     [Header("Audio")]
