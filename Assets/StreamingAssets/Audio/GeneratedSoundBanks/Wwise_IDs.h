@@ -43,6 +43,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID CREDITS = 2201105581U;
                 static const AkUniqueID FOREST = 491961918U;
                 static const AkUniqueID HOME = 3181406844U;
                 static const AkUniqueID MEADOW = 2435155766U;

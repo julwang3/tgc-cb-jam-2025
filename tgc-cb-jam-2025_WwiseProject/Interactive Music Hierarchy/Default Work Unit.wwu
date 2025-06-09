@@ -1145,7 +1145,7 @@
 															</ChildrenList>
 															<StateInfo>
 																<StateGroupList>
-																	<StateGroupInfo>
+																	<StateGroupInfo MusicSyncType="2">
 																		<StateGroupRef Name="AUD_MUS_Helped_Bat" ID="{1611C6AF-95D9-4726-AF44-4E1C0057AC8D}"/>
 																	</StateGroupInfo>
 																</StateGroupList>
@@ -1230,7 +1230,7 @@
 															</ChildrenList>
 															<StateInfo>
 																<StateGroupList>
-																	<StateGroupInfo>
+																	<StateGroupInfo MusicSyncType="2">
 																		<StateGroupRef Name="AUD_MUS_Helped_Kiwi" ID="{8E58D789-58AE-4C9C-AD7E-2B8BF76A836E}"/>
 																	</StateGroupInfo>
 																</StateGroupList>
@@ -1369,7 +1369,7 @@
 															</ChildrenList>
 															<StateInfo>
 																<StateGroupList>
-																	<StateGroupInfo>
+																	<StateGroupInfo MusicSyncType="2">
 																		<StateGroupRef Name="AUD_MUS_Helped_Tortoise" ID="{426F0736-E460-4B3C-B35C-1143C9B6A452}"/>
 																	</StateGroupInfo>
 																</StateGroupList>
@@ -1579,6 +1579,362 @@
 										</MusicSegment>
 									</ChildrenList>
 								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="AUD_MUS_Credits" ID="{460259F8-4873-4725-A7A1-90952798110A}" ShortID="369343153">
+									<PropertyList>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="90"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{E3E926AB-18EC-4E62-8733-738A3E2164E0}" ShortID="994195033">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{6F252E2D-5E7E-44F7-BE27-16E147C07518}" ShortID="676890172">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="AUD_MUS_Credit_Loop_90bpm" ID="{70876301-1E0A-4F32-A89F-E78EABD2E873}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{AA843879-A1AB-4098-9938-470D492F3432}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{0A6F3E7E-8ED8-4652-A8FB-6C56DD5A41E4}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="AUD_MUS_Credit_Loop_90bpm" ID="{70876301-1E0A-4F32-A89F-E78EABD2E873}" ShortID="813582685">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="72666.6666666667"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB2C30C-330D-47E4-BC4C-CD7F19711536}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="AUD_MUS_Credits_Bat_90bpm" ID="{6454F131-E86E-4D8A-AFD8-63218668FCAB}" ShortID="410379820">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{D8A0FC5B-D1BF-40D4-BCB0-3F6A47ED152C}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_MUS_Credits_Bat_90bpm" ID="{1133301F-B742-4628-AA65-F78AD2187BB8}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_MUS_Credits_Bat_90bpm.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="577451509"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="AUD_MUS_Helped_Bat" ID="{1611C6AF-95D9-4726-AF44-4E1C0057AC8D}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Yes" ID="{C1403E34-41DB-44CA-BD08-4D75F08F596E}"/>
+																<CustomState Name="" ID="{733C3E4D-4ACA-4CDC-9D00-A0C36E998914}" ShortID="28048080"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="No" ID="{1FE02D56-8250-4BAC-87A7-730BA6033B6B}"/>
+																<CustomState Name="" ID="{D2B0379D-DDCD-4B59-A062-85F0B91BADAB}" ShortID="298778173">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{428FAB9A-0617-426E-A689-6A091167213C}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="AUD_MUS_Credits_Bat_90bpm" ID="{D4F3BE10-52EC-4938-A73E-2FD030660F73}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="65381"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="AUD_MUS_Credits_Bat_90bpm" ID="{1133301F-B742-4628-AA65-F78AD2187BB8}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="AUD_MUS_Credits_Kiwi_90bpm" ID="{EADE24A1-4939-473B-B2E8-1325E301C5C1}" ShortID="1017767499">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{0236BC26-C416-4971-AA27-BEB218ED4687}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_MUS_Credits_Kiwi_90bpm" ID="{09F652C1-7A8D-4065-9228-85577D056911}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_MUS_Credits_Kiwi_90bpm.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="852281411"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="AUD_MUS_Helped_Kiwi" ID="{8E58D789-58AE-4C9C-AD7E-2B8BF76A836E}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Yes" ID="{4AA763B7-7160-438F-9A97-05B8776CCBDC}"/>
+																<CustomState Name="" ID="{CC56424D-8C43-4D89-BFEC-D4FF68313CB2}" ShortID="752527499"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="No" ID="{4FD6CC64-7180-44FA-8031-1B88E2CB75A5}"/>
+																<CustomState Name="" ID="{937D0C81-29B0-4C0C-8895-686FF6671D8B}" ShortID="174649792">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{19D9FCCC-4AD2-41F7-AB72-5EFDC4CCCF61}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="AUD_MUS_Credits_Kiwi_90bpm" ID="{B34BBCBB-04C0-403D-ABE5-B47EC67C9CAD}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="65381"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="AUD_MUS_Credits_Kiwi_90bpm" ID="{09F652C1-7A8D-4065-9228-85577D056911}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="AUD_MUS_Credits_Loop_90bpm" ID="{9EEF08EA-3C81-4513-AA9D-646FCE08E56A}" ShortID="291849716">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{C5E0D6DB-F6D5-47A0-99CC-89A28A96BFD8}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_MUS_Credits_Loop_90bpm" ID="{9393236E-37C5-48FD-AD85-566F755A91F6}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_MUS_Credits_Loop_90bpm.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="303440108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{52F4A32D-CBAB-4558-960E-656078FE1C30}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="AUD_MUS_Credits_Loop_90bpm" ID="{B2E19829-3F89-4A52-B676-EABA38C503F9}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="68111.6666666667"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="AUD_MUS_Credits_Loop_90bpm" ID="{9393236E-37C5-48FD-AD85-566F755A91F6}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+												<MusicTrack Name="AUD_MUS_Credits_Tortoise_90bpm" ID="{16C436A4-56F8-4F9C-95DB-E277A3208834}" ShortID="940046001">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C802393D-49A3-4F59-81D0-9A1DBC3445D5}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{721474D3-8758-4A09-8E51-A8759CBE7553}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AUD_MUS_Credits_Tortoise_90bpm" ID="{B2AF6114-3ABC-4A3B-B199-84FBC0402AF6}">
+															<Language>SFX</Language>
+															<AudioFile>AUD_MUS_Credits_Tortoise_90bpm.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="167285799"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="AUD_MUS_Helped_Tortoise" ID="{426F0736-E460-4B3C-B35C-1143C9B6A452}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="No" ID="{DF2A908A-AA34-4A6C-8F00-9C899DCB7D25}"/>
+																<CustomState Name="" ID="{207A79BC-9C58-4F42-A787-5C4BA38C19AB}" ShortID="1053106937">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Yes" ID="{5F0E9A45-00AB-4B53-A58B-10FDDEB2ED6B}"/>
+																<CustomState Name="" ID="{25A4A5FE-8DE7-4858-A4C7-750C52CB726E}" ShortID="97908234"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{B2488D78-3D0B-414F-9570-EE8EE400E3F0}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="AUD_MUS_Credits_Tortoise_90bpm" ID="{AAAF8B2D-D84B-429D-B3D5-ACDD25D0DC0A}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="66746.3333333333"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="AUD_MUS_Credits_Tortoise_90bpm" ID="{B2AF6114-3ABC-4A3B-B199-84FBC0402AF6}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{B162F740-5EA5-466F-B703-0BB5767DA902}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{16B42F36-6C84-4B5B-891B-833C125F0EB7}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="64000"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Arguments">
@@ -1702,6 +2058,24 @@
 													<ObjectList Name="EntryPath">
 														<Reference>
 															<ObjectRef Name="Menu" ID="{5CEB4757-F80E-43B4-9FAE-5CDC8495FA82}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{DAC47E3D-462F-4C30-BF3E-8B96D854B3BE}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="AUD_MUS_Credits" ID="{460259F8-4873-4725-A7A1-90952798110A}" WorkUnitID="{D2C7213E-3E10-4935-A8AB-1F2FD2E2C420}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="Credits" ID="{78172955-102B-4560-9B50-4335D81105F2}" WorkUnitID="{E0ED7018-A348-42EB-8040-CCDC068076D7}"/>
 														</Reference>
 													</ObjectList>
 												</ObjectLists>

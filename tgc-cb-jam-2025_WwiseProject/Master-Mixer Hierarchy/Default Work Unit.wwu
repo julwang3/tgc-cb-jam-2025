@@ -57,6 +57,11 @@
 						</Bus>
 						<Bus Name="MUSIC" ID="{D01C9DB6-ABCA-4516-B627-9005F02114B1}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Color" Type="int16" Value="3"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
@@ -147,7 +152,17 @@
 						</Bus>
 						<Bus Name="ENVIRONMENT SFX" ID="{54C4E0F8-3265-4084-8479-BF335254A49D}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ObjectLists>
@@ -192,6 +207,11 @@
 						</Bus>
 						<Bus Name="DIALOGUE" ID="{596CC0F6-C4B4-401F-BFCB-67FBEBEFE13A}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Color" Type="int16" Value="5"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>

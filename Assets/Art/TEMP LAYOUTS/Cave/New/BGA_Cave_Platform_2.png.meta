@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BGA_Cave_Platform_2_0: 8295462737306435041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
