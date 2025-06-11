@@ -321,10 +321,10 @@ public class PlayerController : MonoBehaviour
 
     private bool IsGrounded()
     {
-        //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, GroundedDistance);
-        //return hit.collider != null;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, GroundedDistance);
+        return hit.collider != null;
 
-        return rb.linearVelocityY == 0.0f;
+        //return rb.linearVelocityY == 0.0f;
     }
 
     public void ActivateLight()
