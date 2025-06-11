@@ -40,6 +40,15 @@ public class BA3Scene : MonoBehaviour
         }
     }
 
+    public void EndTortoiseDash2()
+    {
+        if (!PlayerController.HasDash)
+        {
+            // playerController.transform.parent = null;
+            playerController.transform.position = new Vector3(80.82f, -1.91f, 0.0f);
+        }
+    }
+
     public void EndBatVision()
     {
         if (!PlayerController.HasVision)

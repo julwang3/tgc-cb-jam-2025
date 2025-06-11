@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Playables;
@@ -53,7 +54,14 @@ public class DialogueTrigger : MonoBehaviour
 
             // Run dialogue
             InteractionSystem.DialogueRunner.onDialogueComplete.AddListener(OnDialogueComplete);
-            InteractionSystem.DialogueRunner.StartDialogue(dialogueName);
+            if (InteractionSystem.DialogueRunner.YarnProject.NodeNames.Contains(dialogueName))
+            {
+                InteractionSystem.DialogueRunner.StartDialogue(dialogueName);
+            }
+            else
+            {
+                OnDialogueComplete();
+            }
         }
     }
 
