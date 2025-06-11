@@ -35,9 +35,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float InnerLightMaxRadius = 5.0f;
 
     [Header("Abilities")]
-    public static bool HasDash = false;
-    public static bool HasDoubleJump = false;
-    public static bool HasVision = false;
+    public static bool HasDash = true;
+    public static bool HasDoubleJump = true;
+    public static bool HasVision = true;
 
     [Header("Audio")]
     [SerializeField] AK.Wwise.Event FootstepSfx;
