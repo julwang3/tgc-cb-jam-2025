@@ -1,0 +1,11 @@
+﻿title: Bridge
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: The bridge...it's broken. It's a long way down.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: No matter - I can use these boots to get across.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

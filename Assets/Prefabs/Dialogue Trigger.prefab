@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5654428822613517640}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49,6 +49,9 @@ MonoBehaviour:
   givePlayableDirector: {fileID: 0}
   abilityToGive: 3
   onGiveAbility:
+    m_PersistentCalls:
+      m_Calls: []
+  onCompleteEvent:
     m_PersistentCalls:
       m_Calls: []
 --- !u!61 &3794212716347677362

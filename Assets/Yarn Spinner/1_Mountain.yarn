@@ -1,0 +1,9 @@
+﻿title: Mountain
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: That mountain... We had just banished the evil komodo dragon. I can't believe it's been such a long journey.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

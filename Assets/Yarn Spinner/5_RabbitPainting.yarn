@@ -1,0 +1,17 @@
+﻿title: RabbitPainting
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Hey Rabbit. It's been a while.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: We defeated the evil Komodo Dragon.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I wish you could have seen Toad's face when they realized we won.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I wish you could have seen us, really.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I'm heading back home. I'll visit more often now that I can rest.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

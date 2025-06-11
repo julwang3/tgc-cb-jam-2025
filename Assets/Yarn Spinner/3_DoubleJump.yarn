@@ -1,0 +1,9 @@
+﻿title: DoubleJump
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Rabbit gave me this scarf...
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

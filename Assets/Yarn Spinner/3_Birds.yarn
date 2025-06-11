@@ -1,0 +1,10 @@
+﻿title: Birds
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+Toucan: Wow this new seed blend is awesome! 
+Budgie: This was definitely worth the cost, too. Will be getting more in the near future.
+Cockatiel: Hm... I wonder where Kiwi is?
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

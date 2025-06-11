@@ -1,0 +1,58 @@
+﻿title: Home
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Finally, I'm home.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I'm sure the dust has settled and the cobwebs rampant...but it's home.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I can't wait to rest these old bones.
+
+<<if HasDash() == false>>
+    <<PlaySound "AUD_DIA_Tortoise">>
+    Tortoise: How long have you been traveling?
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: I've lost count of the days... the months... I think it's been several seasons.
+<<endif>>
+
+<<if HasDoubleJump() == false>>
+    <<PlaySound "AUD_DIA_Kiwi">>
+    Kiwi: Well, I'm sure you must be itching to sleep in your bed! 
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Well, with a bit of sweeping, I think I can whip up something for us to eat. And then, yes, sleep in my bed.
+<<else>>
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: I'm more than grateful to be back here.
+<<endif>>
+
+<<if HasVision() == false>>
+    <<PlaySound "AUD_DIA_Bat">>
+    Bat: An upside-down house! Don't tell me... are you THE Mouse, Mr. Mouse?
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: ...That's me!
+    <<PlaySound "AUD_DIA_Bat">>
+    Bat: Oh. My. GOSH!!!! I've heard so many stories about you!
+    <<PlaySound "AUD_DIA_Bat">>
+    Bat: How you defeated that evil Komodo Dragon and vanquished the dark rot in the land... How you found friendship in all the forest critters and helped everyone along the way.
+    <<PlaySound "AUD_DIA_Bat">>
+    Bat: I can't believe I'm meeting you ... in the flesh!!
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Well, uh... haha...a lot of those tales are quite embellished, I'd say. I'm not as brave as the stories say I am.
+<<endif>>
+
+<<if HasDash() == false || HasDoubleJump() == false || HasVision() == false>>
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: I'm sure you're hungry, come on in.
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: I just...need to sweep the dust bunnies away and clear up the spiderwebs...
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: And then ask the neighbors if they have ingredients they can spare, cut vegetables, and ...
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Ah.
+    <<PlaySound "AUD_DIA_Mouse">>
+    Mouse: Guess I won't be resting anytime soon. It's time for a feast!
+<<endif>>
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

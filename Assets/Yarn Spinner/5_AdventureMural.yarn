@@ -1,0 +1,15 @@
+﻿title: AdventureMural
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: ??? That's - ?
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Is that our fight with Cobra? Who - Who drew this?
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Hah... this looks more heroic than what actually happened. It makes me look braver than I am.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: ...Rabbit. At least this artist made him shine brightly in this fight.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

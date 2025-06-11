@@ -1,0 +1,9 @@
+﻿title: Rocks
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: The entrance to the cave... I really don’t want to go in there.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

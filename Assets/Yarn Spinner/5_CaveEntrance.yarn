@@ -1,0 +1,11 @@
+﻿title: CaveEntrance
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I don't like this place. It's cold and...there's so much sadness.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I'm glad Merchant Squirrel gave me this acorn lantern... Just through this cave and I'll be home soon.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

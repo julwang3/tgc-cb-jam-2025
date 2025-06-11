@@ -1,0 +1,9 @@
+﻿title: Midway
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: I think...I'm halfway there. It's different now that I'm going through this cave alone.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

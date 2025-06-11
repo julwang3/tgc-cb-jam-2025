@@ -1,0 +1,13 @@
+﻿title: Tomb
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: “To those we lost on this journey, and those whose graves are unmarked.”
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Toad made this for the Granny Badger that we found.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: ...And for the others.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

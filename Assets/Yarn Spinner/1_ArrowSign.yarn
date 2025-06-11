@@ -1,0 +1,9 @@
+﻿title: ArrowSign
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Signs can definitely be misleading sometimes. Only one way?
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

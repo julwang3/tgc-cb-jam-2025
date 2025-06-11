@@ -4723,7 +4723,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2644816979660724092, guid: 6e80b5323511248bc865248e24dfd0b2, type: 3}
       propertyPath: dialogueName
-      value: MouseStart
+      value: BA3Entrance
       objectReference: {fileID: 0}
     - target: {fileID: 2644816979660724092, guid: 6e80b5323511248bc865248e24dfd0b2, type: 3}
       propertyPath: onCompleteEvent.m_PersistentCalls.m_Calls.Array.size
@@ -4795,7 +4795,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5654428822613517640, guid: 6e80b5323511248bc865248e24dfd0b2, type: 3}
       propertyPath: m_Name
-      value: Dialogue Trigger - Mouse Start
+      value: Dialogue Trigger - Entrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654428822613517640, guid: 6e80b5323511248bc865248e24dfd0b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

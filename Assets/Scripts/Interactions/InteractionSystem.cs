@@ -98,7 +98,6 @@ public class InteractionSystem : MonoBehaviour
     [YarnFunction]
     public static bool HasDash()
     {
-        return false;
         return PlayerController.HasDash;
     }
 

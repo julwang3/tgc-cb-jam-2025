@@ -1,0 +1,15 @@
+﻿title: CaveOldCamp
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: Ah...This old camp. I remember then.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: It was quiet. Somber. I think Raccoon cried that night.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: There was a hole bored into our hearts earlier that day.
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: ...You never notice someone’s absence until they’re gone.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===

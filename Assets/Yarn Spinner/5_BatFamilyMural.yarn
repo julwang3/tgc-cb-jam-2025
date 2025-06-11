@@ -1,0 +1,9 @@
+﻿title: BatFamilyMural
+---
+<<PlaySound "AUD_GLOB_Dialogue_Start">>
+
+<<PlaySound "AUD_DIA_Mouse">>
+Mouse: This...a bat family? Did they move in after we defeated the snake? I wonder if they're around.
+
+<<PlaySound "AUD_GLOB_Dialogue_End">>
+===
