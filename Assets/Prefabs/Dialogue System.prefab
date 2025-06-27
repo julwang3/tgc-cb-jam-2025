@@ -340,9 +340,9 @@ MonoBehaviour:
   presenter: {fileID: 0}
   multiAdvanceIsCancel: 0
   advanceRequestsBeforeCancellingLine: 2
-  inputMode: 1
-  hurryUpLineAction: {fileID: 0}
-  nextLineAction: {fileID: 0}
+  inputMode: 0
+  hurryUpLineAction: {fileID: 392368643174621059, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  nextLineAction: {fileID: 392368643174621059, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   cancelDialogueAction: {fileID: 0}
   enableActions: 1
   hurryUpLineAxis: Jump
